@@ -1,0 +1,168 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Privacy Policy | Rankraze Chennai Digital Marketing",
+    description: "Rankraze Privacy Policy explains data protection for Chennai digital marketing clients. GDPR compliant. How we handle SEO, Google Ads, website data for Anna Nagar enterprises, OMR startups securely.",
+    
+    keywords: [
+      
+    ],
+        
+    alternates: {
+        canonical: "https://rankraze.com/privacy-policy",
+    },
+
+    openGraph: {
+        title: "Privacy Policy | Rankraze Chennai Digital Marketing",
+        description: "Rankraze Privacy Policy explains data protection for Chennai digital marketing clients. GDPR compliant. How we handle SEO, Google Ads, website data for Anna Nagar enterprises, OMR startups securely.",
+        url: "https://rankraze.com/privacy-policy",
+        siteName: "Rankraze",
+        // images: [
+        // {
+        //     url: "upload/case-study-4.webp",
+        //     width: 500,
+        //     height: 600,
+        //     alt: "irqs-group.webp",
+        //     type: "image/webp"
+        // },
+        // ],
+        locale: "en_US",
+        type: "article",
+    },
+};
+
+export default function PrivacyPolicyPage() {
+    return(
+        <>
+        <section className="w-full grid place-items-center dark:bg-none mt-20 px-4 md:px-6 lg:px-10 text-[var(--text-black)] gap-9 md:gap-12 lg:gap-14 xl:gap-16">
+            <div className="w-full flex items-center justify-center relative before:content-[''] before:absolute before:w-full before:h-full before:bg-linear-to-b before:from-[#DAF8F1] before:to-transparent dark:before:invert before:rounded-t-4xl before:-z-10">
+                <div className="w-full flex flex-col items-center justify-center gap-2.5 md:gap-3.t xl:gap-4 py-8 md:py-12 xl:py-20 2xl:py-24 max-w-2xl">
+                    <h1 className="text-2xl xl:text-5xl capitalize font-bold text-gray-800 dark:text-gray-100">
+                       Privacy Policy
+                    </h1>
+                    
+                </div>
+            </div>
+         
+          
+          
+        </section>
+        <section className="w-full grid  dark:bg-none mt-20 px-4 md:px-6 lg:px-15 text-[var(--text-black)] ">
+<p className="lg:text-4xl text-2xl  px-10 font-bold uppercase "> 
+                Privacy Policy
+            </p>
+           
+             <p className="uppercase text-gray-600 py-4 px-10">
+                SECTION 1 – WHAT DO WE DO WITH YOUR INFORMATION?
+            </p>
+             <p className=" text-gray-600 px-10 text-md" >
+              When you purchase something from our store, as part of the buying and selling process, we collect the personal information you give us such as your name, address and email address. <br />
+
+When you browse our store, we also automatically receive your computer’s internet protocol (IP) address in order to provide us with information that helps us learn about your browser and operating system. <br /> <br />
+
+Email marketing (if applicable): With your permission, we may send you emails about our store, new products and other updates.
+            </p> <br />
+             <p className="uppercase text-gray-600 py-4 px-10">
+              SECTION 2 – CONSENT
+            </p>
+             <p className=" text-gray-600 px-10 text-md" >
+               How do you get my consent?
+            </p> <br />
+             <p className=" text-gray-600 px-10 text-md" >
+              When you provide us with personal information to complete a transaction, verify your credit card, place an order, arrange for a delivery or return a purchase, we imply that you consent to our collecting it and using it for that specific reason only.
+            </p> <br />
+             <p className=" text-gray-600 px-10 text-md" >
+               If we ask for your personal information for a secondary reason, like marketing, we will either ask you directly for your expressed consent, or provide you with an opportunity to say no.
+            </p> <br />
+             <p className=" text-gray-600 px-10 text-md" >
+               How do I withdraw my consent? <br />
+If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at <span className="font-bold">info@rankraze</span>.com or mailing us at: Plot no : 264 , Door no : F/22, F-Block , 2nd main road , Anna Nagar 600102.
+            </p> <br />
+             <p className="uppercase text-gray-600 py-4 px-10">
+              SECTION 3 – DISCLOSURE
+
+
+            </p>
+           
+             <p className=" text-gray-600 px-10 text-md" >
+             We may disclose your personal information if we are required by law to do so or if you violate our Terms of Service.
+            </p> 
+             <p className="uppercase text-gray-600 py-4 px-10">
+           SECTION 4 – PAYMENT
+            </p>
+           
+             <p className=" text-gray-600 px-10 text-md" >
+             We use Razorpay for processing payments. We/Razorpay do not store your card data on their servers. The data is encrypted through the Payment Card Industry Data Security Standard (PCI-DSS) when processing payment. Your purchase transaction data is only used as long as is necessary to complete your purchase transaction. After that is complete, your purchase transaction information is not saved. <br /><br />
+
+Our payment gateway adheres to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, MasterCard, American Express and Discover. <br />
+
+PCI-DSS requirements help ensure the secure handling of credit card information by our store and its service providers.
+ <br /> <br />
+Refunds will be processed within 5-7 working days and the amount will be credited to the customer’s bank account, depending on the bank’s processing time.
+ <br />
+For more insight, you may also want to read terms and conditions of razorpay on https://razorpay.com
+            </p> <br />
+              <p className="uppercase text-gray-600 py-4 px-10">
+           SECTION 5 – THIRD-PARTY SERVICES
+            </p>
+           
+             <p className=" text-gray-600 px-10 text-md" >
+              In general, the third-party providers used by us will only collect, use and disclose your information to the extent necessary to allow them to perform the services they provide to us.
+ <br />
+However, certain third-party service providers, such as payment gateways and other payment transaction processors, have their own privacy policies in respect to the information we are required to provide to them for your purchase-related transactions.
+<br />
+For these providers, we recommend that you read their privacy policies so you can understand the manner in which your personal information will be handled by these providers.
+ <br />
+In particular, remember that certain providers may be located in or have facilities that are located a different jurisdiction than either you or us. So if you elect to proceed with a transaction that involves the services of a third-party service provider, then your information may become subject to the laws of the jurisdiction(s) in which that service provider or its facilities are located. <br />
+
+Once you leave our store’s website or are redirected to a third-party website or application, you are no longer governed by this Privacy Policy or our website’s Terms of Service. 
+ <br /> <br />
+Links
+<br /> <br />
+When you click on links on our store, they may direct you away from our site. We are not responsible for the privacy practices of other sites and encourage you to read their privacy statements.</p>
+ <p className="uppercase text-gray-600 py-4 px-10">
+           SECTION 6 – SECURITY
+            </p>
+           
+             <p className=" text-gray-600 px-10 text-md" >
+  To protect your personal information, we take reasonable precautions and follow industry best practices to make sure it is not inappropriately lost, misused, accessed, disclosed, altered or destroyed.
+ </p> <br />
+  
+ <p className="uppercase text-gray-600 py-4 px-10">
+          SECTION 7 – COOKIES
+            </p>
+           
+             <p className=" text-gray-600 px-10 text-md" >
+            We use cookies to maintain session of your user. It is not used to personally identify you on other websites.
+ </p>
+ <p className="uppercase text-gray-600 py-4 px-10">
+         SECTION 8 – AGE OF CONSENT
+            </p>
+           
+             <p className=" text-gray-600 px-10 text-md" >
+             By using this site, you represent that you are at least the age of majority in your state or province of residence, or that you are the age of majority in your state or province of residence and you have given us your consent to allow any of your minor dependents to use this site.
+
+
+ </p>
+  <p className="uppercase text-gray-600 py-4 px-10">
+                     SECTION 9 – CHANGES TO THIS PRIVACY POLICY
+            </p>
+  <p className=" text-gray-600 px-10 text-md" >
+ <br />We reserve the right to modify this privacy policy at any time, so please review it frequently. Changes and clarifications will take effect immediately upon their posting on the website. If we make material changes to this policy, we will notify you here that it has been updated, so that you are aware of what information we collect, how we use it, and under what circumstances, if any, we use and/or disclose it.
+
+If our store is acquired or merged with another company, your information may be transferred to the new owners so that we may continue to sell products to you.
+ </p>
+ <p className="uppercase text-gray-600 py-4 px-10">
+                     QUESTIONS AND CONTACT INFORMATION
+            </p>
+  <p className=" text-gray-600 px-10 text-md" >
+ If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at info@rankraze.com or mailing us at: Plot no : 264 , Door no : F/22, F-Block , 2nd main road , Anna Nagar 600102.
+<br /> <br />
+Re: Privacy Compliance Officer
+ <br /> <br />
+622 Manglam Electronic Market Jaipur Rajasthan India 302001
+ </p>
+ </section>
+        </>
+    )
+}

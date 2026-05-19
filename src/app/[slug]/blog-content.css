@@ -1,0 +1,333 @@
+/* Blog Content Styling - WordPress Compatible */
+
+.blog-content {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #1a1a1a;
+}
+
+/* Center all content like WordPress */
+.blog-content > * {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Paragraph spacing */
+.blog-content p,
+.blog-content .wp-block-paragraph {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  color: #1a1a1a;
+}
+
+/* Headings */
+.blog-content h1,
+.blog-content h2,
+.blog-content h3,
+.blog-content h4,
+.blog-content .wp-block-heading {
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  color: #000;
+}
+
+.blog-content h2 {
+  font-size: 2em;
+  margin-top: 2.5em;
+}
+
+.blog-content h3 {
+  font-size: 1.5em;
+  margin-top: 2em;
+}
+
+/* Section spacing */
+.blog-content section {
+  margin-bottom: 3em;
+}
+
+/* Numbered badges */
+.blog-content section > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.blog-content section > div:first-child > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #2271b1;
+  color: white;
+  font-weight: bold;
+  font-size: 1.125rem;
+  flex-shrink: 0;
+}
+
+/* Highlight boxes */
+.blog-content .bg-blue-50,
+.blog-content .highlight-box {
+  background-color: #f0f6fc;
+  border-left: 4px solid #2271b1;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+/* FAQ Styling */
+.blog-content details {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  background: white;
+}
+
+.blog-content summary {
+  padding: 1.25rem 1.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s;
+  user-select: none;
+}
+
+.blog-content summary:hover {
+  background-color: #f0f0f0;
+}
+
+.blog-content summary::marker,
+.blog-content summary::-webkit-details-marker {
+  display: none;
+}
+
+.blog-content summary::after {
+  content: '+';
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #2271b1;
+  transition: transform 0.2s;
+}
+
+.blog-content details[open] summary::after {
+  content: '−';
+}
+
+.blog-content details[open] summary {
+  border-bottom: 1px solid #ddd;
+}
+
+.blog-content details > div:last-child {
+  padding: 1.25rem 1.5rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* Lists */
+.blog-content ul,
+.blog-content ol {
+  margin: 1.5em 0;
+  padding-left: 2em;
+}
+
+.blog-content li {
+  margin-bottom: 0.5em;
+  line-height: 1.8;
+}
+
+.blog-content ul {
+  list-style-type: disc;
+}
+
+.blog-content ol {
+  list-style-type: decimal;
+}
+
+/* Strong text */
+.blog-content strong,
+.blog-content b {
+  font-weight: 600;
+  color: #000;
+}
+
+/* Links */
+.blog-content a {
+  color: #2271b1;
+  text-decoration: none;
+}
+
+.blog-content a:hover {
+  text-decoration: underline;
+}
+
+/* Images */
+.blog-content img,
+.blog-content .wp-block-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0;
+  margin: 2em 0;
+}
+
+.blog-content figure {
+  margin: 2em 0;
+}
+
+.blog-content figcaption {
+  text-align: center;
+  font-size: 0.875em;
+  color: #6b6b6b;
+  margin-top: 0.5em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .blog-content {
+    font-size: 16px;
+  }
+
+  .blog-content > * {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .blog-content h2 {
+    font-size: 1.75rem;
+  }
+
+  .blog-content h3 {
+    font-size: 1.375rem;
+  }
+
+  .blog-content .wp-block-columns {
+    flex-direction: column;
+  }
+
+  .blog-content section > div:first-child > span {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-content {
+    font-size: 15px;
+  }
+
+  .blog-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .blog-content h3 {
+    font-size: 1.25rem;
+  }
+}
+
+/* ─── Dark mode (matches globals `.dark`; overrides hardcoded light colors above) ─── */
+.dark .blog-content {
+  color: #e5e7eb;
+}
+
+.dark .blog-content p,
+.dark .blog-content .wp-block-paragraph {
+  color: #e5e7eb !important;
+}
+
+.dark .blog-content h1,
+.dark .blog-content h2,
+.dark .blog-content h3,
+.dark .blog-content h4,
+.dark .blog-content .wp-block-heading {
+  color: #f9fafb !important;
+}
+
+.dark .blog-content strong,
+.dark .blog-content b {
+  color: #ffffff !important;
+}
+
+.dark .blog-content a {
+  color: #7dd3fc;
+}
+
+.dark .blog-content a:hover {
+  color: #bae6fd;
+}
+
+.dark .blog-content figcaption {
+  color: #9ca3af !important;
+}
+
+.dark .blog-content li {
+  color: #e5e7eb;
+}
+
+.dark .blog-content blockquote {
+  color: #d1d5db;
+}
+
+.dark .blog-content code {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  color: #e5e7eb !important;
+}
+
+.dark .blog-content pre {
+  background-color: #0f172a !important;
+  color: #e2e8f0 !important;
+}
+
+.dark .blog-content .bg-blue-50,
+.dark .blog-content .highlight-box {
+  background-color: rgba(60, 186, 153, 0.12) !important;
+  border-left-color: #5eead4 !important;
+  color: #e5e7eb;
+}
+
+.dark .blog-content details {
+  background: #0a1628;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.dark .blog-content summary {
+  background-color: #111827 !important;
+  color: #e5e7eb !important;
+}
+
+.dark .blog-content summary:hover {
+  background-color: #1f2937 !important;
+}
+
+.dark .blog-content details[open] summary {
+  border-bottom-color: rgba(255, 255, 255, 0.12);
+}
+
+.dark .blog-content details > div:last-child {
+  color: #d1d5db !important;
+}
+
+.dark .blog-content img {
+  filter: grayscale(100%);
+  opacity: 0.95;
+}
+
+.dark .blog-content img:hover {
+  filter: none;
+  opacity: 1;
+}

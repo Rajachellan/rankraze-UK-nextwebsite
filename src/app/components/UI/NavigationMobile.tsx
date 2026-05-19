@@ -1,0 +1,468 @@
+"use client";
+
+
+import Link from "next/link";
+import Image from "next/image";
+import ThemeSwitch from "../ThemeSwitch";
+import { usePathname } from "next/navigation";
+
+import { useState } from "react";
+
+export default function MobileNavigationBar () {
+    const [menuButton, setMenuButton] = useState(false);
+    
+    type SubMenus = {
+        service: boolean;
+        portfolio: boolean;
+        careers: boolean;
+        geograph: boolean;
+    };
+
+    type ServicesGeoMenu = {
+        digital: boolean,
+        web: boolean,
+        video: boolean,
+        extend: boolean,
+        ai: boolean,
+        software: boolean,
+        brand: boolean,
+        india: boolean
+    }
+
+    const pathName = usePathname();
+
+    const [subMenus, setSubMenus] = useState<SubMenus>({
+        service: false,
+        portfolio: false,
+        careers: false,
+        geograph: false,
+    });
+
+    const [servicesGeoMenu, setServicesGeoMenu] = useState<ServicesGeoMenu> ({
+        digital: false,
+        web: false,
+        video: false,
+        extend: false,
+        ai: false,
+        software: false,
+        brand: false,
+        india:false
+    })
+
+    const handleSetMenuButton = () => {
+        setMenuButton(!menuButton)
+        setServicesGeoMenu(() => {
+            const newState: ServicesGeoMenu = {
+                digital: false,
+                web: false,
+                brand: false,
+                video: false,
+                extend: false,
+                software: false,
+                ai: false,
+                india: false,
+            };
+            return newState
+        });
+
+        setSubMenus(() => {
+            const newState: SubMenus = {
+            service: false,
+            portfolio: false,
+            careers: false,
+            geograph: false,
+            };
+            return newState;
+        });
+    }
+
+    const handleSubMenusClick = (menu: keyof SubMenus) => {
+        setServicesGeoMenu(() => {
+            const newState: ServicesGeoMenu = {
+                digital: false,
+                web: false,
+                video: false,
+                extend: false,
+                software: false,
+                brand: false,
+                ai: false,
+                india: false,
+            };
+            return newState
+        });
+
+        setSubMenus(prev => {
+            const newState: SubMenus = {
+            service: false,
+            portfolio: false,
+            careers: false,
+            geograph: false,
+            };
+
+            newState[menu] = !prev[menu]; // toggle the clicked one
+            return newState;
+        });
+    };
+
+    const handleServicesGeoMenuClick = (menu: keyof ServicesGeoMenu) => {
+        setServicesGeoMenu(prev => {
+            const newState: ServicesGeoMenu = {
+                digital: false,
+                web: false,
+                video: false,
+                extend: false,
+                ai: false,
+                india: false,
+                brand: false,
+                software: false,
+            };
+
+            newState[menu] = !prev[menu];
+            return newState
+        });
+    }
+
+    return (
+        <>
+        <div className="w-full h-full flex items-center justify-between 2lg:hidden relative">
+            <div className="p-1.5 cursor-pointer dark:invert dark:brightness-0">
+                <Link href="/">
+                <Image
+               src="/rankraze-logo.webp"
+                alt="Rankraze logo - home page"
+                width={144}
+                height={55}
+                priority   
+                sizes="(max-width: 768px) 144px, 144px"
+                quality={65}
+                className="w-36 dark:invert dark:brightness-0 h-auto"
+                style={{ height: 'auto' }}/>
+                          </Link>        
+            </div>
+            <div className="flex items-center justify-center gap-5 pl-4 pr-6">
+                {/* <div className="sm:flex flex-col items-center justify-center p-1 hidden">
+                    <ThemeSwitch />
+                </div> */}
+                <div className={`flex flex-col items-center h-6 w-6 cursor-pointer dark:invert brightness-0 ${menuButton ? 'justify-center' : 'justify-around'}`} 
+                    onClick={() => handleSetMenuButton() }>
+                    <div className={`w-6 h-1 bg-[var(--primary-blue)] rounded-full ${menuButton ? 'rotate-45 absolute' : ''} transform transition-all`}></div>
+                    <div className={`w-6 h-1 bg-[var(--primary-blue)] rounded-full ${menuButton ? 'hidden' : ''} transform transition-all`}></div>
+                    <div className={`w-6 h-1 bg-[var(--primary-blue)] rounded-full ${menuButton ? '-rotate-45 absolute' : ''} transform transition-all`}></div>
+                </div>
+            </div>
+            {
+                menuButton && (
+                    <nav className="capitalize w-full px-1 pr-4 absolute top-full right-0 z-50 bg-white dark:bg-[var(--primary-green)] text-[var(--primary-blue)] dark:text-white shadow-md rounded-lg flip-in-hor-bottom">
+                        <ul className="flex flex-col items-center justify-center text-sm text-left">
+                            <li className="w-full flex items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                <Link href="/" className={`px-6 ${pathName === "/" ? "" : ""}`}>home</Link>
+                            </li>
+                            <li className="w-full flex items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                <Link href="/about-us" className={`px-6 ${pathName === "/about-us" ? "" : ""}`}>About Us</Link>
+                            </li>
+                            <li className="w-full flex flex-col items-left justify-start">
+                                <div className={`w-full flex items-left justify-start py-2 ${subMenus.service ? 'bg-[var(--primary-green)] text-white rounded-xs dark:bg-white dark:text-[var(--primary-blue)]' : ''}`} onClick={() => handleSubMenusClick("service")}>  
+                                    <Link href="" className="pl-6 pr-2">services</Link>
+                                    <i className={`ri-arrow-down-s-line ${subMenus.service ? '-rotate-90' : ''}`}></i>
+                                </div>
+                                <ul className={`${subMenus.service ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex-col items-center justify-center text-sm text-left pl-3`}>
+                                    <li className="w-full flex flex-col items-left justify-start pt-0.5">
+                                        <div className={`w-full flex items-left justify-start py-2 ${servicesGeoMenu.digital ? 'bg-[var(--primary-green)] text-white rounded-xs' : ''}`} onClick={() => handleServicesGeoMenuClick("digital")}>  
+                                            <Link href="" className="pl-6 pr-2">Digital Marketing services</Link>
+                                            <i className={`ri-arrow-down-s-line ${servicesGeoMenu.digital ? '-rotate-90' : ''}`}></i>
+                                        </div>
+                                        <ul className={`${servicesGeoMenu.digital ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex-col items-center justify-center text-sm text-left pl-3`}>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="seo-company-chennai" className={`px-6 ${pathName === "seo-company-chennai" ? "" : ""}`}>SEO company in chennai</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="social-media-marketing-company-chennai" className={`px-6 ${pathName === "social-media-marketing-company-chennai" ? "" : ""}`}>social media Marketing</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="content-writing-agency-chennai" className={`px-6 ${pathName === "content-writing-agency-chennai" ? "" : ""}`}>content writing</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="sem-company-chennai" className={`px-6 ${pathName === "sem-company-chennai" ? "" : ""}`}>SEM company chennai</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="online-reputation-management-services-chennai" className={`px-6 ${pathName === "online-reputation-management-services-chennai" ? "" : ""}`}>online reputation management</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="influencer-marketing" className={`px-6 ${pathName === "influencer-marketing" ? "" : ""}`}>influencer marketing</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="vernacular-multilingual-marketing" className={`px-6 ${pathName === "vernacular-multilingual-marketing" ? "" : ""}`}>Vernacular Multilingual marketing</Link>
+                                            </li>
+                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="email-marketing" className={`px-6 ${pathName === "email-marketing" ? "" : ""}`}>Email Marketing</Link>
+                                            </li>
+                                            {/* <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="ai-search-optimization" className={`px-6 ${pathName === "ai-search-optimization" ? "" : ""}`}>AI search Optimization</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="social-commerce-optimization" className={`px-6 ${pathName === "social-commerce-optimization" ? "" : ""}`}>Social Commerce Optimization</Link>
+                                            </li> */}
+                                        </ul>
+                                    </li>
+                                    <li className="w-full flex flex-col items-left justify-start pt-0.5">
+                                        <div className={`w-full flex items-left justify-start py-2 ${servicesGeoMenu.web ? 'bg-[var(--primary-green)] text-white rounded-xs' : ''}`} onClick={() => handleServicesGeoMenuClick("web")}>  
+                                            <Link href="" className="pl-6 pr-2">web services</Link>
+                                            <i className={`ri-arrow-down-s-line ${servicesGeoMenu.web ? '-rotate-90' : ''}`}></i>
+                                        </div>
+                                        <ul className={`${servicesGeoMenu.web ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex-col items-center justify-center text-sm text-left pl-3`}>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()} >
+                                                <Link href="web-development" className="px-6">Web Development</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()} >
+                                                <Link href="web-hosting-company-service-in-chennai" className="px-6">Web Hosting Service</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()} >
+                                                <Link href="mobile-app-development-company-chennai" className="px-6">Mobile App Development</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()} >
+                                                <Link href="web-analytics-service-in-chennai" className="px-6">Web Analytics Service in Chennai</Link>
+                                            </li>
+                                            {/* <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()} >
+                                                <Link href="e-commerce-website-development" className="px-6">E-Commerce Website Development</Link>
+                                            </li> */}
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()} >
+                                                <Link href="react-js-development" className="px-6">React Js development Company</Link>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+
+                                    {/* Brand */}
+                                    <li className="w-full flex flex-col items-left justify-start pt-0.5">
+                                        <div className={`w-full flex items-left justify-start py-2 ${servicesGeoMenu.brand ? 'bg-[var(--primary-green)] text-white rounded-xs' : ''}`} onClick={() => handleServicesGeoMenuClick("brand")}>  
+                                            <Link href="" className="pl-6 pr-2">Branding</Link>
+                                            <i className={`ri-arrow-down-s-line ${servicesGeoMenu.brand ? '-rotate-90' : ''}`}></i>
+                                        </div>
+                                        {/* <ul className={`${servicesGeoMenu.brand ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex-col items-center justify-center text-sm text-left pl-3`}>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="brand-strategy-and-consultation" className={`px-6 ${pathName === "brand-strategy-and-consultation" ? "" : ""}`}>Brand Strategy And Consultation</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="logo-and-identity-design" className={`px-6 ${pathName === "logo-and-identity-design" ? "" : ""}`}>Logo and Identity Design</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="brand-guidelines-development" className={`px-6 ${pathName === "brand-guidelines-development" ? "" : ""}`}>Brand Guidelines Development</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="packaging-design" className={`px-6 ${pathName === "packaging-design" ? "" : ""}`}>Packaging Design</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="corporate-branding" className={`px-6 ${pathName === "corporate-branding" ? "" : ""}`}>Corporate Branding</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="digital-branding" className={`px-6 ${pathName === "digital-branding" ? "" : ""}`}>Digital Branding</Link>
+                                            </li>
+                                            
+                                        </ul> */}
+                                    </li>
+
+
+                                    <li className="w-full flex flex-col items-left justify-start pt-0.5">
+                                        <div className={`w-full flex items-left justify-start py-2 ${servicesGeoMenu.video ? 'bg-[var(--primary-green)] text-white rounded-xs' : ''}`} onClick={() => handleServicesGeoMenuClick("video")}>  
+                                            <Link href="" className="pl-6 pr-2">video Production</Link>
+                                            <i className={`ri-arrow-down-s-line ${servicesGeoMenu.video ? '-rotate-90' : ''}`}></i>
+                                        </div>
+                                        <ul className={`${servicesGeoMenu.video ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex-col items-center justify-center text-sm text-left pl-3`}>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="video-marketing" className="px-6">video marketing</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="video-production-services" className="px-6">video production services</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="2d-and-3d-animation-company-in-chennai-india" className="px-6">2D and 3D animation</Link>
+                                            </li>
+                                            {/* <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="add-flim-making" className="px-6">AD Flim Making</Link>
+                                            </li> */}
+                                        </ul>
+                                    </li>
+                                    <li className="w-full flex flex-col items-left justify-start pt-0.5">
+                                        <div className={`w-full flex items-left justify-start py-2 ${servicesGeoMenu.extend ? 'bg-[var(--primary-green)] text-white rounded-xs' : ''}`} onClick={() => handleServicesGeoMenuClick("extend")}>  
+                                            <Link href="" className="pl-6 pr-2">Extended Reality</Link>
+                                            <i className={`ri-arrow-down-s-line ${servicesGeoMenu.extend ? '-rotate-90' : ''}`}></i>
+                                        </div>
+                                        <ul className={`${servicesGeoMenu.extend ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex-col items-center justify-center text-sm text-left pl-3`}>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="virtual-reality-development" className="px-6">virtual reality development</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="augmented-reality-development" className="px-6">augmented reality development</Link>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li className="w-full flex flex-col items-left justify-start pt-0.5">
+                                        <div className={`w-full flex items-left justify-start py-2 ${servicesGeoMenu.ai ? 'bg-[var(--primary-green)] text-white rounded-xs' : ''}`} onClick={() => handleServicesGeoMenuClick("ai")}>  
+                                            <Link href="" className="pl-6 pr-2">AI services</Link>
+                                            <i className={`ri-arrow-down-s-line ${servicesGeoMenu.ai ? '-rotate-90' : ''}`}></i>
+                                        </div>
+                                        <ul className={`${servicesGeoMenu.ai ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex-col items-center justify-center text-sm text-left pl-3`}>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/ai-consulting" className="px-6">AI consulting</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/computer-vision-services" className="px-6">computer vision services</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/natural-language-processing-services" className="px-6">natural language processing services</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/machine-learning-development-service" className="px-6">machine learning development services</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/custom-ai-solutions" className="px-6">custom AI Solutions</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/ai-powered-chatbot-services" className="px-6">AI-powered chatbot services</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/sentiment-analysis" className="px-6">Sentiment Analysis</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/future-ready-ai-solutions" className="px-6">Future Ready AI Solutions</Link>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    {/* software development */}
+                                    <li className="w-full flex flex-col items-left justify-start pt-0.5">
+                                        <div className={`w-full flex items-left justify-start py-2 ${servicesGeoMenu.software ? 'bg-[var(--primary-green)] text-white rounded-xs' : ''}`} onClick={() => handleServicesGeoMenuClick("software")}>  
+                                            <Link href="" className="pl-6 pr-2">software Development</Link>
+                                            <i className={`ri-arrow-down-s-line ${servicesGeoMenu.software ? '-rotate-90' : ''}`}></i>
+                                        </div>
+                                        <ul className={`${servicesGeoMenu.software ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex-col items-center justify-center text-sm text-left pl-3`}>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/restaurant-billing-software" className="px-6">POS Software Development</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/raze-mail" className="px-6">Raze Mail</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/crm-software-in-chennai" className="px-6">skalelit CRM</Link>
+                                            </li>
+                                            {/* <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/hr-automation-process" className="px-6">Hr Automation Process</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/event-management" className="px-6">Event Management</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/lms" className="px-6">LMS</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/video-email-automation" className="px-6">Video Email Automation</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/response-handling-system" className="px-6">Response Handling System </Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/property-management-software" className="px-6">Property Management Software</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/invoice-software" className="px-6">Invoice Software</Link>
+                                            </li>
+                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                                <Link href="/meeting-room-booking" className="px-6">Meeting Room Booking </Link>
+                                            </li> */}
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li className="w-full flex flex-col items-left justify-start">
+                                <div className={`w-full flex items-left justify-start py-2 ${subMenus.portfolio ? 'bg-[var(--primary-green)] text-white rounded-xs dark:bg-white dark:text-[var(--primary-blue)]' : ''}`} onClick={() => handleSubMenusClick("portfolio")}>  
+                                    <Link href="" className="pl-6 pr-2">portfolio</Link>
+                                    <i className={`ri-arrow-down-s-line ${subMenus.portfolio ? '-rotate-90' : ''}`}></i>
+                                </div>
+                                <ul className={`${subMenus.portfolio ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex-col items-center justify-center text-sm text-left pl-3`}>
+                                    <li className="w-full flex items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                        <Link href="/website-portfolio" className="px-6">Website portfolio</Link>
+                                    </li>
+                                    <li className="w-full flex items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                        <Link href="/social-media-marketing" className="px-6">Social Media Marketing portfolio</Link>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li className="w-full flex items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                <Link href="/case-studies" className="px-6" >case studies</Link>
+                            </li>
+                            <li className="w-full flex items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                <Link href="/blogs" className="px-6">blogs</Link>
+                            </li>
+                            <li className="w-full flex flex-col items-left justify-start">
+                                <div className={`w-full flex items-left justify-start py-2 ${subMenus.careers ? 'bg-[var(--primary-green)] text-white rounded-xs dark:bg-white dark:text-[var(--primary-blue)]' : ''}`} onClick={() => handleSubMenusClick("careers")}>  
+                                    <Link href="/careers" className="pl-6 pr-2">careers</Link>
+                                    <i className={`ri-arrow-down-s-line ${subMenus.careers ? '-rotate-90' : ''}`}></i>
+                                </div>
+                                <ul className={`${subMenus.careers ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex flex-col items-center justify-center text-sm text-left pl-3`}>
+                                    <li className="w-full flex items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                        <Link href="/internship" className="px-6">Internship</Link>
+                                    </li>
+                                    <li className="w-full flex items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                        <Link href="https://www.learnfella.com" className="px-6">E Learning</Link>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li className="w-full flex flex-col items-left justify-start">
+                                <div className={`w-full flex items-left justify-start py-2 ${subMenus.geograph ? 'bg-[var(--primary-green)] text-white rounded-xs dark:bg-white dark:text-[var(--primary-blue)]' : ''}`} onClick={() => handleSubMenusClick("geograph")}>  
+                                    <Link href="" className="pl-6 pr-2">geographics</Link>
+                                    <i className={`ri-arrow-down-s-line ${subMenus.geograph ? '-rotate-90' : ''}`}></i>
+                                </div>
+                                <ul className={`${subMenus.geograph ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex-col items-center justify-center text-sm text-left pl-3 uppercase`}>
+                                    <li className="w-full flex flex-col items-left justify-start pt-0.5">
+                                        <div className={`w-full flex items-left justify-start py-2 ${servicesGeoMenu.india ? 'bg-[var(--primary-green)] text-white rounded-xs' : ''}`} onClick={() => handleServicesGeoMenuClick("india")}>  
+                                            <Link href="" className="pl-6 pr-2">in</Link>
+                                            <i className={`ri-arrow-down-s-line ${servicesGeoMenu.india ? '-rotate-90' : ''}`}></i>
+                                        </div>
+                                        <ul className={`${servicesGeoMenu.india ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex-col items-center justify-center text-sm text-left pl-3 capitalize`}>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="/digital-marketing-agency-in-bangalore" className="px-6">bangalore</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="/digital-marketing-agency-in-delhi-india" className="px-6">delhi</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="/digital-marketing-agency-in-mumbai" className="px-6">mumbai</Link>
+                                            </li>
+                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
+                                                <Link href="/contact-us" className="px-6">Pune</Link>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li className="w-full flex items-left justify-start py-2">
+                                        <Link href="https://rankraze.us" className="px-6">us</Link>
+                                    </li>
+                                    <li className="w-full flex items-left justify-start py-2">
+                                        <Link href="https://rankraze.uk" className="px-6">uk</Link>
+                                    </li>
+                                    <li className="w-full flex items-left justify-start py-2">
+                                        <Link href="https://rankraze.com.au" className="px-6">au</Link>
+                                    </li>
+                                    <li className="w-full flex items-left justify-start py-2">
+                                        <Link href="https://rankraze.fr" className="px-6">fr</Link>
+                                    </li>
+                                    <li className="w-full flex items-left justify-start py-2">
+                                        <Link href="https://rankraze.ae" className="px-6">ae</Link>
+                                    </li>
+                                    <li className="w-full flex items-left justify-start py-2">
+                                        <Link href="https://rankraze.ca" className="px-6">ca</Link>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li className="w-full flex items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                <Link href="/csr-activities" className="px-6">CSR activities</Link>
+                            </li>
+                            <li className="w-full flex items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
+                                <Link href="/contact-us" className="px-6">contact us</Link>
+                            </li>
+                        </ul>
+                    </nav>
+                )
+            }
+        </div>
+        </>
+    )
+}
