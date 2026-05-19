@@ -269,7 +269,7 @@ export default function OurProcess() {
               <em className="not-italic text-[#3cba99]">Digital Marketing</em> Process
             </h2>
             <p className="text-[15px] text-[#3a5550] dark:text-[#94B4D4] leading-[1.75]">
-              A strategic 6-step framework built to help Chennai businesses grow smarter — with
+              A strategic 6-step framework built to help US businesses grow smarter — with
               data, clarity, and results at every stage.
             </p>
           </div>

@@ -1,21 +1,21 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Terms & Conditions | Rankraze Digital Marketing Chennai",
-    description: "Rankraze Terms of Service for digital marketing, SEO, Google Ads, web design in Chennai. Service agreements, payment terms, project timelines, client responsibilities for Anna Nagar digital agency.",
+    title: "Terms & Conditions | Rankraze",
+    description: "Terms of service for Rankraze digital marketing, SEO, paid media, and web projects for US clients—engagement scope, billing, and responsibilities.",
     
     keywords: [
       
     ],
         
     alternates: {
-        canonical: "https://rankraze.com/terms-and-conditions",
+        canonical: "https://rankraze.us/terms-and-conditions",
     },
 
     openGraph: {
-        title: "Terms & Conditions | Rankraze Digital Marketing Chennai",
-        description: "Rankraze Terms of Service for digital marketing, SEO, Google Ads, web design in Chennai. Service agreements, payment terms, project timelines, client responsibilities for Anna Nagar digital agency.",
-        url: "https://rankraze.com/terms-conditions",
+        title: "Terms & Conditions | Rankraze",
+        description: "Service terms for Rankraze engagements on rankraze.us—read billing, deliverables, and acceptable use.",
+        url: "https://rankraze.us/terms-and-conditions",
         siteName: "Rankraze",
         // images: [
         // {
@@ -257,7 +257,7 @@ Any ambiguities in the interpretation of these Terms of Service shall not be con
       SECTION 18 – GOVERNING LAW
             </p>
   <p className=" text-gray-600 px-10 text-md" >
-These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of India and jurisdiction of Jaipur, Rajasthan
+These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of the State of Texas, USA, without regard to conflict-of-law principles.
  
  </p>
    <p className="uppercase text-gray-600 py-4 px-10">
@@ -273,7 +273,7 @@ We reserve the right, at our sole discretion, to update, change or replace any p
       SECTION 20 – CONTACT INFORMATION
             </p>
   <p className=" text-gray-600 px-10 text-md" >
-Questions about the Terms of Service should be sent to us at info@rankraze.com.
+Questions about the Terms of Service should be sent to us at info@rankraze.us.
  
  </p>
         </section>

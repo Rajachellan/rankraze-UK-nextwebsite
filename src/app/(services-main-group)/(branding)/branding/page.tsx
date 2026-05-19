@@ -4,32 +4,32 @@ import { Metadata } from "next";
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 
 export const metadata:Metadata = {
-    title: "Branding agency, Re-branding company in Chennai, Bangalore, India - Rankraze",
-    description: "Create your brand or rebrand your company by using Rankraze. It is the most effective digital marketing agency in Chennai. We help companies to brand and rebrand their businesses via digital marketing. Get in touch with us to know more!",
+    title: "Branding & Rebranding Agency in Texas | Rankraze",
+    description: "Create your brand or rebrand your company by using Rankraze. It is the most effective digital marketing agency in Texas. We help companies to brand and rebrand their businesses via digital marketing. Get in touch with us to know more!",
     
     keywords: [
-    "branding agency in Chennai",
-    "best branding agency in Chennai",
-    "best branding agency in Chennai",
-    "best advertising agency in Chennai",
-    "outdoor advertising agency in Chennai",
-    "best advertising agency in Chennai",
+    "branding agency in Texas",
+    "best branding agency in Texas",
+    "best branding agency in Texas",
+    "best advertising agency in Texas",
+    "outdoor advertising agency in Texas",
+    "best advertising agency in Texas",
     "rebranding agency",
     "rebranding services",
     "branding agency for startups",
-    "branding agency in India",
-    "top branding agency in India",
+    "branding agency USA",
+    "top branding agency USA",
 
     ],
 
     alternates: {
-        canonical: "https://rankraze.com/branding",
+        canonical: "https://rankraze.us/branding",
     },
 
     openGraph: {
         title: "Branding and Rebranding",
-        description: "Create your brand or rebrand your company by using Rankraze. It is the most effective digital marketing agency in Chennai. We help companies to brand and rebrand their businesses via digital marketing. Get in touch with us to know more!",
-        url: "https://rankraze.com/branding",
+        description: "Create your brand or rebrand your company by using Rankraze. It is the most effective digital marketing agency in Texas. We help companies to brand and rebrand their businesses via digital marketing. Get in touch with us to know more!",
+        url: "https://rankraze.us/branding",
         siteName: "Rankraze",
         images: [
         {
@@ -81,13 +81,13 @@ export default function page () {
                         We design brands that transcend all mediums and platforms, from print to digital.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        Ranked among the top branding agencies in Chennai, Rankraze believes that brand design should not only look good aesthetically, but it must deliver an appropriate message to its audience with a specific outcome in mind. Through creativity and strategic thinking, we communicate your core brand values to the target audience in a way that creates a lasting impression. This is the benefit of working with a branding agency like Rankraze in Chennai , India that values brand strategy.
+                        Ranked among the top branding agencies in Texas, Rankraze believes that brand design should not only look good aesthetically, but it must deliver an appropriate message to its audience with a specific outcome in mind. Through creativity and strategic thinking, we communicate your core brand values to the target audience in a way that creates a lasting impression. This is the benefit of working with a branding agency like Rankraze in Texas , India that values brand strategy.
                     </p>
                 </div>
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/branding.webp"}
-                    alt="branding  services in chennai"
+                    alt="branding  Services in Dallas"
                     width={1280} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-25"                                 
@@ -159,10 +159,10 @@ export default function page () {
                         Whatever the reason is, maintaining a clear and compelling identity is key to the continued growth and success of a business.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        Now you know what rebranding is and when you require it. But, what if you don’t know where to start. This is when you can approach Rankraze, a branding  agency in Chennai, India
+                        Now you know what rebranding is and when you require it. But, what if you don’t know where to start. This is when you can approach Rankraze, a branding  agency in Texas, India
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        As a professional rebranding agency in Chennai, we are experts at delivering rebrands for companies big and small in a vast array of industries. At Rankraze, we take an innovative approach to creating a brand that reflects your business and creating an impression that conveys a message to your customers.
+                        As a professional rebranding agency in Texas, we are experts at delivering rebrands for companies big and small in a vast array of industries. At Rankraze, we take an innovative approach to creating a brand that reflects your business and creating an impression that conveys a message to your customers.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
                         If your brand is ready to take a new look and grow exponentially, then book a free consultation with our brand specialists today.
@@ -171,7 +171,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/Branding-image3-1024x683.webp"}
-                    alt="branding  services in chennai"
+                    alt="branding  Services in Dallas"
                     width={1280} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-25"                                 
@@ -239,7 +239,7 @@ export default function page () {
             <div className="w-full max-w-7xl flex flex-col items-stretch justify-center gap-3 md:gap-5">
                 <div className="w-full flex flex-col items-center justify-center gap-3 md:gap-3.5 p-2.5">
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify md:text-center text-sm md:text-base px-2.5">
-                        From researching to creating a brand strategy that explains your brand’s unique features and values, to creating a visual identity for your brand through logo designing and launching your new or updated brand to the market, Rankraze has everything covered. Being a leading digital marketing company in Chennai, India we can also help you with marketing campaigns to enhance your brand awareness.
+                        From researching to creating a brand strategy that explains your brand’s unique features and values, to creating a visual identity for your brand through logo designing and launching your new or updated brand to the market, Rankraze has everything covered. Being a leading digital marketing company in Texas, India we can also help you with marketing campaigns to enhance your brand awareness.
                     </p>
                 </div>
                 <div className="w-full flex items-stretch justify-stretch gap-2">
@@ -307,7 +307,7 @@ export default function page () {
                             </div>
                             <div className="w-full h-1/4 flex flex-col items-start justify-around">
                                 <p className="text-sm md:text-base dark:text-gray-200 leading-snug">
-                                    <span className="font-semibold">Website Design and Development –</span> As a leading digital marketing agency in Chennai, India we know that in this digital world a website is the face of your business. Our team develops highly adaptive, responsive, and intuitive website designs that allure customer and brings in more traffic for your business.
+                                    <span className="font-semibold">Website Design and Development –</span> As a leading digital marketing agency in Texas, India we know that in this digital world a website is the face of your business. Our team develops highly adaptive, responsive, and intuitive website designs that allure customer and brings in more traffic for your business.
                                 </p>
                                 <p className="text-sm md:text-base dark:text-gray-200 leading-snug">
                                     <span className="font-semibold">Digital Marketing – </span> Being the core of Rankraze, we go above and beyond to market your new or updated brand. We offer Search Engine Optimization (SEO), Search Engine Marketing (SEM), Social Media Marketing (SMM), and more, to increase your brand’s visibility and bring in more revenue for your business.

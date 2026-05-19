@@ -12,21 +12,21 @@ import zohocampaigns from "../../../../../public/upload/services/email-marketing
 import brevo from "../../../../../public/upload/services/email-marketing/Brevo (Sendinblue).png"
 import ContactFormModalButtonOne from "../../../../app/components/UI/ContactFormModalButtonOne"
 export const metadata: Metadata = {
-  title: "Email Marketing Agency in Chennai | Email marketing company ",
+  title: "Email Marketing Agency in Texas | Rankraze",
   description:
-    "Rankraze is a trusted email marketing company in Chennai delivering high-ROI campaigns, automation, and conversion-focused email strategies. ",
+    "Rankraze runs high-ROI email marketing for US brands—automation, segmentation, and conversion-focused campaigns.",
 
   keywords: [],
 
   alternates: {
-    canonical: "https://rankraze.com/email-marketing",
+    canonical: "https://rankraze.us/email-marketing",
   },
 
   openGraph: {
-    title: "Email Marketing Agency in Chennai | Email marketing company ",
+    title: "Email Marketing Agency in Texas | Rankraze",
     description:
-      "Rankraze is a trusted email marketing company in Chennai delivering high-ROI campaigns, automation, and conversion-focused email strategies. ",
-    url: "https://rankraze.com/email-marketing",
+      "Rankraze is a trusted email marketing partner in Texas with automation, deliverability, and creative that converts.",
+    url: "https://rankraze.us/email-marketing",
     siteName: "Rankraze",
     images: [
       {
@@ -71,7 +71,7 @@ export default function EmailMarketing () {
             <div className="w-full max-w-7xl flex flex-col md:flex-row items-stretch justify-between gap-3.5 md:gap-0">
               <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-center gap-4 pl-2.5">
                 <h1 className="text-4xl xl:text-[42px] font-semibold text-center md:text-left capitalize dark:text-gray-200 pr-4">
-                  Email Marketing Agency in Chennai
+                  Email Marketing Agency in Texas
                 </h1>
                 <p className="text-sm md:text-sm text-gray-700 dark:text-gray-300 text-center md:text-left pr-4">
                   That Drives Engagement, Leads & Revenue
@@ -99,7 +99,7 @@ export default function EmailMarketing () {
               Email marketing remains one of the highest ROI digital channels
               when done right. As a trusted
               <span className="font-semibold text-[var(--primary-blue)] dark:text-gray-200">
-                email marketing agency in Chennai,
+                email marketing agency in Texas,
               </span>
               Rankraze helps businesses build meaningful customer relationships
               through strategic, data-driven email campaigns. From lead
@@ -187,7 +187,7 @@ export default function EmailMarketing () {
         <section className="w-full grid place-items-center mt-20 text-[var(--text-black)] gap-6 md:gap-12 lg:gap-14 xl:gap-16 rounded-xl md:rounded-4xl bg-[url('/upload/PPC-banner-scaled.webp')] bg-no-repeat bg-cover bg-center relative before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#00000090] overflow-hidden">
           <div className="w-full max-w-7xl flex flex-col items-center justify-center gap-6 px-4 md:px-6 lg:px-10 my-20 z-10">
             <h2 className="text-2xl lg:text-4xl text-white font-semibold text-center lg:text-left">
-              Our Email Marketing Services in Chennai
+              Our Email Marketing Services in Dallas
             </h2>
             <div className="w-full grid max-w-7xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-2.5 gap-5 mt-3.5 2xl:mt-8">
               <div className="bg-white flex flex-col items-center justify-center gap-5 px-12 py-8 group overflow-hidden rounded-2xl -z-10">
@@ -365,7 +365,7 @@ export default function EmailMarketing () {
             {/* LEFT SIDE */}
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-[var(--primary-blue)] leading-snug">
-                Why Choose Rankraze as Your Email Marketing Company in Chennai
+                Why Choose Rankraze as Your Email Marketing Company in Texas
               </h2>
 
               <div className="w-24 h-1 bg-[var(--primary-green)] mt-4 mb-8 rounded-full"></div>
@@ -399,7 +399,7 @@ export default function EmailMarketing () {
 
               <div className="mt-8 border-t border-white/20 pt-6">
                 <p className="text-sm text-white/80">
-                  Trusted by businesses across Chennai for ROI-focused email
+                  Trusted by businesses across Texas for ROI-focused email
                   marketing execution.
                 </p>
               </div>

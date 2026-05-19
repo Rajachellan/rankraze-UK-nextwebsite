@@ -3,20 +3,20 @@ import { Metadata } from "next";
 
 export const metadata:Metadata = {
     title: "Europe Study Centre - Rankraze",
-    description: "See how Rankraze drove 4Cr revenue for Europe Study Centre via targeted Facebook ads for parents. ISO-accredited consultancy scaled leads and Chennai branch. Top digital marketing results from Chennai experts. Get yours now!",
+    description: "How Rankraze drove major revenue for Europe Study Centre with targeted Meta campaigns—lead quality for a global education consultancy.",
     
     keywords: [
        
     ],
                 
     alternates: {
-        canonical: "https://rankraze.com/europe-study-centre",
+        canonical: "https://rankraze.us/europe-study-centre",
     },
 
     openGraph: {
         title: "Europe Study Centre - Rankraze",
         description: "Europe Study Centre Digital Marketing For Education Consulting Firm How We Helped ESC Generate 4 Cr Rupees In 15 Months With Just 17  Lakh Rupees Ad Budget?  About ESC Europe study centre is India's premier ISO accredited education  consulting company engaged in Students recruitment and actively  involved in the promotion of Immigration abroad.Abroad Education Consulting […]",
-        url: "https://rankraze.com/europe-study-centre",
+        url: "https://rankraze.us/europe-study-centre",
         siteName: "Rankraze",
         images: [
         {
@@ -159,7 +159,7 @@ YouTube
 </div>
  <h2 className="text-2xl font-bold mb-3 pt-5 text-gray-600 dark:text-white">Transformation of ESC    </h2>
     <p className="text-gray-600 dark:text-[var(--accent-foreground)]">
-    We helped ESC generate 4Cr in revenue within 18 months. This paved  way for expanding their Chennai branch and scaling it with ease. 
+    We helped ESC generate 4Cr in revenue within 18 months, unlocking budget to expand key regional offices and scale enrollment operations with confidence. 
     </p>
 
   </div>

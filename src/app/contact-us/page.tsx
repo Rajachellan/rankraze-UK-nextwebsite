@@ -7,20 +7,20 @@ import MapAndLocationMatch from "../components/UI/MapAndLocationMatch";
 
 export const metadata:Metadata = {
     title: "Contact Us - Rankraze",
-    description: "Reach Rankraze at Karuna Conclave, Anna Nagar, Chennai - +91 9962262210 or info@rankraze.com. Expert SEO, PPC & web services Mon-Sat 10AM-7PM. No online jobs—get real digital growth for your business today!",
+    description: "Contact Rankraze in Irving, Texas: 2801 W Royal Lane, Apt #1905 — info@rankraze.us, +1 (919) 455-1241. SEO, PPC, web, and AI services for US businesses.",
     
     keywords: [
         
     ],
                 
     alternates: {
-        canonical: "https://rankraze.com/contact-us",
+        canonical: "https://rankraze.us/contact-us",
     },
 
     openGraph: {
         title: "Contact Us - Rankraze",
-        description: "Start the conversation to established good relationship and business Get in touch Seamless Communication, Global Impact. Head Office Karuna Conclave, AD 42 & 45, 4th Ave, Shanthi Colony, Anna Nagar, Chennai, Tamil Nadu 600040. Email Support info@rankraze.com Let’s Talk Phone : +91 9962262210 Phone : +91 9710079798 Office Hour Monday – Saturday 10.00AM – 19.00PM […]",
-        url: "https://rankraze.com/contact-us",
+        description: "Reach our US team in Irving, Texas. Email info@rankraze.us or call +1 (919) 455-1241. Monday–Saturday support for digital marketing and web projects.",
+        url: "https://rankraze.us/contact-us",
         siteName: "Rankraze",
         images: [
         {
@@ -78,7 +78,7 @@ export default function page () {
             Head Office
         </p>
         <span className="text-sm md:text-md text-gray-500 dark:text-gray-400 font-medium">
-            Karuna Conclave, AD 42 & 45, 4th Ave, Shanthi Colony, Anna Nagar, Chennai, Tamil Nadu 600040.
+            Karuna Conclave, AD 42 & 45, 4th Ave, Shanthi Colony, Anna Nagar, Chennai, Tamil Nadu 600040. (India office — see locations map.)
         </span>
     </div>
 </div>
@@ -141,23 +141,23 @@ export default function page () {
         <div className="w-full flex flex-col md:flex-row items-stretch justify-around gap-3 mt-4">
           <div className="w-full md:w-1/3 max-w-sm md:max-w-none px-4 py-8 flex flex-col items-center justify-center shadow-[0px_3px_12px_rgba(0,0,0,0.07),0px_-3px_12px_rgba(0,0,0,0.07)] dark:shadow-[0px_3px_12px_rgba(225,225,225,0.06),0px_-3px_12px_rgba(225,225,225,0.06)] dark:border dark:border-gray-400 rounded-lg">
            <i className="ri-map-pin-line text-2xl text-[var(--primary-green)]"></i>
-            <p className="text-xl text-semibold text-gray-900 dark:text-gray-300">Head Office</p>
-            <p className="text-sm text-gray-500 dark:text-gray-400 p-1.5 text-center"> Karuna Conclave, AD 42 & 45, 4th Ave, Shanthi Colony, Anna Nagar, Chennai, Tamil Nadu 600040.</p>
+            <p className="text-xl text-semibold text-gray-900 dark:text-gray-300">US Office</p>
+            <p className="text-sm text-gray-500 dark:text-gray-400 p-1.5 text-center">2801 W Royal Lane, Apt #1905, Irving, TX 75063</p>
           </div>
           <div className="w-full md:w-1/3 max-w-sm md:max-w-none px-4 py-8 flex flex-col items-center justify-center shadow-[0px_3px_12px_rgba(0,0,0,0.07),0px_-3px_12px_rgba(0,0,0,0.07)] dark:shadow-[0px_3px_12px_rgba(225,225,225,0.06),0px_-3px_12px_rgba(225,225,225,0.06)] dark:border dark:border-gray-400 rounded-lg">
           <i className="ri-mail-line text-2xl text-[var(--primary-green)]"></i>
             <p className="text-xl text-semibold text-gray-900 dark:text-gray-300">Email Support</p>
-            <p className="text-sm text-gray-500 dark:text-gray-400 p-1.5 text-center">info@rankraze.com</p>
+            <p className="text-sm text-gray-500 dark:text-gray-400 p-1.5 text-center">info@rankraze.us</p>
           </div>
           <div className="w-full md:w-1/3 max-w-sm md:max-w-none px-4 py-8 flex flex-col items-center justify-center shadow-[0px_3px_12px_rgba(0,0,0,0.07),0px_-3px_12px_rgba(0,0,0,0.07)] dark:shadow-[0px_3px_12px_rgba(225,225,225,0.06),0px_-3px_12px_rgba(225,225,225,0.06)] dark:border dark:border-gray-400 rounded-lg">
            <i className="ri-phone-line text-2xl text-[var(--primary-green)]"></i>
             <p className="text-xl text-semibold text-gray-900 dark:text-gray-300">Let&apos;s Talk</p>
-            <p className="text-sm text-gray-500 dark:text-gray-400 p-1.5 text-center">Phone : +91 9962262210 <br />Phone : +91 9710079798</p>
+            <p className="text-sm text-gray-500 dark:text-gray-400 p-1.5 text-center">+1 (919) 455-1241</p>
           </div>
           <div className="w-full md:w-1/3 max-w-sm md:max-w-none px-4 py-8 flex flex-col items-center justify-center shadow-[0px_3px_12px_rgba(0,0,0,0.07),0px_-3px_12px_rgba(0,0,0,0.07)] dark:shadow-[0px_3px_12px_rgba(225,225,225,0.06),0px_-3px_12px_rgba(225,225,225,0.06)] dark:border dark:border-gray-400 rounded-lg">
            <i className="ri-timer-line text-3xl text-[var(--primary-green)]"></i>
             <p className="text-xl text-semibold text-gray-900 dark:text-gray-300">Office Hour</p>
-            <p className="text-sm text-gray-500 dark:text-gray-400 p-1.5 text-center">Monday - Saturday <br />10.00AM - 19.00PM</p>
+            <p className="text-sm text-gray-500 dark:text-gray-400 p-1.5 text-center">Monday - Saturday <br />10:00 AM - 7:00 PM (CT)</p>
           </div>
         </div>
       </div>
@@ -171,7 +171,7 @@ export default function page () {
         Locate Our Office
       </h2>
       <p className="text-gray-500 dark:text-gray-400 mt-2 max-w-2xl mx-auto">
-        Visit us at our office located in the heart of Anna Nagar, Chennai.
+        Our primary US office is in Irving, Texas. See all locations in the map below.
       </p>
     </div>
 
@@ -179,7 +179,7 @@ export default function page () {
       
       <div className="w-full h-[320px] md:h-[450px] rounded-xl overflow-hidden shadow-md">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5711.770778333292!2d80.20893803921254!3d13.082688465574675!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265562bbedea7%3A0x5ebf26841aa53c84!2sECowrkz%20%7C%20Coworking%20Space%20in%20Anna%20Nagar%20%7C%20Shared%20Office%20Space%20in%20Anna%20Nagar!5e0!3m2!1sen!2sus!4v1757066386073!5m2!1sen!2sus"
+          src="https://maps.google.com/maps?q=2801+W+Royal+Lane+Apt+1905+Irving+TX+75063&t=&z=15&ie=UTF8&iwloc=&output=embed"
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"

@@ -3,12 +3,12 @@ import { useState } from "react";
 import JobCard from "./JobCard";
 
 const jobs = [
-  { posted: "2 days ago", title: "React Developer", location: "Chennai", experience: "1–3 years" },
-  { posted: "3 days ago", title: "UI/UX Designer", location: "Bangalore", experience: "2–4 years" },
-  { posted: "4 days ago", title: "Node.js Developer", location: "Coimbatore", experience: "2–5 years" },
+  { posted: "2 days ago", title: "React Developer", location: "Irving, TX", experience: "1–3 years" },
+  { posted: "3 days ago", title: "UI/UX Designer", location: "Dallas, TX", experience: "2–4 years" },
+  { posted: "4 days ago", title: "Node.js Developer", location: "Remote (US)", experience: "2–5 years" },
   { posted: "1 week ago", title: "Digital Marketing", location: "Remote", experience: "0–2 years" },
-  { posted: "2 weeks ago", title: "QA Tester", location: "Pune", experience: "0–1 years" },
-  { posted: "1 month ago", title: "Sales Manager", location: "Chennai", experience: "3–6 years" },
+  { posted: "2 weeks ago", title: "QA Tester", location: "Austin, TX", experience: "0–1 years" },
+  { posted: "1 month ago", title: "Sales Manager", location: "Irving, TX", experience: "3–6 years" },
 ];
 const ITEMS_PAGE = 4;
 

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
     "Grow your brand with smart social media marketing. Reach the right audience, boost engagement, and turn followers into customers.",
   keywords: [],
   alternates: {
-    canonical: "https://rankraze.com/social-media-marketing",
+    canonical: "https://rankraze.us/portfolio",
   },
   openGraph: {
     title: "Social Media Marketing Portfolio - Rankraze",
     description:
-      "Rankraze is the leading PPC agency in Chennai, We have proven experience in PPC Campaign management and campaign creation. Hire experts in google ads and social media Marketing Company in Chennai",
-    url: "https://rankraze.com/social-media-marketing",
+      "Rankraze runs paid social and PPC programs for US brands—with experienced media buyers, creative testing, and clear reporting.",
+    url: "https://rankraze.us/portfolio",
     siteName: "Rankraze",
     images: [
       {

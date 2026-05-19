@@ -66,7 +66,7 @@ const [ref, visIn] = useInView();
           {isVisible && <CountUp end={127} suffix="+" />}
         </h3>
         <p className="text-[var(--primary-green)] dark:text-[#6EE7D8] font-semibold text-xl">
-          Chennai Business Ranked #1
+          Texas Businesses Ranked #1
         </p>
       </div>
 

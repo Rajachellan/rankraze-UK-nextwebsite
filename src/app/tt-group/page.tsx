@@ -3,19 +3,19 @@ import { CircleCheck} from "lucide-react";
 import { Metadata } from "next";
 export const metadata:Metadata = {
     title: "TT Group - Rankraze",
-    description: "Rankraze redesigned TT Group's site and optimized SEO for India's top logistics firm—driving massive traffic growth with trucking/air services. 35+ years excellence. Chennai digital agency delivers results. Transform your business now!",
+    description: "Rankraze redesigned TT Group's digital presence and SEO for a major logistics brand—driving traffic growth across trucking and air services channels.",
     
 keywords: [
    
 ],           
     alternates: {
-        canonical: "https://rankraze.com/tt-group",
+        canonical: "https://rankraze.us/tt-group",
     },
 
     openGraph: {
         title: "TT Group - Rankraze",
         description: "TT Group Generate 300+ high quality leads every month consistently and mint revenue upto 2.6 crores within 6 months. With 35 years of industry experience, TT Group is India's No.1 Logistics Company dominating the global market. They offer services including trucking, air logistics, freight management, etc. The Struggle Though they have invested crores on technology […]",
-        url: "https://rankraze.com/tt-group",
+        url: "https://rankraze.us/tt-group",
         siteName: "Rankraze",
         images: [
         {

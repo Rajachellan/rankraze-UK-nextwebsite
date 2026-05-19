@@ -5,8 +5,8 @@ import { RectangleGoggles, Star, Brain, Cloud } from "lucide-react"
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 
 export const metadata:Metadata = {
-    title: "Virtual Reality Development Company in Chennai, India",
-    description: "Rankraze is the Best VR development company in Chennai, India - We offer services in developing virtual reality applications for various industries, including gaming, education, healthcare, real estate, and more",
+    title: "Virtual Reality Development Company in Dallas, Texas",
+    description: "Rankraze is the Best VR development company in Dallas, Texas - We offer services in developing virtual reality applications for various industries, including gaming, education, healthcare, real estate, and more",
     
     keywords: [
     "virtual reality development company",
@@ -15,20 +15,20 @@ export const metadata:Metadata = {
     "vr development companies",
     "vr app development company",
     "virtual reality game development company",
-    "virtual reality companies in Chennai",
+    "virtual reality companies in Dallas",
     "vr game development company",
     "virtual reality app development company",
     "top virtual reality companies in India"
     ],
 
     alternates: {
-        canonical: "https://rankraze.com/virtual-reality-development-chennai-india",
+        canonical: "https://rankraze.us/virtual-reality-development-company-dallas",
     },
 
     openGraph: {
-        title: "Virtual Reality Development Company in Chennai, India",
-        description: "Rankraze is the Best VR development company in Chennai, India - We offer services in developing virtual reality applications for various industries, including gaming, education, healthcare, real estate, and more",
-        url: "https://rankraze.com/virtual-reality-development-chennai-india",
+        title: "Virtual Reality Development Company in Dallas, Texas",
+        description: "Rankraze is the Best VR development company in Dallas, Texas - We offer services in developing virtual reality applications for various industries, including gaming, education, healthcare, real estate, and more",
+        url: "https://rankraze.us/virtual-reality-development-company-dallas",
         siteName: "Rankraze",
         images: [
         {
@@ -92,7 +92,7 @@ export default function page () {
                     <div className="w-full relative">
                         <Image 
                             src={"/upload/macbookair.svg"}
-                            alt="video marketing services in chennai"
+                            alt="VR development services in Dallas"
                             width={800} height={600} layout="responsive"
                             objectFit="cover"          
                             className="rounded-xl dark:grayscale-75"                                 

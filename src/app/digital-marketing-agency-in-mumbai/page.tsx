@@ -13,13 +13,13 @@ export const metadata:Metadata = {
     ],
 
     alternates: {
-        canonical: "https://rankraze.com/digital-marketing-agency-in-mumbai",
+        canonical: "https://rankraze.us/digital-marketing-agency-in-mumbai",
     },
 
     openGraph: {
         title: "Digital Marketing Agency in Mumbai - Rankraze",
         description: "Digital Marketing Agency in Mumbai, India We are a Google Partner digital marketing agency specializing in performance marketing, SEO, paid ads, and social media ads. Get a quote now! We assist businesses in increasing brand awareness, sales, and growth. We are not your average digital marketing agency. Because we are not only concerned with clicks and […]",
-        url: "https://rankraze.com/digital-marketing-agency-in-mumbai",
+        url: "https://rankraze.us/digital-marketing-agency-in-mumbai",
         siteName: "Rankraze",
         images: [
         {

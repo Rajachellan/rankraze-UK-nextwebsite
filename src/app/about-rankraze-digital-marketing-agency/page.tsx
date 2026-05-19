@@ -5,33 +5,27 @@ import { Telescope, Crosshair, ChartNoAxesCombined } from "lucide-react";
 import LatestBogs from "../components/LatestBlogs";
 export const metadata:Metadata = {
     title: "About Us - Rankraze",
-    description: "We are proving to our clients through result oriented digital marketing services. Believe in that Building brands along with making relationships. We mostly concentrate on building the relationship instead of building links through latest digital technologies and tools.",
+    description: "Rankraze is a Texas-based digital marketing agency helping brands grow with data-driven SEO, paid media, web, and creative—trusted by businesses across the US and worldwide.",
     keywords: [
-        "top digital marketing companies in Chennai", 
-        "business needs enquiry", 
-        "passionate digital media experts", 
-        "ad fil makers",
-        "Online marketers", 
-        "Website Design Chennai", 
-        "web development company in chennai", 
-        "Website Design India", 
-        "Web Designing Chennai", 
-        "Chennai Companies", 
-        "Chennai IT Companies", 
-        "Internet Marketing Chennai", 
-        "SEO Services Chennai", 
-        "SEO Company Chennai", 
-        "Logo Designers Chennai"
+        "digital marketing agency Texas",
+        "SEO company Dallas",
+        "Rankraze about",
+        "PPC agency Texas",
+        "web design Texas",
+        "digital marketing USA",
+        "online marketing agency",
+        "HubSpot certified agency",
+        "Google ads management",
     ],
                 
     alternates: {
-        canonical: "https://rankraze.com/about-us",
+        canonical: "https://rankraze.us/about-rankraze-digital-marketing-agency",
     },
 
     openGraph: {
         title: "About Us - Rankraze",
-        description: "We are proving to our clients through result oriented digital marketing services. Believe in that Building brands along with making relationships. We mostly concentrate on building the relationship instead of building links through latest digital technologies and tools.",
-        url: "https://rankraze.com/about-us",
+        description: "Learn how Rankraze delivers measurable growth with SEO, paid media, social, and web—grounded in transparent, ethical marketing.",
+        url: "https://rankraze.us/about-rankraze-digital-marketing-agency",
         siteName: "Rankraze",
         images: [
         {
@@ -72,16 +66,16 @@ export default function AboutUs () {
                 </div>
                 <div className="w-full md:w-1/2 flex flex-col items justify-center p-2.5 gap-3 md:gap-4 xl:gap-5">
                     <h2 className="text-2xl md:text-3xl lg:text-4xl capitalize font-bold text-gray-800 dark:text-gray-200">
-                        About Rankraze: Chennai&apos;s #1 Digital Marketing Agency
+                        About Rankraze: Digital Marketing in Texas
                     </h2>
                     <p className="text-sm leading-relaxed text-justify text-gray-700 dark:text-gray-200 tracking-wide xl:pr-12 2xl:pr-20 font-semibold">
                         233K+ Leads Delivered | 2,000+ Trusted Brands | 15+ Years Expertise | 4.8/5 Client Rating
                     </p>
                     <p className="text-sm leading-relaxed text-justify text-gray-500 dark:text-gray-400 tracking-wide xl:pr-12 2xl:pr-20">
-                        Rankraze – top digital marketing company in Chennai – was born in June 2016 from founder Raja Chellan&apos;s entrepreneurial struggles. After cracking data-driven digital marketing, we built a HubSpot & Google-certified expert team delivering SEO services Chennai, Google Ads , social media marketing, influencer campaigns, web development, and ORM for Chennai SMEs across Healthcare, Education, Real Estate, Ecommerce, IT, and Logistics.
+                        Rankraze is a digital marketing firm based in Texas. Since 2016, founder Raja Chellan&apos;s team has combined HubSpot- and Google-certified expertise to deliver SEO, paid media, social, influencer, web, and ORM programs for clients in healthcare, education, real estate, ecommerce, IT, logistics, and more.
                     </p>
                     <p className="text-sm leading-relaxed text-justify text-gray-500 dark:text-gray-400 tracking-wide xl:pr-12 2xl:pr-20">
-                        Rankraze is one of the top digital marketing companies in Chennai, India. Since our journey started in June 2016, we&apos;ve served hundreds of clients and helped them establish powerful digital presence. Our small but passionate team brings years of experience as certified digital marketing experts. We believe in Data-Driven Digital Marketing and strictly adhere to White-Hat Techniques with a firm Anti-spam policy.
+                        We focus on measurable outcomes and long-term partnerships. Our specialists use data-driven marketing and white-hat techniques with a firm stance against spam—so your brand grows sustainably in competitive US markets.
                     </p>
                     {/* <Link href={"/contact-us"} className="w-fit text-sm lg:text-base font-semibold capitalize px-5 py-2.5 text-white bg-linear-to-br from-[#3dbc9b] to-[#37a7ff] rounded-md">contact Us</Link> */}
                 </div>
@@ -106,7 +100,7 @@ export default function AboutUs () {
                     <span className="text-base font-semibold text-gray-700 dark:text-gray-300 capitalize text-center">
                         our motto
                     </span>
-                    <p className="text-sm leading-relaxed text-gray-500 dark:text-gray-400 tracking-wide text-justify">Being the top ranking digital marketing company in Chennai, india. our motto is, “If we can do it for us, we can do it for you too”. If we have succeeded in digital marketing and rank in the number one position in SERP, then we can do the same for you and help you with your business’ online success.</p>
+                    <p className="text-sm leading-relaxed text-gray-500 dark:text-gray-400 tracking-wide text-justify">Our motto is, “If we can do it for us, we can do it for you too.” We apply the same disciplined SEO, content, and media playbook we use for our own growth to help your business win in search and paid channels.</p>
                 </div>
             </div>
             <div className="w-full flex flex-col md:flex-row items-stretch justify-center gap-3.5 md:gap-5 lg:gap-8  max-w-7xl mt-10 md:mt-14 lg:mt-16 xl:mt-20">
@@ -160,7 +154,7 @@ export default function AboutUs () {
                     outstanding digital experience
                 </h2>
                 <p className="text-sm md:text-sm xl:text-base text-white text-justify max-w-4xl leading-relaxed tracking-wide">
-                    <span className="inline-block">Our team of experts is here to guide you on your journey into the online world. We understand that to succeed online, you need not just a well-designed and well-developed website but also the perfect marketing strategy. It’s like having a bright spotlight on your business the Best Digital Marketing Company in Chennai, india.</span>
+                    <span className="inline-block">Our team guides you from brand positioning to performance campaigns. You need a fast, credible website and a clear acquisition strategy—it is like putting a spotlight on the right digital marketing partner in Texas.</span>
                     <span className="inline-block mt-4">At Rankraze, we’re like digital wizards. We know all the secrets to make your website or business shine online. Here’s what we do: First, we get to know your business, your website, the people you want to reach, and your goals. Based on all that, we have a best plan just for you. It’s like creating a treasure map to boost your website’s presence all over the internet.</span>
                 </p>
             </div>
@@ -192,7 +186,7 @@ export default function AboutUs () {
                 <div className="w-full max-w-5xl flex flex-col items-center justify-center gap-3.5 md:gap-4 xl:gap-6 2xl:gap-9 p-3.5">
                     <div className="w-full grid place-items-center px-1.5 md:px-3 xl:px-4">
                         <p className="text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl text-gray-200 font-semibold text-center">
-                            Why Rankraze is the Best Digital Marketing Company in Chennai, India
+                            Why Rankraze Leads in US Digital Marketing
                         </p>
                     </div>
                     <div className="w-full grid place-items-center">
@@ -869,15 +863,15 @@ export default function AboutUs () {
                 <div className="w-full flex flex-col md:flex-row items-center md:items-stretch justify-around gap-3 mt-4">
                     <div className="w-full md:w-1/3 px-4 py-8 flex flex-col items-center justify-center shadow-[0px_3px_12px_rgba(0,0,0,0.07),0px_-3px_12px_rgba(0,0,0,0.07)] dark:shadow-[0px_3px_12px_rgba(225,225,225,0.06),0px_-3px_12px_rgba(225,225,225,0.06)] dark:border dark:border-gray-400 rounded-lg">
                         <p className="text-xl text-semibold text-gray-900 dark:text-gray-300">Address</p>
-                        <p className="text-sm text-gray-500 dark:text-gray-400 p-1.5 text-center">2nd Floor, Karuna Conclave, AD 42 & 45, 4th Ave, Shanthi Colony, Anna Nagar, Chennai, Tamil Nadu 600040</p>
+                        <p className="text-sm text-gray-500 dark:text-gray-400 p-1.5 text-center">2801 W Royal Lane, Apt #1905, Irving, TX 75063</p>
                     </div>
                     <div className="w-full md:w-1/3 px-4 py-8 flex flex-col items-center justify-center shadow-[0px_3px_12px_rgba(0,0,0,0.07),0px_-3px_12px_rgba(0,0,0,0.07)] dark:shadow-[0px_3px_12px_rgba(225,225,225,0.06),0px_-3px_12px_rgba(225,225,225,0.06)] dark:border dark:border-gray-400 rounded-lg">
                         <p className="text-xl text-semibold text-gray-900 dark:text-gray-300">Email</p>
-                        <p className="text-sm text-gray-500 dark:text-gray-400 p-1.5 text-center">info@rankraze.com</p>
+                        <p className="text-sm text-gray-500 dark:text-gray-400 p-1.5 text-center">info@rankraze.us</p>
                     </div>
                     <div className="w-full md:w-1/3 px-4 py-8 flex flex-col items-center justify-center shadow-[0px_3px_12px_rgba(0,0,0,0.07),0px_-3px_12px_rgba(0,0,0,0.07)] dark:shadow-[0px_3px_12px_rgba(225,225,225,0.06),0px_-3px_12px_rgba(225,225,225,0.06)] dark:border dark:border-gray-400 rounded-lg">
                         <p className="text-xl text-semibold text-gray-900 dark:text-gray-300">Call Us</p>
-                        <p className="text-sm text-gray-500 dark:text-gray-400 p-1.5 text-center">+91 99622 62210</p>
+                        <p className="text-sm text-gray-500 dark:text-gray-400 p-1.5 text-center">+1 (919) 455-1241</p>
                     </div>
                 </div>
             </div>

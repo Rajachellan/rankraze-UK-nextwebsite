@@ -1,21 +1,21 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Refund Policy | Rankraze SEO & Digital Marketing Chennai",
-    description: "Rankraze refund policy for Chennai digital marketing services. SEO, Google Ads, web design refund conditions. Transparent cancellation policy for Anna Nagar digital agency serving OMR, Guindy businesses.",
+    title: "Refund Policy | Rankraze",
+    description: "Refund and cancellation terms for Rankraze digital services (SEO, ads, web, and software) for US clients.",
     
     keywords: [
       
     ],
         
     alternates: {
-        canonical: "https://rankraze.com/refund-policy",
+        canonical: "https://rankraze.us/refund-policy",
     },
 
     openGraph: {
-        title: "Refund Policy | Rankraze SEO & Digital Marketing Chennai",
-        description: "Rankraze refund policy for Chennai digital marketing services. SEO, Google Ads, web design refund conditions. Transparent cancellation policy for Anna Nagar digital agency serving OMR, Guindy businesses.",
-        url: "https://rankraze.com/refund-policy",
+        title: "Refund Policy | Rankraze",
+        description: "How Rankraze handles refunds and billing adjustments for marketing and technology engagements.",
+        url: "https://rankraze.us/refund-policy",
         siteName: "Rankraze",
         // images: [
         // {
@@ -109,7 +109,7 @@ Then contact your credit card company, it may take some time before your refund 
 <br />
 Next contact your bank. There is often some processing time before a refund is posted.
 <br />
-If you’ve done all of this and you still have not received your refund yet, please contact us at info@rankraze.com
+If you’ve done all of this and you still have not received your refund yet, please contact us at info@rankraze.us
  </p>
    <p className="font-bold text-gray-600 py-4 px-10">
              Sale items (if applicable)
@@ -122,7 +122,7 @@ Only regular priced items may be refunded, unfortunately sale items cannot be re
              Exchanges (if applicable)
             </p>
             <p className=" text-gray-600 px-10 text-md" >
-We only replace items if they are defective or damaged.  If you need to exchange it for the same item, send us an email at info@rankraze.com and send your item to: 622 Manglam Electronic Market Jaipur Rajasthan India 302001.
+We only replace items if they are defective or damaged.  If you need to exchange it for the same item, send us an email at info@rankraze.us and send your item to: 2801 W Royal Lane, Apt #1905, Irving, TX 75063, USA.
  </p>
      <p className="font-bold text-gray-600 py-4 px-10">
             Gifts
@@ -136,7 +136,7 @@ If the item wasn’t marked as a gift when purchased, or the gift giver had the 
             Shipping
             </p>
             <p className=" text-gray-600 px-10 text-md" >
-To return your product, you should mail your product to: 622 Manglam Electronic Market Jaipur Rajasthan India 302001.
+To return your product, you should mail your product to: 2801 W Royal Lane, Apt #1905, Irving, TX 75063, USA.
 <br />
 You will be responsible for paying for your own shipping costs for returning your item. Shipping costs are non-refundable. If you receive a refund, the cost of return shipping will be deducted from your refund.
 <br />

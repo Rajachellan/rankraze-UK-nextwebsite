@@ -38,7 +38,7 @@ const TestRenderPage = () => {
       <button onclick="alert('XSS')">Click Me (Unsafe)</button>
 
       <h2>5. Links</h2>
-      <p>Check out our <a href="https://rankraze.com" target="_blank" rel="noopener noreferrer">official website</a> for more details.</p>
+      <p>Check out our <a href="https://rankraze.us" target="_blank" rel="noopener noreferrer">official website</a> for more details.</p>
     `
     };
 

@@ -4,29 +4,29 @@ import { Metadata } from "next";
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 
 export const metadata:Metadata = {
-    title: "Web Analytics Service in chennai | Rankraze",
+    title: "Web Analytics Services in Dallas | Rankraze",
     description: "Learn about your competitors with web analytics. We offer one of the best online analytics solution to enhance your business and our strategies will help boost traffic to your site.",
     
     keywords: [
-    "Web Analytics Service in Chennai",
+    "Web Analytics Services in Dallas",
     "web analytics consulting",
     "web analytics consulting firms",
     "web analytics service providers",
     "web analytics services",
-    "web analytics services b2b directory Chennai",
-    "web analytics services from Chennai",
+    "web analytics services Dallas",
+    "web analytics services from Dallas",
     "web analytics services India",
-    "web analytics services service provider in Chennai"
+    "web analytics services provider in Dallas"
     ],
 
     alternates: {
-        canonical: "https://rankraze.com/web-analytics-service-in-chennai",
+        canonical: "https://rankraze.us/web-analytic",
     },
 
     openGraph: {
-        title: "Web Analytics Service in chennai | Rankraze",
+        title: "Web Analytics Services in Dallas | Rankraze",
         description: "Learn about your competitors with web analytics. We offer one of the best online analytics solution to enhance your business and our strategies will help boost traffic to your site.",
-        url: "https://rankraze.com/web-analytics-service-in-chennai",
+        url: "https://rankraze.us/web-analytic",
         siteName: "Rankraze",
         images: [
         {
@@ -69,7 +69,7 @@ export default function page () {
             <div className="w-full max-w-7xl flex flex-col md:flex-row items-stretch justify-center">
                 <div className="w-full md:w-1/2 flex flex-col items-start justify-center gap-3 md:gap-3.5 p-2.5">
                     <h2 className="text-4xl xl:text-[42px] font-semibold text-center md:text-left capitalize dark:text-gray-200 pr-4">
-                        Web Analytics Services in Chennai
+                        Web Analytics Services in Dallas
                     </h2>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base font-bold">
                         TRACK YOUR AUDIENCE AND GET MORE CONVERSION
@@ -81,7 +81,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 md:px-8 lg:px-12 py-2.5 rounded-md">
                     <video
                         className="object-cover rounded-md"
-                        src="https://www.rankraze.com/wp-content/uploads/2025/06/573269_Business_Stock_1920x1080.mp4"
+                        src="https://rankraze.us/wp-content/uploads/2025/06/573269_Business_Stock_1920x1080.mp4"
                         autoPlay
                         muted
                         playsInline
@@ -142,7 +142,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/web-analytics-services.webp"}
-                    alt="Web Development services in chennai"
+                    alt="Web analytics services in Dallas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-25"                                 

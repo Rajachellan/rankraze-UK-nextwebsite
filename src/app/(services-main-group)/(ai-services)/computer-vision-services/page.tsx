@@ -6,8 +6,8 @@ import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 
 
 export const metadata:Metadata = {
-    title: "Computer Vision Services in Indai | AI Experts at Rankraze",
-    description: "Get cutting-edge Computer Vision solutions from Rankraze. AI-driven image recognition, object detection & video analysis services in Chennai & India.",
+    title: "Computer Vision Services | Rankraze US",
+    description: "Computer vision and video analytics from Rankraze—detection, classification, and QA workflows for US operations.",
     
 keywords: [
     "computer vision services",
@@ -21,26 +21,26 @@ keywords: [
     "custom computer vision",
     "computer vision development",
     "Rankraze computer vision",
-    "computer vision in Chennai",
-    "AI services in Chennai",
-    "computer vision companies in India",
-    "computer vision Chennai",
-    "computer vision development India",
-    "computer vision company in Chennai",
-    "AI video analysis India",
-    "AI-powered image recognition Chennai",
-    "best computer vision agency India"
+    "computer vision in Texas",
+    "AI Services in Dallas",
+    "computer vision companies USA",
+    "computer vision Dallas",
+    "computer vision development USA",
+    "computer vision company in Texas",
+    "AI video analysis USA",
+    "AI-powered image recognition Texas",
+    "best computer vision agency USA"
 ],
 
                 
     alternates: {
-        canonical: "https://rankraze.com/computer-vision-services",
+        canonical: "https://rankraze.us/computer-vision-services",
     },
 
     openGraph: {
-        title: "Computer Vision Services in Indai | AI Experts at Rankraze",
-        description: "Get cutting-edge Computer Vision solutions from Rankraze. AI-driven image recognition, object detection & video analysis services in Chennai & India.",
-        url: "https://rankraze.com/computer-vision-services",
+        title: "Computer Vision Services | Rankraze US",
+        description: "Image and video AI built for your products—Rankraze delivers pilots through production.",
+        url: "https://rankraze.us/computer-vision-services",
         siteName: "Rankraze",
         images: [
         {

@@ -14,13 +14,13 @@ export const metadata:Metadata = {
     ],
 
     alternates: {
-        canonical: "https://rankraze.com/digital-marketing-agency-in-delhi-india",
+        canonical: "https://rankraze.us/digital-marketing-agency-in-delhi-india",
     },
 
     openGraph: {
         title: "Digital Marketing Agency in Delhi, India - Rankraze",
         description: "Digital Marketing Agency in Delhi, India We’re not just an agency; we’re inventors, we’re creative and digital engineers!!! Get a quote now! Welcome to Rankraze, Delhi's leading digital marketing agency that works tirelessly to grow your brand and achieve your business objectives. We are the missing piece to your digital marketing puzzle, offering holistic, end-to-end […]",
-        url: "https://rankraze.com/digital-marketing-agency-in-delhi-india",
+        url: "https://rankraze.us/digital-marketing-agency-in-delhi-india",
         siteName: "Rankraze",
         images: [
         {

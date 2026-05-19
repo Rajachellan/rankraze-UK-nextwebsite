@@ -13,14 +13,20 @@ export default function  MapAndLocationMatch () {
     }
 
     const locationDetails:MapAndLocationMatchProps[] = [
-          {
+        {
+            country: "USA",
+            address: "2801 W, Royal lane, Apt # 1905, Irving, TX - 75063.",
+            phone: "+1 (919) 455-1241",
+            email: "info@rankraze.us",
+            imgUrl: "/upload/usa-skt.webp",
+        },
+        {
             country: "India",
             address: "2nd Floor, Karuna Conclave, AD 42 & 45, 4th Ave, Shanthi Colony, Anna Nagar, Chennai, Tamil Nadu 600040",
             phone: "+91 99622 62210 - 04448067255",
             email: "info@rankraze.com",
             imgUrl: "/upload/india-skt.webp",
         },
-    
         {
             country: "Canada",
             address: "5025 Sources Blvd suite 126, Pierrefonds-Roxboro, Quebec H8Y 3H8, Canada.",
@@ -49,13 +55,6 @@ export default function  MapAndLocationMatch () {
             email: "info@rankraze.co.uk",
             imgUrl: "/upload/uk-skt.webp",
         },
-          {
-            country: "USA",
-            address: "2801 W, Royal lane, Apt # 1905, Irving, TX - 75063.",
-            phone: "+1 (919) 455-1241",
-            email: "info@rankraze.us",
-            imgUrl: "/upload/usa-skt.webp",
-        },
         {
             country: "Australia",
             address: "4 Greenhouse St, Austral NSW 2179, Australia.",
@@ -65,7 +64,7 @@ export default function  MapAndLocationMatch () {
         },
     ]
 
-    const [currentLocationIndex, setLocationIndex] = useState(5);
+    const [currentLocationIndex, setLocationIndex] = useState(0);
     return (
         <>
         <div className="w-full flex flex-col md:flex-row justify-center items-stretch gap-4 max-w-7xl mb-2.5 relative">
@@ -119,27 +118,27 @@ export default function  MapAndLocationMatch () {
                 className="h-full w-auto md:w-full md:h-auto"
                 />
                 <div className="w-3.5 h-3.5 absolute flex items-center justify-center rounded-full top-[41.6%] left-[23%]  bg-[var(--primary-green)] z-10 cursor-pointer before:content-[''] before:w-full before:h-full before:rounded-full before:bg-[var(--primary-green)] before:animate-ping before:absolute before:top-0 before:left-0 before:-z-10 before:scale-150"
-                onClick={() => setLocationIndex(5)}>
+                onClick={() => setLocationIndex(0)}>
                     <div className="w-1.5 h-1.5 rounded-full bg-green-950 z-10"></div>
                 </div>
                 <div className="w-3.5 h-3.5 absolute flex items-center justify-center rounded-full top-[35%] left-[28.5%]  bg-[var(--primary-green)] z-10 cursor-pointer before:content-[''] before:w-full before:h-full before:rounded-full before:bg-[var(--primary-green)] before:animate-ping before:absolute before:top-0 before:left-0 before:-z-10 before:scale-150"
-                onClick={() => setLocationIndex(1)}>
-                    <div className="w-1.5 h-1.5 rounded-full bg-green-950 z-10"></div>
-                </div>
-                <div className="w-3.5 h-3.5 absolute flex items-center justify-center rounded-full top-[32.5%] left-[46%]  bg-[var(--primary-green)] z-10 cursor-pointer before:content-[''] before:w-full before:h-full before:rounded-full before:bg-[var(--primary-green)] before:animate-ping before:absolute before:top-0 before:left-0 before:-z-10 before:scale-150"
                 onClick={() => setLocationIndex(2)}>
                     <div className="w-1.5 h-1.5 rounded-full bg-green-950 z-10"></div>
                 </div>
-                <div className="w-3.5 h-3.5 absolute flex items-center justify-center rounded-full top-[45%] left-[58.8%]  bg-[var(--primary-green)] z-10 cursor-pointer before:content-[''] before:w-full before:h-full before:rounded-full before:bg-[var(--primary-green)] before:animate-ping before:absolute before:top-0 before:left-0 before:-z-10 before:scale-150"
+                <div className="w-3.5 h-3.5 absolute flex items-center justify-center rounded-full top-[32.5%] left-[46%]  bg-[var(--primary-green)] z-10 cursor-pointer before:content-[''] before:w-full before:h-full before:rounded-full before:bg-[var(--primary-green)] before:animate-ping before:absolute before:top-0 before:left-0 before:-z-10 before:scale-150"
                 onClick={() => setLocationIndex(3)}>
                     <div className="w-1.5 h-1.5 rounded-full bg-green-950 z-10"></div>
                 </div>
-                <div className="w-3.5 h-3.5 absolute flex items-center justify-center rounded-full top-[29%] left-[44.4%]  bg-[var(--primary-green)] z-10 cursor-pointer before:content-[''] before:w-full before:h-full before:rounded-full before:bg-[var(--primary-green)] before:animate-ping before:absolute before:top-0 before:left-0 before:-z-10 before:scale-150"
+                <div className="w-3.5 h-3.5 absolute flex items-center justify-center rounded-full top-[45%] left-[58.8%]  bg-[var(--primary-green)] z-10 cursor-pointer before:content-[''] before:w-full before:h-full before:rounded-full before:bg-[var(--primary-green)] before:animate-ping before:absolute before:top-0 before:left-0 before:-z-10 before:scale-150"
                 onClick={() => setLocationIndex(4)}>
                     <div className="w-1.5 h-1.5 rounded-full bg-green-950 z-10"></div>
                 </div>
+                <div className="w-3.5 h-3.5 absolute flex items-center justify-center rounded-full top-[29%] left-[44.4%]  bg-[var(--primary-green)] z-10 cursor-pointer before:content-[''] before:w-full before:h-full before:rounded-full before:bg-[var(--primary-green)] before:animate-ping before:absolute before:top-0 before:left-0 before:-z-10 before:scale-150"
+                onClick={() => setLocationIndex(5)}>
+                    <div className="w-1.5 h-1.5 rounded-full bg-green-950 z-10"></div>
+                </div>
                 <div className="w-3.5 h-3.5 absolute flex items-center justify-center rounded-full top-[50%] left-[65%]  bg-[var(--primary-green)] z-10 cursor-pointer before:content-[''] before:w-full before:h-full before:rounded-full before:bg-[var(--primary-green)] before:animate-ping before:absolute before:top-0 before:left-0 before:-z-10 before:scale-150"
-                onClick={() => setLocationIndex(0)}>
+                onClick={() => setLocationIndex(1)}>
                     <div className="w-1.5 h-1.5 rounded-full bg-green-950 z-10"></div>
                 </div>
                 <div className="w-3.5 h-3.5 absolute flex items-center justify-center rounded-full top-[74%] left-[85.4%]  bg-[var(--primary-green)] z-10 cursor-pointer before:content-[''] before:w-full before:h-full before:rounded-full before:bg-[var(--primary-green)] before:animate-ping before:absolute before:top-0 before:left-0 before:-z-10 before:scale-150"

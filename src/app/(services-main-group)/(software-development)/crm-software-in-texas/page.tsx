@@ -266,7 +266,7 @@ export default function CRMPage() {
         </div>
       </section>
 
-      {/* Why Chennai */}
+      {/* Why Texas */}
       <section className="w-full grid place-items-center mt-20 px-4 md:px-6 lg:px-10">
         <div className="w-full max-w-7xl flex flex-col md:flex-row gap-10 items-start">
           <div className="md:w-1/2 space-y-4">

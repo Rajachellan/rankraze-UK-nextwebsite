@@ -3,20 +3,20 @@ import { Metadata } from "next";
 
 export const metadata:Metadata = {
     title: "ClearOne - Rankraze",
-    description: "Rankraze elevated ClearOne's global conferencing products with innovative SEO, creative posts, and site optimization for collaboration tools. Chennai agency drives traffic for AV leaders. Boost your tech brand—contact Rankraze today!",
+    description: "Rankraze elevated ClearOne's global conferencing products with SEO, creative campaigns, and site optimization—stronger visibility for collaboration and AV leaders.",
     
     keywords: [
        
     ],
                 
     alternates: {
-        canonical: "https://rankraze.com/clearone",
+        canonical: "https://rankraze.us/clearone",
     },
 
     openGraph: {
         title: "ClearOne - Rankraze",
         description: "Digital Marketing for ClearOne Generate 300+ high quality leads every month consistently and mint revenue upto 2.6 crores within 6 months. ClearOne is a global market leader enabling conferencing, collaboration, and network streaming solutions. Their products help businesses conduct various types of online meetings irrespective of where the participants of the meeting are located. Their […]",
-        url: "https://rankraze.com/clearone",
+        url: "https://rankraze.us/clearone",
         siteName: "Rankraze",
         images: [
         {

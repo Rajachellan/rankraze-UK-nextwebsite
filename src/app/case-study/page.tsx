@@ -13,13 +13,13 @@ keywords: [
 
                 
     alternates: {
-        canonical: "https://rankraze.com/case-studies",
+        canonical: "https://rankraze.us/case-study",
     },
 
     openGraph: {
         title: "Case Studies - Rankraze",
         description: "Team up with rankraze – the next amazing case study could be yours! Clients Victories We bring innovative thinking, adaptive methodology, strong ethics and years of expertise to the SEO and web design industry. Our team has won awards for our web design expertise and accolades for our effective SEO strategies. Our clients know that […]",
-        url: "https://rankraze.com/case-studies",
+        url: "https://rankraze.us/case-study",
         siteName: "Rankraze",
         images: [
         {

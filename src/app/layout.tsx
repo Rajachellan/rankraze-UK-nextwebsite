@@ -100,7 +100,7 @@ const schemaData = {
       "sameAs": [
         "https://www.facebook.com/Rankraze",
         "https://www.youtube.com/@Rankraze",
-        "https://in.linkedin.com/company/rankrazetechnologies",
+        "https://www.linkedin.com/company/rankrazetechnologies",
         "https://www.instagram.com/rankraze/"
       ],
       "serviceType": [
@@ -127,7 +127,7 @@ const schemaData = {
       "sameAs": [
         "https://www.facebook.com/Rankraze",
         "https://www.youtube.com/@Rankraze",
-        "https://in.linkedin.com/company/rankrazetechnologies",
+        "https://www.linkedin.com/company/rankrazetechnologies",
         "https://www.instagram.com/rankraze/"
       ]
     }

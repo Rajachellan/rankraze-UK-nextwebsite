@@ -51,7 +51,7 @@ const TICKER_ITEMS: TickerItem[] = [
   { icon: <Users size={12} strokeWidth={2.5} />, text: "2,000+ Brands Powered" },
   { icon: <Target size={12} strokeWidth={2.5} />, text: "AI Ad Optimisation" },
   { icon: <LineChart size={12} strokeWidth={2.5} />, text: "Organic Traffic +280%" },
-  { icon: <Medal size={12} strokeWidth={2.5} />, text: "#1 Agency Chennai" },
+  { icon: <Medal size={12} strokeWidth={2.5} />, text: "#1 Agency Texas" },
 ];
 
 const BARS: BarData[] = [
@@ -72,9 +72,9 @@ const METRICS: MetricItem[] = [
 ];
 
 const KEYWORDS: KeywordRow[] = [
-  { rank: 1, keyword: "Digital Marketing Agency Chennai", change: 47, rankBg: "bg-amber-100", rankColor: "text-amber-600" },
-  { rank: 2, keyword: "SEO Company Tamil Nadu", change: 33, rankBg: "bg-blue-100", rankColor: "text-blue-500" },
-  { rank: 3, keyword: "Social Media Marketing India", change: 29, rankBg: "bg-green-100", rankColor: "text-green-600" },
+  { rank: 1, keyword: "Digital Marketing Agency Texas", change: 47, rankBg: "bg-amber-100", rankColor: "text-amber-600" },
+  { rank: 2, keyword: "SEO Company Dallas", change: 33, rankBg: "bg-blue-100", rankColor: "text-blue-500" },
+  { rank: 3, keyword: "Social Media Marketing Dallas", change: 29, rankBg: "bg-green-100", rankColor: "text-green-600" },
   { rank: 4, keyword: "Best PPC Advertising Agency", change: 18, rankBg: "bg-teal-100", rankColor: "text-teal-700" },
 ];
 
@@ -329,7 +329,7 @@ function Slide3({ active }: { active: boolean }) {
           style={{ animation: "rkFadeUp .5s .12s ease both" }}>
           <Search size={13} strokeWidth={2} className="text-slate-400 dark:text-[#9CA3AF] flex-shrink-0 transition-colors" />
           <span className="text-[10px] sm:text-[11.5px] font-semibold text-slate-800 dark:text-[#F9FAFB] flex-1 truncate transition-colors">
-            digital marketing agency chennai
+            digital marketing agency texas
           </span>
           <span className="bg-teal-500 dark:bg-gradient-to-r dark:from-[#22D3EE] dark:to-[#5EEAD4] text-white dark:text-[#0A111F] text-[9px] font-bold px-2.5 py-1 rounded-full whitespace-nowrap dark:shadow-[0_0_8px_rgba(94,234,212,0.4)] transition-colors">
             Ranked #1

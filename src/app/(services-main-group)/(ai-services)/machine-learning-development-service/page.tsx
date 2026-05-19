@@ -4,43 +4,43 @@ import Link from "next/link";
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 import { Metadata } from "next";
 export const metadata:Metadata = {
-    title: "Machine Learning Development Services in India – Rankraze",
-    description: "Get custom Machine Learning development services from Rankraze. AI-driven solutions for business automation. Serving clients in Chennai, India, & globally.",
+    title: "Machine Learning Development Services | Rankraze US",
+    description: "Custom ML models, MLOps, and data pipelines from Rankraze—serving US enterprises and high-growth teams.",
     
 keywords: [
     "machine learning development services",
-    "AI development company India",
-    "machine learning developers in Chennai",
+    "AI development company USA",
+    "machine learning developers in Texas",
     "ML consulting services",
-    "artificial intelligence solutions India",
-    "machine learning services Chennai",
+    "artificial intelligence solutions USA",
+    "machine learning services Dallas",
     "predictive analytics development",
-    "deep learning development India",
+    "deep learning development USA",
     "custom ML solutions",
-    "AI app development India",
-    "data science services Chennai",
+    "AI app development USA",
+    "data science services Texas",
     "AI software development",
-    "machine learning company in Chennai",
-    "AI consulting India",
+    "machine learning company in Texas",
+    "AI consulting USA",
     "ML model development services",
-    "ML app development India",
+    "ML app development USA",
     "Rankraze machine learning",
-    "AI solutions in Chennai",
-    "ML integration services India",
-    "AI development services Chennai"
+    "AI solutions in Texas",
+    "ML integration services USA",
+    "AI development services Dallas"
 ],
 
 
 
                 
     alternates: {
-        canonical: "https://rankraze.com/machine-learning-development-service",
+        canonical: "https://rankraze.us/machine-learning-development-service",
     },
 
     openGraph: {
-        title: "Machine Learning Development Services in India – Rankraze",
-        description: "Get custom Machine Learning development services from Rankraze. AI-driven solutions for business automation. Serving clients in Chennai, India, & globally.",
-        url: "https://rankraze.com/machine-learning-development-service",
+        title: "Machine Learning Development Services | Rankraze US",
+        description: "End-to-end machine learning engineering for US businesses—Rankraze builds, deploys, and monitors models you can trust.",
+        url: "https://rankraze.us/machine-learning-development-service",
         siteName: "Rankraze",
         images: [
         {

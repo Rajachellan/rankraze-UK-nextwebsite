@@ -32,13 +32,13 @@ export const metadata={
     ],
  
     alternates: {
-        canonical: "https://rankraze.com/custom-ai-solutions",
+        canonical: "https://rankraze.us/custom-ai-solutions",
     },
 
     openGraph: {
         title: "Custom AI Solutions in India | Rankraze",
         description: "Boost your business efficiency with Rankraze custom AI solutions. We build scalable, AI-driven systems tailored for startups & enterprises across India.",
-        url: "https://rankraze.com/custom-ai-solutions",
+        url: "https://rankraze.us/custom-ai-solutions",
         siteName: "Rankraze",
         images: [
         {

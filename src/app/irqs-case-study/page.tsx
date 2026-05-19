@@ -13,13 +13,13 @@ keywords: [
 
                 
     alternates: {
-        canonical: "https://rankraze.com/irqs-case-study",
+        canonical: "https://rankraze.us/irqs-case-study",
     },
 
     openGraph: {
         title: "IRQS Case Study : SEO & PPC Success That Boosted Leads & Revenue",
         description: "Discover how a full-scale SEO and PPC strategy transformed visibility, generated thousands of leads, and drove significant revenue growth.",
-        url: "https://rankraze.com/irqs-case-study",
+        url: "https://rankraze.us/irqs-case-study",
         siteName: "Rankraze",
         images: [
         {

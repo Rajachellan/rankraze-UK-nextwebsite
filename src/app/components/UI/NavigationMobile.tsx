@@ -26,7 +26,6 @@ export default function MobileNavigationBar () {
         ai: boolean,
         software: boolean,
         brand: boolean,
-        india: boolean
     }
 
     const pathName = usePathname();
@@ -46,7 +45,6 @@ export default function MobileNavigationBar () {
         ai: false,
         software: false,
         brand: false,
-        india:false
     })
 
     const handleSetMenuButton = () => {
@@ -60,7 +58,6 @@ export default function MobileNavigationBar () {
                 extend: false,
                 software: false,
                 ai: false,
-                india: false,
             };
             return newState
         });
@@ -86,7 +83,6 @@ export default function MobileNavigationBar () {
                 software: false,
                 brand: false,
                 ai: false,
-                india: false,
             };
             return newState
         });
@@ -112,7 +108,6 @@ export default function MobileNavigationBar () {
                 video: false,
                 extend: false,
                 ai: false,
-                india: false,
                 brand: false,
                 software: false,
             };
@@ -412,26 +407,6 @@ export default function MobileNavigationBar () {
                                     <i className={`ri-arrow-down-s-line ${subMenus.geograph ? '-rotate-90' : ''}`}></i>
                                 </div>
                                 <ul className={`${subMenus.geograph ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex-col items-center justify-center text-sm text-left pl-3 uppercase`}>
-                                    <li className="w-full flex flex-col items-left justify-start pt-0.5">
-                                        <div className={`w-full flex items-left justify-start py-2 ${servicesGeoMenu.india ? 'bg-[var(--primary-green)] text-white rounded-xs' : ''}`} onClick={() => handleServicesGeoMenuClick("india")}>  
-                                            <Link href="" className="pl-6 pr-2">in</Link>
-                                            <i className={`ri-arrow-down-s-line ${servicesGeoMenu.india ? '-rotate-90' : ''}`}></i>
-                                        </div>
-                                        <ul className={`${servicesGeoMenu.india ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex-col items-center justify-center text-sm text-left pl-3 capitalize`}>
-                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
-                                                <Link href="/digital-marketing-agency-in-bangalore" className="px-6">bangalore</Link>
-                                            </li>
-                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
-                                                <Link href="/digital-marketing-agency-in-delhi-india" className="px-6">delhi</Link>
-                                            </li>
-                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
-                                                <Link href="/digital-marketing-agency-in-mumbai" className="px-6">mumbai</Link>
-                                            </li>
-                                            <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
-                                                <Link href="/contact-us" className="px-6">Pune</Link>
-                                            </li>
-                                        </ul>
-                                    </li>
                                     <li className="w-full flex items-left justify-start py-2">
                                         <Link href="https://rankraze.us" className="px-6">us</Link>
                                     </li>

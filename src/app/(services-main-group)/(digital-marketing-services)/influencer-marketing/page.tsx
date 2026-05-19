@@ -7,31 +7,30 @@ import ImageSlider2 from "@/app/components/UI/InfluncerImageSlider3";
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 
 export const metadata:Metadata = {
-    title: "Influencer Marketing Agency in Chennai, India",
-    description: "Start a successful marketing campaign now with Influencer Marketing Agency in Chennai. Learn about the best influencers to help promote your business. We provide influencers and brands for barter and paid collaborations across all social media platforms.",
+    title: "Influencer Marketing Agency in Texas | Rankraze",
+    description: "Launch influencer and creator campaigns with Rankraze—paid and barter collaborations, creator sourcing, and reporting for US brands.",
     
     keywords: [
-    "influencer marketing agency in Chennai",
+    "influencer marketing agency Texas",
     "YouTube influencer marketing",
-    "best influencer marketing agency in Chennai",
-    "influencer marketing company in Chennai",
-    "influencer marketing in Chennai",
-    "blogger marketing agency in Chennai",
-    "influencer marketing services in Chennai",
+    "best influencer marketing agency Dallas",
+    "influencer marketing company USA",
+    "influencer marketing Texas",
+    "blogger marketing agency",
+    "influencer marketing Services in Dallas",
     "influencer marketing agency",
     "best influencer marketing agency",
-    "influencer marketing agency in Chennai",
     "top influencer marketing agency"
     ],
                 
     alternates: {
-        canonical: "https://rankraze.com/influencer-marketing",
+        canonical: "https://rankraze.us/influencer-marketing",
     },
 
     openGraph: {
-        title: "Influencer Marketing and Campaigns | Digital marketing agency Chennai, Bangalore, India - Rankraze",
+        title: "Influencer Marketing and Campaigns | Rankraze Texas",
         description: "Start a successful marketing campaign now!. Learn about the best influencers to help promote your business. We provide influencers and brands for barter and paid collaborations across all social media platforms.",
-        url: "https://rankraze.com/influencer-marketing",
+        url: "https://rankraze.us/influencer-marketing",
         siteName: "Rankraze",
         images: [
         {
@@ -130,7 +129,7 @@ export default function page () {
   <div className="w-[291px] sm:w-[340px] md:w-[400px]">
     <Image
       src="/upload/services/yeka.webp"
-      alt="video marketing services in chennai"
+      alt="video marketing services in Dallas"
       width={291}
       height={132}
       className="rounded-xl  dark:grayscale-25"
@@ -148,7 +147,7 @@ export default function page () {
  <div className="text-center font-bold text-2xl text-black  dark:text-white">
      <Image
       src="/upload/services/yeka-2.webp"
-      alt="video marketing services in chennai"
+      alt="video marketing services in Dallas"
       width={1024}
       height={1024}
       className="  dark:grayscale-25"
@@ -157,7 +156,7 @@ export default function page () {
  <div className="text-center font-bold text-2xl text-black  dark:text-white">
      <Image
       src="/upload/services/influencer-hanshika-2.webp"
-      alt="video marketing services in chennai"
+      alt="video marketing services in Dallas"
       width={1024}
       height={1024}
       className="  dark:grayscale-25"

@@ -5,16 +5,16 @@ import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 import { Gamepad2, Swords, ShoppingCart, Gpu, Cpu, University, Drone, Presentation } from 'lucide-react';
 
 export const metadata:Metadata = {
-    title: "AR Development | Augmented Reality Development Company in Chennai, India - Rankraze",
-    description: "Rankraze AR development companies in Chennai, India - We offer services in developing augmented reality applications for various industries, including gaming, education, healthcare, marketing, and more",
+    title: "AR Development | Augmented Reality Development in Texas | Rankraze",
+    description: "Rankraze builds augmented reality experiences in Texas — we offer services in developing augmented reality applications for various industries, including gaming, education, healthcare, marketing, and more",
     
     keywords: [
     "augmented reality development company",
     "augmented reality app development company",
     "augmented reality app developer",
     "ar app development company",
-    "ar companies in chennai",
-    "augmented reality companies in chennai",
+    "AR companies in Dallas",
+    "augmented reality companies in Dallas",
     "augmented reality developers india",
     "augmented reality software development company",
     "augmented reality development services",
@@ -22,13 +22,13 @@ export const metadata:Metadata = {
     ],
 
     alternates: {
-        canonical: "https://rankraze.com/augmented-reality-development",
+        canonical: "https://rankraze.us/augmented-reality-development-in-texas",
     },
 
     openGraph: {
-        title: "AR Development | Augmented Reality Development Company in Chennai, India - Rankraze",
-        description: "Rankraze AR development companies in Chennai, India - We offer services in developing augmented reality applications for various industries, including gaming, education, healthcare, marketing, and more",
-        url: "https://rankraze.com/augmented-reality-development",
+        title: "AR Development | Augmented Reality Development in Texas | Rankraze",
+        description: "Rankraze builds augmented reality experiences in Texas — we offer services in developing augmented reality applications for various industries, including gaming, education, healthcare, marketing, and more",
+        url: "https://rankraze.us/augmented-reality-development-in-texas",
         siteName: "Rankraze",
         images: [
         {
@@ -55,7 +55,7 @@ export default function page () {
                             Augmented Reality Development
                         </h1>
                         <p className="text-sm md:text-sm lg:text-base xl:text-base text-gray-300 text-center pr-4 max-w-3xl">
-                            Rankraze AR development company in Chennai, india – We offer services in developing augmented reality applications for various industries, including gaming, education, healthcare, marketing, and more
+                            Rankraze AR development company in Texas — we offer services in developing augmented reality applications for various industries, including gaming, education, healthcare, marketing, and more
                         </p>
                         <Link href={"https://crm.skalelit.com/lead-form/1f920a2abc3394d259281285252cbb52?styled=1&with_logo=1"} target="_blank" className="overflow-hidden capitalize text-sm text-white px-6 py-2.5 relative bg-linear-to-br from-[#3DBC9C] to-[#36aaf1] rounded-lg">request quote</Link>
                     </div>
@@ -93,7 +93,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden px-4 md:px-6 lg:px-10 xl:px-14 pt-5 rounded-md">
                     <Image 
                         src={"/upload/AR-technology.webp"}
-                        alt="video marketing services in chennai"
+                        alt="AR development services in Texas"
                         width={800} height={600} layout="responsive"
                         objectFit="cover"          
                         className="rounded-xl dark:grayscale-25"                                 
@@ -223,7 +223,7 @@ export default function page () {
                     <div className="w-full relative">
                         <Image 
                             src={"/upload/macbookair.svg"}
-                            alt="video marketing services in chennai"
+                            alt="AR development services in Texas"
                             width={800} height={600} layout="responsive"
                             objectFit="cover"          
                             className="rounded-xl dark:grayscale-75"                                 

@@ -9,7 +9,7 @@ type Testimonial = {
 
 const testimonials: Testimonial[] = [
   {
-    text: 'Wonderful team with best creative minds in Chennai, had a nice experience working with Rankraze.. looking forward to do all my promotional activities with them! All the best...',
+    text: 'Wonderful team with great creative energy—had a nice experience working with Rankraze. Looking forward to handling our promotional work with them!',
     author: 'Shafeeq K Mohammed',
   },
   {

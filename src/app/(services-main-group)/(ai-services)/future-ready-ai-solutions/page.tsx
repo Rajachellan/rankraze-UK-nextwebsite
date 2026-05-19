@@ -14,13 +14,13 @@ keywords: [
 
                 
     alternates: {
-        canonical: "https://rankraze.com/future-ready-ai-solutions",
+        canonical: "https://rankraze.us/future-ready-ai-solutions",
     },
 
     openGraph: {
         title: "Future-Ready AI Solutions - Rankraze",
-        description: "AI Development Company in Chennai Future-Ready AI Solutions  Read More Redefining Innovation with AI-Powered Intelligence At Rankraze, we help businesses future-proof their operations with cutting-edge AI development services in Chennai. From Generative AI to AI Agents and RAG-based systems, we bring scalable, intelligent, and real-world solutions that solve your most pressing business challenges. As a […]",
-        url: "https://rankraze.com/future-ready-ai-solutions",
+        description: "Future-ready AI from Rankraze—generative AI, agents, and RAG systems built for real US business workflows, security, and scale.",
+        url: "https://rankraze.us/future-ready-ai-solutions",
         siteName: "Rankraze",
         images: [
         {
@@ -53,7 +53,7 @@ export default function FutureReadyAisolutionsPage(){
         {/* left */}
       <div className="w-full md:w-3/3 flex flex-col items-center md:items-start justify-center gap-4 pl-2.5 ">
         <h1 className="text-4xl lg:text-4xl xl:text-[42px] font-semibold text-center px-3 md:px-30  text-white md:text-left capitalize dark:text-gray-200 pr-4">
-        AI Development Company in Chennai
+        AI Development Company in Texas
         </h1>
         <p className="text-sm md:text-2xl text-gray-700 px-3 md:px-30 text-white dark:text-gray-300 text-center md:text-left pr-4 py-3">
          Future-Ready AI Solutions 
@@ -110,7 +110,7 @@ export default function FutureReadyAisolutionsPage(){
         Redefining Innovation with AI-Powered Intelligence
         </h2>
         <p className="text-sm md:text-sm text-gray-700 dark:text-gray-300 text-center md:text-left pr-4 py-3">
-         At Rankraze, we help businesses future-proof their operations with cutting-edge AI development services in Chennai. From Generative AI to AI Agents and RAG-based systems, we bring scalable, intelligent, and real-world solutions that solve your most pressing business challenges. As a forward-thinking AI development company, we blend strategy, data science, and automation to help you lead the AI revolution. 
+         At Rankraze, we help businesses future-proof their operations with cutting-edge AI development Services in Dallas. From Generative AI to AI Agents and RAG-based systems, we bring scalable, intelligent, and real-world solutions that solve your most pressing business challenges. As a forward-thinking AI development company, we blend strategy, data science, and automation to help you lead the AI revolution. 
         </p>
        
       </div>

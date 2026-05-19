@@ -22,13 +22,13 @@ export const metadata:Metadata = {
     ],
                 
     alternates: {
-        canonical: "https://rankraze.com/ai-consulting",
+        canonical: "https://rankraze.us/ai-consulting",
     },
 
     openGraph: {
         title: "Top AI Consulting Services in India | Rankraze Experts",
         description: "Accelerate your business with Rankraze AI consulting services. Get tailored AI strategies, automation, and insights to boost growth and innovation.",
-        url: "https://rankraze.com/ai-consulting",
+        url: "https://rankraze.us/ai-consulting",
         siteName: "Rankraze",
         images: [
         {
@@ -62,7 +62,7 @@ export default function page () {
                     <div className="w-full md:w-1/2 flex flex-col items-center justify-center pt-2.5">
                         <Image 
                             src={"/upload/ai-consulting-banner.webp"}
-                            alt="Reputation Management Services in chennai"
+                            alt="Reputation Management Services in Dallas"
                             width={800} height={600} layout="responsive"
                             objectFit="cover"          
                             className="rounded-xl invert-[30%]"                                 
@@ -85,7 +85,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/AI.webp"}
-                    alt="Reputation Management Services in chennai"
+                    alt="Reputation Management Services in Dallas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl"                                 

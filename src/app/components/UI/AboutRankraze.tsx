@@ -206,7 +206,7 @@ const AboutSection: FC = () => {
                         About Rankraze &mdash; Digital Marketing{' '}
                         <br className="hidden md:block" />
                         Agency in{' '}
-                        {/* ── "Chennai" — extra stagger, own transition ── */}
+                        {/* ── Location highlight — extra stagger, own transition ── */}
                         <em
                             className="not-italic"
                             style={{
@@ -308,7 +308,7 @@ const AboutSection: FC = () => {
                                     <div className="relative bg-white dark:bg-[#0A1628] rounded-2xl p-[6px] shadow-[0_10px_40px_rgba(60,186,153,0.18)]">
                                         <Image
                                             src={milestoneImg}
-                                            alt="AI powered service in Chennai"
+                                            alt="AI powered digital marketing services"
                                             width={800}
                                             height={800}
                                             className="rounded-xl object-cover w-full scale-[1.2] animate-float transition-transform duration-500"

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
-import Button from "@/app/components/button/seo-company-chennai/Buttons";
+import Button from "@/app/components/button/service-page/Buttons";
 import { Link as LinkSvg, Earth, ChartBar, FileKey, FileText } from 'lucide-react';
 import SeoAndSentimentComponent from "@/app/components/UI/SeoAndSentimentComponent";
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";

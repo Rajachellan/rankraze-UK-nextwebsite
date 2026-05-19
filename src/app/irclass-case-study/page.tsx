@@ -13,13 +13,13 @@ keywords: [
 
                 
     alternates: {
-        canonical: "https://rankraze.com/irclass-case-study",
+        canonical: "https://rankraze.us/irclass-case-study",
     },
 
     openGraph: {
         title: "IRCLASS IRQS Case Study: Digital Marketing That Drives Growth",
         description: "See how a strategic digital approach improved online visibility, increased qualified leads, and delivered measurable business impact.",
-        url: "https://rankraze.com/irqs-case-study",
+        url: "https://rankraze.us/irqs-case-study",
         siteName: "Rankraze",
         images: [
         {

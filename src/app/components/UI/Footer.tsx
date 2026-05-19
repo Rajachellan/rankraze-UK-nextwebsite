@@ -18,7 +18,7 @@ export default function Footer () {
                             style={{ height: 'auto' }}
                         />
                         <span className="text-sm font-medium text-white mt-2 p-1.5 text-left">
-                            We’re a full-service creative digital agency in Dallas, Texas, USA and we can help your business grow. Rankraze specializes in creating engaging digital experiences, including website design, branding, digital marketing and content marketing
+                            We’re a full-service creative digital agency in Texas, USA, and we can help your business grow. Rankraze specializes in creating engaging digital experiences, including website design, branding, digital marketing, and content marketing.
                         </span>
                         <div className="flex gap-2.5 mt-2">
                             <Link href="https://www.facebook.com/Rankraze" target="_blank" className="w-9 h-9 flex items-center justify-center rounded-full bg-white/10 text-white hover:bg-white hover:text-[var(--primary-blue)] transition-all duration-300">
@@ -27,7 +27,7 @@ export default function Footer () {
                             <Link href="https://www.instagram.com/rankraze/" target="_blank" className="w-9 h-9 flex items-center justify-center rounded-full bg-white/10 text-white hover:bg-white hover:text-[var(--primary-blue)] transition-all duration-300">
                                 <i className="ri-instagram-line text-lg"></i>
                             </Link>
-                            <Link href="https://in.linkedin.com/company/rankrazetechnologies" target="_blank" className="w-9 h-9 flex items-center justify-center rounded-full bg-white/10 text-white hover:bg-white hover:text-[var(--primary-blue)] transition-all duration-300">
+                            <Link href="https://www.linkedin.com/company/rankrazetechnologies" target="_blank" className="w-9 h-9 flex items-center justify-center rounded-full bg-white/10 text-white hover:bg-white hover:text-[var(--primary-blue)] transition-all duration-300">
                                 <i className="ri-linkedin-fill text-lg"></i>
                             </Link>
                             <Link href="https://www.youtube.com/@Rankraze" target="_blank" className="w-9 h-9 flex items-center justify-center rounded-full bg-white/10 text-white hover:bg-white hover:text-[var(--primary-blue)] transition-all duration-300">

@@ -32,7 +32,7 @@ const TILES: Tile[] = [
     desc:"Drive traffic, reduce cart abandonment, and scale revenue through SEO, paid ads, and conversion optimisation.",
     icon: S(<><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></>), },
   { color:"purple", name:"Education",           href:"/contact",
-    desc:"Student acquisition strategies for institutions, coaching centres, and online course providers across India.",
+    desc:"Student acquisition strategies for institutions, coaching centers, and online course providers across the US.",
     icon: S(<><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5Z"/><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"/></>), },
   { color:"coral",  name:"Startups",            href:"/contact",
     desc:"Early-stage brand visibility and customer acquisition to accelerate your go-to-market and build initial traction.",
@@ -154,7 +154,7 @@ export default function IndustriesSection() {
             <h2 className="text-[26px] sm:text-[34px] lg:text-[42px] py-5 font-extrabold leading-[1.12] text-center tracking-[-0.034em] text-[#0a2218] dark:text-[#E2EEFF]"
               style={{ fontFamily:"'Sora',sans-serif" }}>
               Digital Marketing for{" "}
-              <em className="not-italic text-[#3cba99]">Every Industry</em> in Chennai
+              <em className="not-italic text-[#3cba99]">Every Industry</em> in Texas
             </h2>
           </div>
 
@@ -166,7 +166,7 @@ export default function IndustriesSection() {
             <p className="text-[15px] text-[#3a5550] dark:text-[#94B4D4] leading-[1.80] text-justify md:text-center">
               Every industry has a different audience, buying journey, and competitive landscape.
               As a leading{" "}
-              <strong className="text-[#0a2218] dark:text-[#E2EEFF] font-medium">digital marketing agency in Chennai </strong>,
+              <strong className="text-[#0a2218] dark:text-[#E2EEFF] font-medium">digital marketing agency in Texas </strong>,
               {" "}we build sector-specific strategies — not generic templates — so your brand reaches the
               right customers and drives consistent, measurable growth.
             </p>

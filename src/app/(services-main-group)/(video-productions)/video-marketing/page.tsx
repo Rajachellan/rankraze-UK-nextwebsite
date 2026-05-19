@@ -4,14 +4,14 @@ import { Metadata } from "next";
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 
 export const metadata:Metadata = {
-    title: "Best video content marketing company in Chennai, Bangalore, India - Rankraze",
-    description: "A top video marketing firm in Chennai. Rankraze offers the highest high-quality video content to increase awareness and brand your company's image. Get in touch with us to know more!",
+    title: "Best video content marketing company in Texas | Rankraze",
+    description: "Rankraze is a video marketing partner in Texas and Dallas—story-driven content, paid distribution, and brand campaigns that scale.",
     
     keywords: [
-    "video content marketing company in Chennai",
-    "Best video content marketing company in Chennai",
-    "video marketing firm in Chennai",
-    "top video marketing firm in Chennai",
+    "video content marketing company in Texas",
+    "Best video content marketing company Texas",
+    "video marketing firm in Dallas",
+    "top video marketing firm in Texas",
     "b2b video production",
     "digital marketing videos",
     "digital video agency",
@@ -26,13 +26,13 @@ export const metadata:Metadata = {
     ],
 
     alternates: {
-        canonical: "https://rankraze.com/video-marketing",
+        canonical: "https://rankraze.us/video-marketing",
     },
 
     openGraph: {
-        title: "Best video content marketing company in Chennai, Bangalore, India - Rankraze",
-        description: "A top video marketing firm in Chennai. Rankraze offers the highest high-quality video content to increase awareness and brand your company's image. Get in touch with us to know more!",
-        url: "https://rankraze.com/video-marketing",
+        title: "Best video content marketing in Texas | Rankraze",
+        description: "Video marketing, production support, and distribution strategy for US brands from Rankraze.",
+        url: "https://rankraze.us/video-marketing",
         siteName: "Rankraze",
         images: [
         {
@@ -56,7 +56,7 @@ export default function page () {
                 <div className="w-full max-w-7xl flex flex-col md:flex-row items-stretch justify-between gap-3.5 md:gap-0">
                     <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-center gap-4 pl-2.5">
                         <h1 className="text-4xl xl:text-[42px] font-semibold text-center md:text-left capitalize dark:text-gray-200 pr-4">
-                            video marketing company chennai, india
+                            video marketing company Texas, USA
                         </h1>
                         <p className="text-sm md:text-sm text-gray-700 dark:text-gray-300 text-center md:text-left pr-4">
                             In a fast-paced world, it is difficult to come up with new unique ideas to make your business stand out.
@@ -75,7 +75,7 @@ export default function page () {
             <div className="w-full max-w-7xl flex flex-col md:flex-row items-center justify-around">
                 <div className="w-full md:w-1/2 flex flex-col items-center justify-center gap-3 md:gap-3.5 p-2.5">
                     <h2 className="text-4xl xl:text-[42px] font-semibold text-center md:text-left capitalize dark:text-gray-200 pr-4">
-                        video marketing services in chennai
+                        video marketing services in Dallas
                     </h2>
                     <p className="text-gray-400 leading-relaxed text-justify text-sm md:text-base">
                         Videos have been in the field of marketing since the start of television commercials in the early 1960s. However, in recent times, video marketing has become a huge asset for digital marketers around the world.
@@ -87,7 +87,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/Video-Marketing-Services.webp"}
-                    alt="video marketing services in chennai"
+                    alt="video marketing services in Dallas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-75"                                 
@@ -264,7 +264,7 @@ export default function page () {
                     Our video marketing services
                 </h2>
                 <p className="dark:text-gray-400 text-sm md:text-sm text-justify md:text-center tracking-tight md:tracking-normal px-5">
-                    Rankraze is one of the leading Video marketing agencies in Chennai. We offer complete assistance in video production, post-production, animated video creation, promoting the video, Customer Relationship Management, etc.Some of our top Video marketing services include:
+                    Rankraze is one of the leading video marketing agencies serving Texas. We offer complete assistance in video production, post-production, animated video creation, promotion, CRM flows, and more. Some of our top video marketing services include:
                 </p>
                 <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-3 lg:gap-4 xl:gap-5 max-w-sm md:max-w-none">
                     <div className="w-full flex flex-col items-start justify-start px-5 py-6 bg-white dark:bg-transparent rounded-xl gap-5 border border-gray-200 dark:border-gray-300 shadow-lg shadow-gray-100 dark:shadow-gray-700 transform transition-transform duration-200 hover:shadow-2xl hover:shadow-gray-200 hover:dark:shadow-gray-500 hover:-translate-y-1.5">
@@ -433,7 +433,7 @@ export default function page () {
                         Why choose Rankraze for Video Marketing
                     </h2>
                     <p className="text-sm md:text-sm text-gray-600 dark:text-gray-300 leading-relaxed">
-                        Rankraze is one of the leading video marketing companies in Chennai, India. Our years of experience in digital marketing has enabled us to help hundreds of clients with successful video marketing content and strategies. Some of the key points on why you should choose us to get the best video marketing services are:
+                        Rankraze is one of the leading video marketing companies in the United States. Our experience across digital channels helps brands ship successful video content and media plans. Some of the key points on why you should choose us to get the best video marketing services are:
                     </p>
                     <ul className="pl-8 list-disc marker:text-[var(--primary-green)] text-gray-700 dark:text-gray-300 leading-relaxed">
                         <li>One-stop solution for complete digital marketing</li>

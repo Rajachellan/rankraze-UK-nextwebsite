@@ -4,20 +4,20 @@ import { Metadata } from "next";
 
 export const metadata:Metadata = {
     title: "iLY Case Study | Leads & App Installs for Healthy Flour - Rankraze",
-    description: "Rankraze boosted iLY's patented dry flour mix sales with targeted campaigns—generating leads, app installs, and traffic for easy-prep fermented flour. Chennai agency excels for food brands. Grow your wellness product now!",
+    description: "Rankraze boosted iLY's patented dry flour mix with targeted campaigns—generating leads, app installs, and traffic for a fast-growing food and wellness brand.",
     
     keywords: [
        
     ],
                 
     alternates: {
-        canonical: "https://rankraze.com/ily",
+        canonical: "https://rankraze.us/ily",
     },
 
     openGraph: {
         title: "ILy - Rankraze",
         description: "ILY FLOUR Digital Marketing for ILY Industry  – FOOD About iLY Ily is a food company selling patenteddry flour mix which makes the life of many women easy in India The Struggle There are many companies in the market selling idle/dosa batter and to make ily dry flour stand out in the crowd was a […]",
-        url: "https://rankraze.com/ily",
+        url: "https://rankraze.us/ily",
         siteName: "Rankraze",
         images: [
         {
@@ -56,7 +56,7 @@ export default function IlyPage(){
         <p className="text-center text-gray-600 text-4xl p-5 font-bold dark:text-white">Industry  - FOOD</p>
   <Image
     src="/upload/SEO-Consultancy-Services-In-Chennai.webp"
-    alt="video marketing services in chennai"
+    alt="SEO and content marketing visuals"
     width={800}
     height={600}
     layout="responsive"

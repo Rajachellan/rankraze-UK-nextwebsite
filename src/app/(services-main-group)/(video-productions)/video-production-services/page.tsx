@@ -5,38 +5,38 @@ import { FilePlay, PackageSearch, LibraryBig, Clapperboard, Volume2 } from 'luci
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 
 export const metadata:Metadata = {
-    title: "Best corporate video production company Chennai, Bangalore, India - Rankraze Technologies",
-    description: "Rankraze is one of the best firms for corporate video creation in Chennai. We are passionate about creating distinctive and unique videos to improve your site visibility. Get in touch with our experts to know more!",
+    title: "Corporate video production in Texas | Rankraze",
+    description: "Rankraze produces corporate video, explainers, and brand films for Dallas and US teams—script to post with measurable distribution support.",
     
     keywords: [
     "animation video",
     "corporate film maker",
-    "corporate video company in Chennai",
+    "corporate video company in Texas",
     "corporate video makers",
-    "corporate video makers Chennai",
+    "corporate video makers Dallas",
     "corporate video production company",
-    "corporate video production company in Chennai",
+    "corporate video production company in Dallas",
     "corporate video production services",
     "infographics video",
     "motion graphics video",
     "post production",
     "product explainer video",
     "production house",
-    "video production Chennai",
+    "video production Texas",
     "video production company",
-    "video production company Chennai",
-    "video production company in Chennai",
-    "video production services in Chennai"
+    "video production company Dallas",
+    "video production company in Texas",
+    "video production Services in Dallas"
     ],
 
     alternates: {
-        canonical: "https://rankraze.com/video-production-services",
+        canonical: "https://rankraze.us/video-production-services",
     },
 
     openGraph: {
         title: "Video Production Services",
-        description: "Rankraze is one of the best firms for corporate video creation in Chennai. We are passionate about creating distinctive and unique videos to improve your site visibility. Get in touch with our experts to know more!",
-        url: "https://rankraze.com/video-production-services",
+        description: "Corporate and commercial video production for US brands—storyboards, shoots, motion graphics, and finishing with Rankraze.",
+        url: "https://rankraze.us/video-production-services",
         siteName: "Rankraze",
         images: [
         {
@@ -82,14 +82,14 @@ export default function page () {
                         Marketing videos over Everything!
                     </h2>
                     <p className="text-gray-400 leading-relaxed text-justify text-sm md:text-base">
-                        In this 21st century, things are growing digitally in a vigorous manner.Traditional marketing is dying and businesses are using Digital Marketing to scale their business to great heights. Rankraze, One of the leading Digital Marketing Agency in chennai, has a team of marketing experts who analyse your business, competitors,right audience,products, and digital things to give the perfect analytics of your business.
+                        In this 21st century, things are growing digitally in a vigorous manner.Traditional marketing is dying and businesses are using Digital Marketing to scale their business to great heights. Rankraze, a leading digital marketing agency in Texas, has a team of marketing experts who analyse your business, competitors,right audience,products, and digital things to give the perfect analytics of your business.
                     </p>
                 </div>
                 <div className="w-full md:w-1/2 overflow-hidden px-4 py-2.5 rounded-md">
                     <div className="w-full relative">
                         <Image 
                             src={"/upload/macbookair.svg"}
-                            alt="video marketing services in chennai"
+                            alt="video marketing services in Dallas"
                             width={800} height={600} layout="responsive"
                             objectFit="cover"          
                             className="rounded-xl dark:grayscale-75"                                 
@@ -128,7 +128,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden px-4 py-2.5 rounded-md">
                     <Image 
                         src={"/upload/jornada-marketing-video.webp"}
-                        alt="video marketing services in chennai"
+                        alt="video marketing services in Dallas"
                         width={1200} height={1000} layout="responsive"
                         objectFit="cover"          
                         className="w-full rounded-xl dark:grayscale-25"                                 
@@ -149,7 +149,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden px-4 md:px-10 xl:px-14 py-2.5 rounded-md">
                     <Image 
                         src={"/upload/Production-animation.webp"}
-                        alt="video marketing services in chennai"
+                        alt="video marketing services in Dallas"
                         width={1200} height={1000} layout="responsive"
                         objectFit="cover"          
                         className="w-full rounded-xl dark:grayscale-25"                                 

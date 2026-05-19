@@ -171,7 +171,7 @@ export default function AIPoweredMarketing() {
 }} className="font-['Sora']  text-3xl lg:text-[32px] text-center font-bold text-[#0a2218] dark:text-[#E2EEFF] leading-[1.25] tracking-[-0.028em]">
               AI-Powered Digital Marketing Agency in
               <br className="hidden sm:block" />
-              <em className="not-italic text-[#3cba99]"> Chennai</em>
+              <em className="not-italic text-[#3cba99]"> Texas</em>
             </h2>
           </div>
 
@@ -188,7 +188,7 @@ export default function AIPoweredMarketing() {
               <div className="w-full max-w-[800px] mx-auto">
   <Image
     src="/upload/ai_powered_service.webp"
-    alt="AI powered service in Chennai"
+    alt="AI powered digital marketing services"
     width={800}
     height={600}
     className="w-full h-auto rounded-xl object-cover animate-float"

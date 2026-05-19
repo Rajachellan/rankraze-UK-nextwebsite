@@ -9,12 +9,12 @@ export const metadata:Metadata = {
     ],
                 
     alternates: {
-        canonical: "https://rankraze.com/csr-activities",
+        canonical: "https://rankraze.us/csr-activities",
     },
 
     openGraph: {
         title: "CSR Activities - Rankraze",
-        description: "CSR Activities https://www.rankraze.com/wp-content/uploads/2025/06/Rank-raze-Day-7-out-1.mp4 Rankraze CSR Health Checkup Event with Dr. Mehta’s Hospital, Clove Dental & Ameen Vision Care | February 12, 2025 On February 12th, 2025, Rankraze successfully hosted a CSR (Corporate Social Responsibility) health checkup event in partnership with Dr. Mehta’s Hospital, Clove Dental, and Ameen Vision Care. The initiative aimed to provide free […]",
+        description: "CSR Activities https://rankraze.us/wp-content/uploads/2025/06/Rank-raze-Day-7-out-1.mp4 Rankraze CSR Health Checkup Event with Dr. Mehta’s Hospital, Clove Dental & Ameen Vision Care | February 12, 2025 On February 12th, 2025, Rankraze successfully hosted a CSR (Corporate Social Responsibility) health checkup event in partnership with Dr. Mehta’s Hospital, Clove Dental, and Ameen Vision Care. The initiative aimed to provide free […]",
         siteName: "Rankraze",
         images: [
         {

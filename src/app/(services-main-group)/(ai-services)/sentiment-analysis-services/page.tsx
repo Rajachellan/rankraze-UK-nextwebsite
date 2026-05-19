@@ -4,8 +4,8 @@ import { MessageCircle,TicketCheck,AlarmClockPlus,Settings,Database,Building2,Sh
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 import { Metadata } from "next";
 export const metadata:Metadata = {
-    title: "AI-Powered Sentiment Analysis Services in India | Rankraze",
-    description: "Boost your brand with Rankraze AI-driven sentiment analysis. Understand customer emotions, improve engagement & make data-backed decisions.",
+    title: "AI-Powered Sentiment Analysis Services | Rankraze US",
+    description: "Understand customers with Rankraze sentiment and text analytics—brand monitoring, support insights, and reporting for US teams.",
     
 keywords: [
     "ai sentiment analysis",
@@ -14,28 +14,28 @@ keywords: [
     "sentiment analysis services",
     "social media sentiment tracking",
     "text sentiment analysis tools",
-    "ai sentiment analysis company in india",
-    "best sentiment analysis agency in chennai",
-    "customer sentiment analysis in india",
-    "emotional analytics services in chennai",
-    "real time sentiment analysis services in india",
-    "sentiment analysis company india",
-    "sentiment analysis services in chennai",
-    "social media sentiment tracking chennai",
-    "text analytics company in chennai"
+    "ai sentiment analysis company USA",
+    "best sentiment analysis agency in Texas",
+    "customer sentiment analysis USA",
+    "emotional analytics Services in Dallas",
+    "real time sentiment analysis services",
+    "sentiment analysis company USA",
+    "sentiment analysis Services in Dallas",
+    "social media sentiment tracking Texas",
+    "text analytics company in Dallas"
 ],
 
 
 
                 
     alternates: {
-        canonical: "https://rankraze.com/sentiment-analysis",
+        canonical: "https://rankraze.us/sentiment-analysis-services",
     },
 
     openGraph: {
-        title: "AI-Powered Sentiment Analysis Services in India | Rankraze",
-        description: "Boost your brand with Rankraze AI-driven sentiment analysis. Understand customer emotions, improve engagement & make data-backed decisions.",
-        url: "https://rankraze.com/sentiment-analysis",
+        title: "AI-Powered Sentiment Analysis Services | Rankraze US",
+        description: "Brand, social, and support sentiment analysis—actionable scoring and dashboards from Rankraze.",
+        url: "https://rankraze.us/sentiment-analysis-services",
         siteName: "Rankraze",
         images: [
         {
@@ -85,7 +85,7 @@ export default function SentimentanalysisPage(){
         {/* left */}
       <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-center gap-4 pl-2.5 ">
         <h2 className="text-4xl xl:text-[42px] font-semibold text-center md:text-left capitalize dark:text-gray-200 pr-4">
-         Sentiment Analysis Services​ in Chennai
+         Sentiment Analysis Services​ in Texas
         </h2>
         <p className="text-sm md:text-lg text-gray-500 dark:text-gray-300 text-center md:text-left pr-4 py-3">
          89% of companies across different sectors compete primarily based on customer experience. Customer experience is as important as the final product or service delivered.

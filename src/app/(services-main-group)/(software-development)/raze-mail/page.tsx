@@ -40,13 +40,13 @@ export const metadata: Metadata = {
     "email workflow automation",
   ],
   alternates: {
-    canonical: "https://rankraze.com/raze-mail",
+    canonical: "https://rankraze.us/raze-mail",
   },
   openGraph: {
     title: "Raze Mail | Email Automation & Bulk Campaign Software | Rankraze",
     description:
       "Automate bulk email campaigns, smart workflows, and faster outreach from one centralized platform.",
-    url: "https://rankraze.com/raze-mail",
+    url: "https://rankraze.us/raze-mail",
     siteName: "Rankraze",
     images: [
       {
@@ -278,7 +278,7 @@ const FAQ = [
 ];
 
 const RELATED_LINKS: { href: string; label: string }[] = [
-  { href: "/email-marketing", label: "Email marketing services (Chennai)" },
+  { href: "/email-marketing", label: "Email marketing services (Texas)" },
   { href: "/blogs", label: "Email marketing & automation insights" },
   { href: "/contact-us", label: "Talk to our team" },
 ];

@@ -8,7 +8,7 @@ import { ArrowRight, ChevronDown } from "lucide-react";
 const faqs = [
   {
     num: "01", cat: ["services"],
-    q: "What does a digital marketing agency in Chennai do?",
+    q: "What does a digital marketing agency do?",
     catLabel: "Services",
     a: "A digital marketing agency improves your visibility on search engines, social media, and advertising channels — providing SEO, PPC, content marketing, social media, and website development to attract the right customers and generate qualified leads.",
   },
@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     num: "03", cat: ["seo"],
-    q: "Why is SEO important for businesses in Chennai?",
+    q: "Why is SEO important for local and national businesses?",
     catLabel: "SEO",
     a: "SEO puts your business in front of customers the moment they search for your product or service. Strong rankings generate consistent organic traffic and leads — without the recurring cost of paid ads.",
   },
@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     num: "05", cat: ["pricing"],
-    q: "How much does digital marketing cost in Chennai?",
+    q: "How much does digital marketing typically cost?",
     catLabel: "Pricing",
     a: "Costs are shaped by your services, industry competition, and goals. We build strategies around your budget — not the other way around. No bloated packages or services you don't need.",
   },

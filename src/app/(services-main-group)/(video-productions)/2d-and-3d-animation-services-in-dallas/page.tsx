@@ -5,53 +5,38 @@ import { UsersRound, Rotate3d, Slack, FileBox, Webhook, HandHeart } from 'lucide
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 
 export const metadata:Metadata = {
-    title: "2D and 3D Animation Company in Chennai - Rankraze",
-    description: "Rankraze is one of the most creative 2D and 3D video animation service company in Chennai, Pune, Mumbai, Delhi, and Bangalore, India. We offer more innovative and alluring 2D and 3D video animation designs to increase brand awareness. Contact us and get a free quote!",
+    title: "2D and 3D Animation Services in Dallas, Texas | Rankraze",
+    description: "Creative 2D and 3D animation and motion design for Dallas and Texas businesses—explainer videos, product demos, and brand storytelling. Call +1 (919) 455-1241 for a free quote.",
     
     keywords: [
-    "2d animation",
-    "2d animation company in Chennai",
-    "3d animation company in Chennai",
-    "3d animation services",
-    "advertising companies of India",
-    "advertising in India",
+    "2d animation dallas",
+    "3d animation dallas",
+    "3d animation services texas",
     "animated explainer video",
-    "animation studio Chennai",
-    "best advertising company",
-    "cable tv advertisement",
-    "infographic video",
-    "kinetic typography video",
-    "logo animation",
+    "animation studio dallas",
     "motion graphics",
-    "smart tv advertising",
-    "targeted tv advertising",
-    "television advertising agency",
-    "television advertising costs",
-    "television advertising rates",
-    "tv ad spots",
-    "tv advertisement price",
-    "tv commercial advertising",
-    "tv commercial agencies",
-    "tv commercial prices",
-    "video production Chennai",
-    "whiteboard animation"
+    "logo animation",
+    "whiteboard animation",
+    "video production dallas",
+    "product visualization",
+    "training animation",
     ],
 
     alternates: {
-        canonical: "https://rankraze.com/2d-and-3d-animation-company-in-chennai-india",
+        canonical: "https://rankraze.us/2d-and-3d-animation-services-in-dallas",
     },
 
     openGraph: {
-        title: "2D and 3D Animation Company in Chennai - Rankraze",
-        description: "Rankraze is one of the most creative 2D and 3D video animation service company in Chennai, Pune, Mumbai, Delhi, and Bangalore, India. We offer more innovative and alluring 2D and 3D video animation designs to increase brand awareness. Contact us and get a free quote!",
-        url: "https://rankraze.com/2d-and-3d-animation-company-in-chennai-india",
+        title: "2D and 3D Animation Services in Dallas | Rankraze",
+        description: "Professional 2D and 3D animation for Texas brands—increase engagement with explainers, ads, and product stories.",
+        url: "https://rankraze.us/2d-and-3d-animation-services-in-dallas",
         siteName: "Rankraze",
         images: [
         {
             url: "/upload/video-production.webp",
             width: 600,
             height: 600,
-            alt: "video-production.webp",
+            alt: "2D and 3D video production",
             type: "image/webp"
         },
         ],
@@ -71,7 +56,7 @@ export default function page () {
                             2D and 3D Animation
                         </h1>
                         <p className="text-sm md:text-sm text-gray-700 dark:text-gray-300 text-center md:text-left pr-4">
-                            RankRaze Animation describes anything the human mind can think of, providing quality that reflects the perfect reality of 3d animation companies in UK, and places like India, Pune, Mumbai, Delhi, Bangalore etc. We can help you with utmost care in making your videos in a way that can really explain your product in a finer and appealing way using 3D animation.
+                            RankRaze Animation describes anything the human mind can think of, providing quality that reflects the perfect reality of 3d animation companies in Dallas–Fort Worth and across Texas. We can help you with utmost care in making your videos in a way that can really explain your product in a finer and appealing way using 3D animation.
                         </p>
                         <Link href={"https://crm.skalelit.com/lead-form/1f920a2abc3394d259281285252cbb52?styled=1&with_logo=1"} target="_blank" className="overflow-hidden capitalize text-sm text-white px-6 py-2.5 relative bg-linear-to-br from-[#3DBC9C] to-[#36aaf1] rounded-lg">request quote</Link>
                     </div>
@@ -91,7 +76,7 @@ export default function page () {
                     </h2>
                     <ul className="text-sm md:text-sm pl-8 list-disc marker:text-[var(--primary-green)] text-gray-700 dark:text-gray-300 leading-relaxed">
                         <li>A 3D animation Editing can show your product from various angles, allowing your customers to see every detail of your company product.</li>
-                        <li>With our well-versed Editing service, your company products are showcased in a creative way, with a greater impact on your audience all across Chennai</li>
+                        <li>With our well-versed Editing service, your company products are showcased in a creative way, with a greater impact on your audience across Texas and the US</li>
                     </ul>
                     <p className="text-sm md:text-base text-[var(--primary-green)] font-semibold leading-relaxed">
                         Our Custom 3D Animation Visualization Embodies Remarkable Product Modeling And Logo Design.
@@ -104,7 +89,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden px-4 md:px-10 xl:px-14 py-2.5 rounded-md">
                     <Image 
                         src={"/upload/2dand3danimation_image2.webp"}
-                        alt="video marketing services in chennai"
+                        alt="video marketing services in Dallas"
                         width={1200} height={1000} layout="responsive"
                         objectFit="cover"          
                         className="w-full rounded-xl dark:grayscale-25"                                 
@@ -179,7 +164,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden px-4 md:px-10 xl:px-14 py-2.5 rounded-md">
                     <Image 
                         src={"/upload/interactive-3d-animation.webp"}
-                        alt="video marketing services in chennai"
+                        alt="video marketing services in Dallas"
                         width={1200} height={1000} layout="responsive"
                         objectFit="cover"          
                         className="w-full rounded-xl dark:grayscale-25"                                 
@@ -202,7 +187,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden px-4 md:px-10 xl:px-14 py-2.5 rounded-md">
                     <Image 
                         src={"/upload/Production-animation.webp"}
-                        alt="video marketing services in chennai"
+                        alt="video marketing services in Dallas"
                         width={1200} height={1000} layout="responsive"
                         objectFit="cover"          
                         className="w-full rounded-xl dark:grayscale-25"                                 
@@ -226,7 +211,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden px-4 md:px-10 xl:px-14 py-2.5 rounded-md">
                     <Image 
                         src={"/upload/2dand3danimation_image4.webp"}
-                        alt="video marketing services in chennai"
+                        alt="video marketing services in Dallas"
                         width={1200} height={1000} layout="responsive"
                         objectFit="cover"          
                         className="w-full rounded-xl dark:grayscale-25"                                 
@@ -236,13 +221,13 @@ export default function page () {
         </section>
         <section className="flex items-center justify-center flex-col rounded-xl mt-20 py-20 relative before:content-[''] before:absolute before:w-full before:h-full before:bg-[linear-gradient(135deg,_#3DBC9B_0%,_#37A7FF_100%)] before:-z-10 before:rounded-lg md:before:rounded-2xl lg:before:rounded-4xl">
             <h2 className="text-2xl md:text-[40px] font-bold capitalize text-white text-center px-2.5">
-                2D Animation Service In Chennai
+                2D Animation Service In Dallas
             </h2>
             <p className="text-sm md:text-sm text-white text-justify md:text-center max-w-7xl py-2.5 px-3.5">
-                We are among the top most promising 2D Animation Companies in Chennai, Pune, Mumbai, Delhi, Bangalore, and throughout India. There are various 2D Animation Companies, but we continue to lead in creativity and intended audience focused content. Across the industry, we create custom animated videos.You’ve come to the right place if you’re searching for Specialized 2D Animation Videos.
+                We are among the top creative 2D animation studios serving Dallas, Houston, Austin, and businesses across Texas. We focus on audience-driven storytelling and custom animated videos. If you are looking for specialized 2D animation, you are in the right place.
             </p>
             <p className="text-sm md:text-sm text-white text-justify md:text-center max-w-7xl pb-2.5 px-3.5">
-                We produce 2D Animation Services at an affordable cost in our Animation Studio in Chennai, Pune, Mumbai, Delhi, Bangalore, and throughout India. You can create the best 2d animation service in India including videos, Architecture and design Animation, Safety 2D Animation, Medical 2D Animation Video, and Animated Promo Videos for your product and Editing. We have finally introduced exclusive 2D Modeling Service, 2D Character Models, CGI Visual effects, and VFX Studio works to our portfolio. For Innovative Editing Ideas, please contact our 2D Animation Production House and 2D Animation department.
+                We produce 2D animation services at competitive rates for Texas brands—including explainers, architecture and design animation, safety and medical animation, promos, and post-production. We also deliver 2D modeling, character work, CGI, and VFX. Contact our team for innovative editing and production support.
             </p>
             <div className="w-full grid max-w-7xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-2.5 gap-5 mt-3.5 2xl:mt-8">
                 <div className="bg-white flex flex-col items-center justify-center gap-5 px-12 py-8 group overflow-hidden rounded-2xl -z-10">
@@ -369,7 +354,7 @@ export default function page () {
                         title="Antarrtica"
                         width="640"
                         height="360"
-                        src="https://www.youtube.com/embed/Bkoi95HLzCw?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.rankraze.com&widgetid=1&forigin=https%3A%2F%2Fwww.rankraze.com%2F2d-and-3d-animation-company-in-chennai-india%2F&aoriginsup=1&gporigin=https%3A%2F%2Fwww.rankraze.com%2Fvideo-production-services%2F&vf=1"
+                        src="https://www.youtube.com/embed/Bkoi95HLzCw?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Frankraze.us&widgetid=1&forigin=https%3A%2F%2Frankraze.us%2F2d-and-3d-animation-services-in-dallas%2F&aoriginsup=1&gporigin=https%3A%2F%2Frankraze.us%2Fvideo-production-services%2F&vf=1"
                         id="widget2"
                         allowFullScreen
                         loading="lazy"
@@ -382,7 +367,7 @@ export default function page () {
                         title="Yagen Robotics"
                         width="640"
                         height="360"
-                        src="https://www.youtube.com/embed/hk-onloFqjQ?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.rankraze.com&widgetid=3&forigin=https%3A%2F%2Fwww.rankraze.com%2F2d-and-3d-animation-company-in-chennai-india%2F&aoriginsup=1&gporigin=https%3A%2F%2Fwww.rankraze.com%2Fvideo-production-services%2F&vf=1"
+                        src="https://www.youtube.com/embed/hk-onloFqjQ?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Frankraze.us&widgetid=3&forigin=https%3A%2F%2Frankraze.us%2F2d-and-3d-animation-services-in-dallas%2F&aoriginsup=1&gporigin=https%3A%2F%2Frankraze.us%2Fvideo-production-services%2F&vf=1"
                         id="widget2"
                         allowFullScreen
                         loading="lazy"
@@ -395,7 +380,7 @@ export default function page () {
                         title="Car Showroom - 3D Animation (Client Work)"
                         width="640"
                         height="360"
-                        src="https://www.youtube.com/embed/dbct37loN9s?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.rankraze.com&widgetid=5&forigin=https%3A%2F%2Fwww.rankraze.com%2F2d-and-3d-animation-company-in-chennai-india%2F&aoriginsup=1&gporigin=https%3A%2F%2Fwww.rankraze.com%2Fvideo-production-services%2F&vf=1"
+                        src="https://www.youtube.com/embed/dbct37loN9s?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Frankraze.us&widgetid=5&forigin=https%3A%2F%2Frankraze.us%2F2d-and-3d-animation-services-in-dallas%2F&aoriginsup=1&gporigin=https%3A%2F%2Frankraze.us%2Fvideo-production-services%2F&vf=1"
                         id="widget6"
                         allowFullScreen
                         loading="lazy"
@@ -408,7 +393,7 @@ export default function page () {
                         title="3D Animation Video - Designed By Rankraze Digital Marketing"
                         width="640"
                         height="360"
-                        src="https://www.youtube.com/embed/7WlkT1jjOi8?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.rankraze.com&widgetid=7&forigin=https%3A%2F%2Fwww.rankraze.com%2F2d-and-3d-animation-company-in-chennai-india%2F&aoriginsup=1&gporigin=https%3A%2F%2Fwww.rankraze.com%2Fvideo-production-services%2F&vf=1"
+                        src="https://www.youtube.com/embed/7WlkT1jjOi8?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Frankraze.us&widgetid=7&forigin=https%3A%2F%2Frankraze.us%2F2d-and-3d-animation-services-in-dallas%2F&aoriginsup=1&gporigin=https%3A%2F%2Frankraze.us%2Fvideo-production-services%2F&vf=1"
                         id="widget8"
                         allowFullScreen
                         loading="lazy"
@@ -421,7 +406,7 @@ export default function page () {
                         title="3D Animation for Swachhbox by Rankraze"
                         width="640"
                         height="360"
-                        src="https://www.youtube.com/embed/V3D3jHqG3LU?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.rankraze.com&widgetid=9&forigin=https%3A%2F%2Fwww.rankraze.com%2F2d-and-3d-animation-company-in-chennai-india%2F&aoriginsup=1&gporigin=https%3A%2F%2Fwww.rankraze.com%2Fvideo-production-services%2F&vf=1"
+                        src="https://www.youtube.com/embed/V3D3jHqG3LU?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Frankraze.us&widgetid=9&forigin=https%3A%2F%2Frankraze.us%2F2d-and-3d-animation-services-in-dallas%2F&aoriginsup=1&gporigin=https%3A%2F%2Frankraze.us%2Fvideo-production-services%2F&vf=1"
                         id="widget10"
                         allowFullScreen
                         loading="lazy"
@@ -434,7 +419,7 @@ export default function page () {
                         title="3D Animation by Rankraze"
                         width="640"
                         height="360"
-                        src="https://www.youtube.com/embed/D6D6V_YN3Mo?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.rankraze.com&widgetid=11&forigin=https%3A%2F%2Fwww.rankraze.com%2F2d-and-3d-animation-company-in-chennai-india%2F&aoriginsup=1&gporigin=https%3A%2F%2Fwww.rankraze.com%2Fvideo-production-services%2F&vf=1"
+                        src="https://www.youtube.com/embed/D6D6V_YN3Mo?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Frankraze.us&widgetid=11&forigin=https%3A%2F%2Frankraze.us%2F2d-and-3d-animation-services-in-dallas%2F&aoriginsup=1&gporigin=https%3A%2F%2Frankraze.us%2Fvideo-production-services%2F&vf=1"
                         id="widget12"
                         allowFullScreen
                         loading="lazy"
@@ -454,7 +439,7 @@ export default function page () {
                         title="Cowrkz - Business Centre"
                         width="640"
                         height="360"
-                        src="https://www.youtube.com/embed/Jk0RvZ6dtmE?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.rankraze.com&widgetid=13&forigin=https%3A%2F%2Fwww.rankraze.com%2F2d-and-3d-animation-company-in-chennai-india%2F&aoriginsup=1&gporigin=https%3A%2F%2Fwww.rankraze.com%2Fvideo-production-services%2F&vf=1"
+                        src="https://www.youtube.com/embed/Jk0RvZ6dtmE?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Frankraze.us&widgetid=13&forigin=https%3A%2F%2Frankraze.us%2F2d-and-3d-animation-services-in-dallas%2F&aoriginsup=1&gporigin=https%3A%2F%2Frankraze.us%2Fvideo-production-services%2F&vf=1"
                         id="widget14"
                         allowFullScreen
                         loading="lazy"
@@ -467,7 +452,7 @@ export default function page () {
                         title="Yagen Robotics"
                         width="640"
                         height="360"
-                        src="https://www.youtube.com/embed/hk-onloFqjQ?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.rankraze.com&widgetid=15&forigin=https%3A%2F%2Fwww.rankraze.com%2F2d-and-3d-animation-company-in-chennai-india%2F&aoriginsup=1&gporigin=https%3A%2F%2Fwww.rankraze.com%2Fvideo-production-services%2F&vf=1"
+                        src="https://www.youtube.com/embed/hk-onloFqjQ?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Frankraze.us&widgetid=15&forigin=https%3A%2F%2Frankraze.us%2F2d-and-3d-animation-services-in-dallas%2F&aoriginsup=1&gporigin=https%3A%2F%2Frankraze.us%2Fvideo-production-services%2F&vf=1"
                         id="widget16"
                         allowFullScreen
                         loading="lazy"
@@ -493,7 +478,7 @@ export default function page () {
                                 </span>
                             </label>
                             <div className="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96 p-0 peer-checked:p-5 text-gray-600 text-sm">
-                                We get 2D animations and 3D animations for you, including TV, business projects, student projects, films, etc, which is remarkable for many professionals along with curious project handlings, and we are the only path for achievement in 2D & 3D animation professions in chennai and India. 
+                                We get 2D animations and 3D animations for you, including TV, business projects, student projects, films, etc, which is remarkable for many professionals along with curious project handlings, and we are the only path for achievement in 2D & 3D animation professions in Dallas and Texas. 
                             </div>
                         </div>
 
@@ -508,7 +493,7 @@ export default function page () {
                                 </span>
                             </label>
                             <div className="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96 p-0 peer-checked:p-5 text-gray-600 text-sm">
-                                Video game design and development is a large and expanding industry which we are well expertise in, and corporate animation will always be relevant and profitable. Our Animators offer 2D animation & 3D animation in chennai & india and are good in architecture, medicine, advertising, and education. 
+                                Video game design and development is a large and expanding industry which we are well expertise in, and corporate animation will always be relevant and profitable. Our Animators offer 2D animation & 3D animation in Dallas and Texas and are good in architecture, medicine, advertising, and education. 
                             </div>
                         </div>
 
@@ -524,7 +509,7 @@ export default function page () {
                                 </span>
                             </label>
                             <div className="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96 p-0 peer-checked:p-5 text-gray-600 text-sm">
-                                We use modernized 3D animation & 2D animation tools to create good animation methods for you, which are easier to use, more powerful, and more widespread, and the number of areas in which we are working is expanding, so we submit your projects on time and with 100 % perfected services in chennai & India! 
+                                We use modernized 3D animation & 2D animation tools to create good animation methods for you, which are easier to use, more powerful, and more widespread, and the number of areas in which we are working is expanding, so we submit your projects on time and with 100 % perfected services in Dallas and Texas! 
                             </div>
                         </div>
 
@@ -539,7 +524,7 @@ export default function page () {
                                 </span>
                             </label>
                             <div className="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96 p-0 peer-checked:p-5 text-gray-600 text-sm">
-                                We start with a proper customer requirement inquiry. It will be simple, hassle-free, more competitive, and non-repetitive for 3D animation & 2D animations in chennai & India, but that’s exactly what we do to have a passion and a love for what you do.
+                                We start with a proper customer requirement inquiry. It will be simple, hassle-free, more competitive, and non-repetitive for 3D animation & 2D animations in Dallas and Texas, but that’s exactly what we do to have a passion and a love for what you do.
                             </div>
                         </div>
 
@@ -585,7 +570,7 @@ export default function page () {
                                 </span>
                             </label>
                             <div className="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96 p-0 peer-checked:p-5 text-gray-600 text-sm">
-                                Our 2D animation and 3D animation pipelines are well covered in our large studios, with multiple roles to perform well in chennai & India. Among these positions are: 
+                                Our 2D animation and 3D animation pipelines are well covered in our large studios, with multiple roles to perform well in Dallas and Texas. Among these positions are: 
 
                                 <ol className="list-disc list-inside mb-2">
                                     <li>Producer – The studio’s owner, Animation Director Essentially, the coordinator of all creatives.</li>
@@ -641,7 +626,7 @@ export default function page () {
                                 </span>
                             </label>
                             <div className="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96 p-0 peer-checked:p-5 text-gray-600 text-sm">
-                                When you’re stuck for ideas, go for a walk or muse in front of a mood board. For huge 2D animations & 3D animations inspirations, we search the internet, which is a fantastic resource in chennai & India. 
+                                When you’re stuck for ideas, go for a walk or muse in front of a mood board. For huge 2D animations & 3D animations inspirations, we search the internet, which is a fantastic resource in Dallas and Texas. 
                             </div>
                         </div>
 
@@ -687,7 +672,7 @@ export default function page () {
                                 </span>
                             </label>
                             <div className="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96 p-0 peer-checked:p-5 text-gray-600 text-sm">
-                                When it comes to services, we are top-notch and flawless, but when it comes to service costs, we are low and affordable, and we understand your concern, so we provide 2D animation & 3D animation services in chennai & India within your budget. 
+                                When it comes to services, we are top-notch and flawless, but when it comes to service costs, we are low and affordable, and we understand your concern, so we provide 2D animation & 3D animation services in Dallas and Texas within your budget. 
                             </div>
                         </div>
                     </div>

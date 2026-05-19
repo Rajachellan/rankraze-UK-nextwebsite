@@ -4,33 +4,33 @@ import { Metadata } from "next";
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 
 export const metadata:Metadata = {
-    title: "Best Web Hosting in Chennai - Fast & Secure Service",
-    description: "Are you looking for the Best web hosting service in Chennai? Our reliable services ensure a fast, secure, and user-friendly experience. Get started today! Call us!",
+    title: "Best Web Hosting in Texas - Fast & Secure Service",
+    description: "Are you looking for the Best web hosting service in Texas? Our reliable services ensure a fast, secure, and user-friendly experience. Get started today! Call us!",
     
     keywords: [
-        "best web hosting in Chennai",
+        "best web hosting in Texas",
         "cPanel hosting India",
         "Linux hosting",
         "Linux hosting company",
         "Linux hosting India",
         "Linux web hosting",
-        "web hosting Chennai",
+        "web hosting Texas",
         "web hosting company",
-        "web hosting company in Chennai",
+        "web hosting company in Texas",
         "web hosting service providers in India",
         "web hosting services",
-        "web hosting services in Chennai",
-        "website hosting Chennai"
+        "web hosting services in Texas",
+        "website hosting Texas"
     ],
                 
     alternates: {
-        canonical: "https://rankraze.com/web-hosting-company-service-in-chennai",
+        canonical: "https://rankraze.us/web-hosting",
     },
 
     openGraph: {
-        title: "Web Hosting Company Service in Chennai",
-        description: "Are you looking for the Best web hosting service in Chennai? Our reliable services ensure a fast, secure, and user-friendly experience. Get started today! Call us!",
-        url: "https://rankraze.com/web-hosting-company-service-in-chennai",
+        title: "Web Hosting in Texas",
+        description: "Are you looking for the Best web hosting service in Texas? Our reliable services ensure a fast, secure, and user-friendly experience. Get started today! Call us!",
+        url: "https://rankraze.us/web-hosting",
         siteName: "Rankraze",
         images: [
         {
@@ -73,7 +73,7 @@ export default function page () {
             <div className="w-full max-w-7xl flex flex-col md:flex-row items-stretch justify-center">
                 <div className="w-full md:w-1/2 flex flex-col items-start justify-center gap-3 md:gap-3.5 p-2.5 lg:p-4">
                     <h2 className="text-4xl xl:text-[42px] font-semibold text-center md:text-left capitalize dark:text-gray-200 pr-4">
-                        Web Hosting Service Company in Chennai
+                        Web Hosting Service Company in Texas
                     </h2>
                     <ul className="pl-8 flex flex-col gap-1.5 md:gap-2 list-disc marker:text-[var(--primary-green)] text-gray-700 dark:text-gray-300 leading-relaxed">
                         <li className="flex items-start gap-2">
@@ -100,7 +100,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/web-hostinger-1.webp"}
-                    alt="Web Hosting services in chennai"
+                    alt="Web Hosting services in Texas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-25 px-1.5 md:px-4 lg:px-8 xl:px-14"                                 
@@ -143,7 +143,7 @@ export default function page () {
                             <div className="w-full flex flex-col items-start center-start gap-2.5">
                                 <p className="capitalize font-semibold text-xl text-gray-700 dark:text-gray-300">VPS Hosting</p>
                                 <p className="text-gray-500 dark:text-gray-400 text-justify md:text-left leading-snug md:leading-relaxed tracking-wide text-sm">
-                                    A formidable colossus of virtual prowess, our best-in-class WordPress solution orchestrates a symphony of virality, ensuring reliability for Chennai.
+                                    A formidable colossus of virtual prowess, our best-in-class WordPress solution orchestrates a symphony of virality, ensuring reliability for Texas clients.
                                 </p>
                             </div>
                         </div> 
@@ -154,7 +154,7 @@ export default function page () {
                             <div className="w-full flex flex-col items-start center-start gap-2.5">
                                 <p className="capitalize font-semibold text-xl text-gray-700 dark:text-gray-300">Cloud Hosting</p>
                                 <p className="text-gray-500 dark:text-gray-400 text-justify md:text-left leading-snug md:leading-relaxed tracking-wide text-sm">
-                                    Our best-in-class WordPress solution creates a cascade of virality that perfectly suits Chennai, like a cascade of digital wonders.
+                                    Our best-in-class WordPress solution creates a cascade of virality that perfectly suits Texas brands, like a cascade of digital wonders.
                                 </p>
                             </div>
                         </div> 

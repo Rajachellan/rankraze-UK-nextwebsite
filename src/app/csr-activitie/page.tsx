@@ -9,13 +9,13 @@ export const metadata: Metadata = {
     ],
         
     alternates: {
-        canonical: "https://rankraze.com/csr-activities",
+        canonical: "https://rankraze.us/csr-activities",
     },
 
     openGraph: {
         title: "CSR Activities - Rankraze",
         description: "Explore our CSR activities focused on community support, sustainability, and making a meaningful impact beyond business.",
-        url: "https://rankraze.com/csr-activities",
+        url: "https://rankraze.us/csr-activities",
         siteName: "Rankraze",
         images: [
         {

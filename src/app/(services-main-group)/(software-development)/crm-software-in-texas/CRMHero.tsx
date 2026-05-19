@@ -118,7 +118,7 @@ export function CRMHero({ leadFormUrl, trustedLogos }: CRMHeroProps) {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
             <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
               <p className="text-xs sm:text-sm font-semibold uppercase tracking-[0.12em] text-[#3CBA99] dark:text-teal-300 mb-3">
-                CRM Software in Chennai
+                CRM Software in Texas
               </p>
               <h1 className="text-3xl sm:text-4xl xl:text-[44px] font-bold leading-[1.15] tracking-tight text-gray-900 dark:text-gray-50 max-w-xl">
                 <span className="bg-linear-to-r from-[#3CBA99] to-[#0d9488] dark:from-teal-300 dark:to-teal-400 bg-clip-text text-transparent">
@@ -133,7 +133,7 @@ export function CRMHero({ leadFormUrl, trustedLogos }: CRMHeroProps) {
                   Lead Management · Sales Automation · Mobile CRM
                 </span>
                 <span className="block mt-2 font-normal">
-                  Manage leads, automate follow-ups, improve customer relationships, and grow your business with Rankraze CRM Software — designed for modern businesses in Chennai.
+                  Manage leads, automate follow-ups, improve customer relationships, and grow your business with Rankraze CRM Software — designed for modern businesses in Texas and across the US.
                 </span>
               </p>
               <ul className="mt-5 flex flex-wrap justify-center lg:justify-start gap-2 text-xs sm:text-sm text-gray-600 dark:text-gray-400">
@@ -202,7 +202,7 @@ export function CRMHero({ leadFormUrl, trustedLogos }: CRMHeroProps) {
         <div className="relative z-5 border-t border-gray-100 dark:border-gray-800 bg-white/60 dark:bg-[#0B0E11]/80">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-8">
             <p className="text-center text-xs font-semibold uppercase tracking-wider text-gray-400 dark:text-gray-500 mb-6">
-              Trusted by businesses across Chennai &amp; India
+              Trusted by businesses across Texas &amp; the US
             </p>
             <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-6 md:gap-x-14">
               {trustedLogos.map((logo) => (

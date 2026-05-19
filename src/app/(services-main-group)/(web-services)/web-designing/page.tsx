@@ -5,40 +5,35 @@ import { ShieldCheck, Lightbulb, Users } from 'lucide-react';
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 
 export const metadata:Metadata = {
-    title: "Top Web Development Company in Chennai | Rankraze",
-    description: "Build fast, secure, and scalable websites with Rankraze – the leading web development company in Chennai. We craft user-friendly websites that drive business growth.",
+    title: "Web Design & Development in Dallas, Texas | Rankraze",
+    description: "Rankraze designs fast, secure, conversion-focused websites for Texas businesses. UX, WordPress, React, and custom builds tailored to your brand.",
     
     keywords: [
-        "best web design company in Chennai",
-        "best web development company in Chennai",
-        "top web design company in Chennai",
-        "top web development companies",
-        "web design and development companies in Chennai",
-        "web design company",
-        "web design company in Chennai",
-        "web developers in Chennai",
-        "web development companies in Chennai",
-        "web development company",
-        "website company in Chennai",
-        "website design company in Chennai",
-        "website designers in Chennai"
+        "web design company Dallas",
+        "web development company Texas",
+        "website design Dallas",
+        "custom website development Texas",
+        "responsive web design Dallas",
+        "WordPress development Texas",
+        "business website design Dallas",
+        "Rankraze web design",
     ],
                 
     alternates: {
-        canonical: "https://rankraze.com/web-development",
+        canonical: "https://rankraze.us/web-designing",
     },
 
     openGraph: {
-        title: "Top Web Development Company",
-        description: "Leading Website Designing Company in Chennai, India We bring together the best in creative designing and user interaction, and that is why hundreds of businesses from around the world trust us to design their web front interfaces. Get a Quote We Build Better Websites For Businesses That Bring In More Customers!",
-        url: "https://rankraze.com/web-development",
+        title: "Web Design & Development | Rankraze Dallas",
+        description: "Creative web design and development that helps Texas brands convert visitors into customers.",
+        url: "https://rankraze.us/web-designing",
         siteName: "Rankraze",
         images: [
         {
             url: "/upload/website-1.webp",
             width: 890,
             height: 722,
-            alt: "Web Development.webp",
+            alt: "Web design and development",
             type: "image/webp"
         },
         ],
@@ -80,7 +75,7 @@ export default function page () {
                         Do you want to create a stunning website for your business/brand? Are you looking for a creative team of website designers to redesign, develop, and optimize your website for better performance and user experience?
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        You are in the right place. Rankraze is one of the leading website designing companies in Chennai with clients from various fields and countries. We are here to help you develop your business’s online presence via intriguing web development.
+                        You are in the right place. Rankraze is one of the leading website design agencies serving Dallas and Texas with clients from various fields across the US and globally. We are here to help you develop your business’s online presence via intriguing web development.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
                         If your business is online (which it should be), your website is your business’s core. Your website is your official platform to tell people what you do and how you can help them.Driving people to your website is the ultimate key to gain leads, sales, and conversions. To make this happen, you need to have an appealing website that expresses your business values in everything.
@@ -90,7 +85,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/website-1.webp"}
-                    alt="Web Development services in chennai"
+                    alt="Web Development Services in Dallas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-25"                                 
@@ -191,7 +186,7 @@ export default function page () {
                 </p>
                 </div>
                 <div className="w-full md:w-1/3 flex items-center justify-center z-10">
-                <Link href="/website-portfolio" className="text-sm md:text-sm xl:text-base text-white font-semibold px-3.5 py-2.5 rounded-md relative before:content-[''] before:absolute before:w-full before:h-full before:bg-linear-to-br before:from-[#3DBC9C] before:to-[#37A8F9] before:top-0 before:left-0 before:rounded-md hover:before: before:-z-10 hover:before:from-[#37A8F9] hover:before:to-[#3DBC9C]">
+                <Link href="/web-designing-portfolio" className="text-sm md:text-sm xl:text-base text-white font-semibold px-3.5 py-2.5 rounded-md relative before:content-[''] before:absolute before:w-full before:h-full before:bg-linear-to-br before:from-[#3DBC9C] before:to-[#37A8F9] before:top-0 before:left-0 before:rounded-md hover:before: before:-z-10 hover:before:from-[#37A8F9] hover:before:to-[#3DBC9C]">
                     view portfolio
                 </Link>
                 </div>
@@ -202,7 +197,7 @@ export default function page () {
                         Why choose us for website development services?
                     </h2>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        Rankraze is one of the leading website designing companies in Chennai. We have helped over 160 businesses establish their online presence.
+                        Rankraze is one of the leading website design companies in Dallas and Texas. We have helped over 160 businesses establish their online presence.
                     </p>
                 </div>
                 <div className="w-full md:w-1/2 overflow-hidden flex flex-col items-center justify-center px-6 py-2.5 rounded-md gap-3.5">
@@ -213,7 +208,7 @@ export default function page () {
                                 one-stop Solution
                             </span>
                             <span className="text-sm md:text-base text-gray-600 dark:text-gray-300 leading-snug">
-                                Rankraze is a top digital marketing agency in Chennai with clientele from other states and countries. As the leading website designing company in Chennai, we offer complete digital marketing services for your business like Website designing, Landing Page, Website Portfolio etc.
+                                Rankraze is a top digital marketing agency in Texas with clientele across the US and internationally. As a leading website design company in Dallas, we offer complete digital services including website design, landing pages, and portfolio experiences.
                             </span>
                         </div>
                     </div>
@@ -244,7 +239,7 @@ export default function page () {
             <div className="flex flex-col md:flex-row items-center justify-center mt-10 text-[var(--text-black)] gap-4 w-full max-w-7xl p-6 md:p-8 lg:p-10 mb-2.5 bg-linear-to-r from-[#cfffea] to-[#b1f3ff] rounded-2xl relative">
                 <div className="w-full md:w-2/3 flex flex-col gap-2.5 px-2 border-r-0 md:border-r border-[#00d176]">
                     <p className="text-[10px] md:text-sm lg:text-base text-gray-800 text-center md:text-left font-medium">
-                        Rankraze is one of India’s leading digital marketing company in Chennai, India. Our passionate team is working towards finding the Best Digital Marketing services for SME Business.
+                        Rankraze is a leading digital marketing company serving SMEs across Texas. Our team focuses on practical SEO, paid media, and web experiences that drive measurable growth.
                     </p>
                 </div>
                 <div className="w-full md:w-1/3 flex items-center justify-around px-2 gap-1.5">
@@ -279,7 +274,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/web-develop-1024x683.webp"}
-                    alt="web development in chennai"
+                    alt="Web design and development in Dallas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-25"                                 

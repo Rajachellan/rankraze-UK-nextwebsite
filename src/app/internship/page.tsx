@@ -15,13 +15,13 @@ keywords: [
 
                 
     alternates: {
-        canonical: "https://rankraze.com/internship",
+        canonical: "https://rankraze.us/internship",
     },
 
     openGraph: {
         title: "Internship - Rankraze",
         description: "Let’s Work Together Rankraze providing opportunity to start your career path in digital marketing for those who want to learn in an intern periods 3 or 6 months. Register now to grab this opportunity: It is a Free Internship Assisting in creating engaging content for social media platforms. Conducting market research and competitor analysis. Optimizing […]",
-        url: "https://rankraze.com/internship",
+        url: "https://rankraze.us/internship",
         siteName: "Rankraze",
         images: [
         {

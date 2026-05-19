@@ -4,42 +4,42 @@ import Link from "next/link";
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 import { Metadata } from "next";
 export const metadata:Metadata = {
-    title: "Natural language processing services in India | Rankraze Experts",
-    description: "Unlock business insights with Rankraze AI-powered Natural Language Processing services. NLP experts in India for sentiment analysis, chatbots & more.",
+    title: "Natural Language Processing Services | Rankraze US",
+    description: "Rankraze delivers NLP and LLM solutions for US businesses—classification, chatbots, search, and analytics built securely for your stack.",
     
 keywords: [
     "Natural Language Processing Services",
-    "NLP Services Company in India",
-    "NLP Company in Chennai",
+    "NLP Services Company USA",
+    "NLP Company in Texas",
     "NLP Development Services",
-    "AI Natural Language Solutions India",
-    "NLP Experts in Chennai",
-    "Text Mining Services India",
+    "AI Natural Language Solutions",
+    "NLP Experts in Dallas",
+    "Text Mining Services",
     "NLP Consulting Company",
-    "NLP Sentiment Analysis India",
-    "Chatbot NLP Development Chennai",
+    "NLP Sentiment Analysis",
+    "Chatbot NLP Development Texas",
     "NLP Automation Services",
     "NLP Text Analysis Solutions",
     "NLP Services for Business",
-    "NLP and AI Services India",
+    "NLP and AI Services USA",
     "NLP Software Development Company",
-    "NLP Development Company in India",
+    "NLP Development Company USA",
     "NLP Company for Chatbots",
-    "Machine Learning NLP India",
-    "NLP Data Processing Chennai",
+    "Machine Learning NLP",
+    "NLP Data Processing",
     "Rankraze NLP Services"
 ],
 
 
                 
     alternates: {
-        canonical: "https://rankraze.com/natural-language-processing-services",
+        canonical: "https://rankraze.us/natural-language-processing-services",
     },
 
     openGraph: {
         title: "Natural language processing services in India | Rankraze Experts",
         description: "Unlock business insights with Rankraze AI-powered Natural Language Processing services. NLP experts in India for sentiment analysis, chatbots & more.",
-        url: "https://rankraze.com/natural-language-processing-services",
+        url: "https://rankraze.us/natural-language-processing-services",
         siteName: "Rankraze",
         images: [
         {

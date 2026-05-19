@@ -104,27 +104,117 @@ const nextConfig = {
       },
       {
         source: '/virtual-reality-development',
-        destination: '/virtual-reality-development-chennai-india',
+        destination: '/virtual-reality-development-company-dallas',
+        permanent: true,
+      },
+      {
+        source: '/virtual-reality-development-chennai-india',
+        destination: '/virtual-reality-development-company-dallas',
+        permanent: true,
+      },
+      {
+        source: '/augmented-reality-development',
+        destination: '/augmented-reality-development-in-texas',
+        permanent: true,
+      },
+      {
+        source: '/augmented-reality-development-chennai-india',
+        destination: '/augmented-reality-development-in-texas',
         permanent: true,
       },
       {
         source: '/ppc-company-Chennai',
-        destination: '/sem-company-chennai',
+        destination: '/ppc-management-services-in-dallas',
         permanent: true,
       },
       {
         source: '/web-designing-in-Chennai',
-        destination: '/web-development',
+        destination: '/web-designing',
         permanent: true,
       },
       {
-        source: '/request-a-quote',
-        destination: '/contact-us',
+        source: '/ppc-company-chennai',
+        destination: '/ppc-management-services-in-dallas',
+        permanent: true,
+      },
+      {
+        source: '/web-designing-in-chennai',
+        destination: '/web-designing',
         permanent: true,
       },
       {
         source: '/digital-marketing-services-in-chennai',
         destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/boost-your-roi-digital-marketing-agency-chennai',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/online-reputation-management-services-chennai',
+        destination: '/online-reputation-management-services-in-texas',
+        permanent: true,
+      },
+      {
+        source: '/content-writing-agency-chennai',
+        destination: '/content-writing-services-dallas',
+        permanent: true,
+      },
+      {
+        source: '/web-analytics-service-in-chennai',
+        destination: '/web-analytic',
+        permanent: true,
+      },
+      {
+        source: '/sentiment-analysis',
+        destination: '/sentiment-analysis-services',
+        permanent: true,
+      },
+      {
+        source: '/web-development',
+        destination: '/web-designing',
+        permanent: true,
+      },
+      {
+        source: '/web-hosting-company-service-in-chennai',
+        destination: '/web-hosting',
+        permanent: true,
+      },
+      {
+        source: '/mobile-app-development-company-chennai',
+        destination: '/mobile-app-development',
+        permanent: true,
+      },
+      {
+        source: '/2d-and-3d-animation-company-in-chennai-india',
+        destination: '/2d-and-3d-animation-services-in-dallas',
+        permanent: true,
+      },
+      {
+        source: '/website-portfolio',
+        destination: '/web-designing-portfolio',
+        permanent: true,
+      },
+      {
+        source: '/case-studies',
+        destination: '/case-study',
+        permanent: true,
+      },
+      {
+        source: '/seo-company-chennai',
+        destination: '/seo-services-in-texas',
+        permanent: true,
+      },
+      {
+        source: '/sem-company-chennai',
+        destination: '/ppc-management-services-in-dallas',
+        permanent: true,
+      },
+      {
+        source: '/request-a-quote',
+        destination: '/contact-us',
         permanent: true,
       },
       {
@@ -138,13 +228,8 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/boost-your-roi-digital-marketing-agency-chennai',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/augmented-reality-development-chennai-india',
-        destination: '/augmented-reality-development',
+        source: '/about-us',
+        destination: '/about-rankraze-digital-marketing-agency',
         permanent: true,
       },
       {

@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "careers at Rankraze",
     "digital marketing jobs",
     "job opportunities",
-    "careers in Chennai",
+    "careers in Texas",
     "digital marketing careers",
     "Rankraze jobs",
     "career growth",
@@ -38,13 +38,13 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: "https://rankraze.com/careers",
+    canonical: "https://rankraze.us/careers",
   },
 
   openGraph: {
     title: "Careers at Rankraze | Join Our Team",
     description: "Join Rankraze and build your future with exciting opportunities in a team that values growth and innovations.",
-    url: "https://rankraze.com/careers",
+    url: "https://rankraze.us/careers",
     siteName: "Rankraze",
     images: [
       {

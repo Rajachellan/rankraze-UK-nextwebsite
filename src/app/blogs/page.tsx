@@ -12,13 +12,13 @@ keywords: [
 ],
                 
     alternates: {
-        canonical: "https://rankraze.com/blogs",
+        canonical: "https://rankraze.us/blogs",
     },
 
     openGraph: {
         title: "Blogs - Rankraze",
         description: "Article & News A Blog is a online journal which is deeply detailed on open topics Why Businesses Are Turning to AI for Smarter Digital Marketing Decisions June 7, 2025 Digital Marketing Read More Why Your Business Needs an Integrated Digital Marketing Strategy for an Agency  June 7, 2025 Digital Marketing Read More Five Digital […]",
-        url: "https://rankraze.com/blogs",
+        url: "https://rankraze.us/blogs",
         siteName: "Rankraze",
         images: [
         {

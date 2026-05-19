@@ -1,21 +1,21 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Privacy Policy | Rankraze Chennai Digital Marketing",
-    description: "Rankraze Privacy Policy explains data protection for Chennai digital marketing clients. GDPR compliant. How we handle SEO, Google Ads, website data for Anna Nagar enterprises, OMR startups securely.",
+    title: "Privacy Policy | Rankraze US",
+    description: "How Rankraze collects, uses, and protects personal data for clients using rankraze.us—SEO, ads, analytics, and website services.",
     
     keywords: [
       
     ],
         
     alternates: {
-        canonical: "https://rankraze.com/privacy-policy",
+        canonical: "https://rankraze.us/privacy-policy",
     },
 
     openGraph: {
-        title: "Privacy Policy | Rankraze Chennai Digital Marketing",
-        description: "Rankraze Privacy Policy explains data protection for Chennai digital marketing clients. GDPR compliant. How we handle SEO, Google Ads, website data for Anna Nagar enterprises, OMR startups securely.",
-        url: "https://rankraze.com/privacy-policy",
+        title: "Privacy Policy | Rankraze US",
+        description: "Rankraze privacy practices for digital marketing and web clients in the United States. How to access or delete your data.",
+        url: "https://rankraze.us/privacy-policy",
         siteName: "Rankraze",
         // images: [
         // {
@@ -76,7 +76,7 @@ Email marketing (if applicable): With your permission, we may send you emails ab
             </p> <br />
              <p className=" text-gray-600 px-10 text-md" >
                How do I withdraw my consent? <br />
-If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at <span className="font-bold">info@rankraze</span>.com or mailing us at: Plot no : 264 , Door no : F/22, F-Block , 2nd main road , Anna Nagar 600102.
+If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at info@rankraze.us or mailing us at: 2801 W Royal Lane, Apt #1905, Irving, TX 75063, USA.
             </p> <br />
              <p className="uppercase text-gray-600 py-4 px-10">
               SECTION 3 – DISCLOSURE
@@ -156,11 +156,11 @@ If our store is acquired or merged with another company, your information may be
                      QUESTIONS AND CONTACT INFORMATION
             </p>
   <p className=" text-gray-600 px-10 text-md" >
- If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at info@rankraze.com or mailing us at: Plot no : 264 , Door no : F/22, F-Block , 2nd main road , Anna Nagar 600102.
+ If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at info@rankraze.us or mailing us at: 2801 W Royal Lane, Apt #1905, Irving, TX 75063, USA.
 <br /> <br />
 Re: Privacy Compliance Officer
  <br /> <br />
-622 Manglam Electronic Market Jaipur Rajasthan India 302001
+Rankraze Technologies Private Limited — US office (Irving, TX)
  </p>
  </section>
         </>

@@ -14,13 +14,13 @@ export const metadata:Metadata = {
     ],
 
     alternates: {
-        canonical: "https://rankraze.com/digital-marketing-agency-in-bangalore",
+        canonical: "https://rankraze.us/digital-marketing-agency-in-bangalore",
     },
 
     openGraph: {
         title: "Digital Marketing Agency in Bangalore - Rankraze",
         description: "Digital Marketing Agency in Bangalore, India We are the Missing Piece to Your Digital Marketing Puzzle Get a quote now! Welcome to Rankraze, the leading digital marketing agency in Bangalore, India. We are passionate about helping businesses like yours succeed online. With our holistic and result-driven digital marketing solutions, we can take your brand to […]",
-        url: "https://rankraze.com/digital-marketing-agency-in-bangalore",
+        url: "https://rankraze.us/digital-marketing-agency-in-bangalore",
         siteName: "Rankraze",
         images: [
         {

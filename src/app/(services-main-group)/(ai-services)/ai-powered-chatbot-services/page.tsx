@@ -4,30 +4,30 @@ import Link from "next/link";
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 import { Metadata } from "next";
 export const metadata:Metadata = {
-    title: "AI-Powered Chatbot Development Services | Rankraze India",
-    description: "Boost customer engagement with AI-powered chatbot services from Rankraze. We build intelligent bots for websites, apps & more. Available across India & globally.",
+    title: "AI-Powered Chatbot Development Services | Rankraze US",
+    description: "Rankraze builds AI chatbots and conversational assistants for websites, apps, and support teams—deployed for US brands with monitoring and iteration.",
     
 keywords: [
     "AI chatbot services",
     "chatbot development company",
-    "AI chatbot development India",
-    "AI chatbot Chennai",
-    "chatbot services in Bangalore",
+    "AI chatbot development USA",
+    "AI chatbot Dallas",
+    "chatbot services in Texas",
     "AI bots for business",
     "custom chatbot development",
     "AI-powered customer support",
-    "conversational AI India",
-    "chatbot agency Chennai",
-    "WhatsApp chatbot India",
+    "conversational AI USA",
+    "chatbot agency Texas",
+    "WhatsApp chatbot",
     "AI chatbot for websites",
-    "chatbot developers India",
-    "AI chatbot services in Mumbai",
+    "chatbot developers USA",
+    "AI chatbot services in Dallas",
     "intelligent chatbot solution",
-    "chatbot company in Chennai",
+    "chatbot company in Texas",
     "voice chatbot development",
     "NLP chatbot developers",
     "Rankraze chatbot services",
-    "chatbot for ecommerce India"
+    "chatbot for ecommerce"
 ],
 
 
@@ -35,13 +35,13 @@ keywords: [
 
                 
     alternates: {
-        canonical: "https://rankraze.com/ai-powered-chatbot-services",
+        canonical: "https://rankraze.us/ai-powered-chatbot-services",
     },
 
     openGraph: {
         title: "AI-Powered Chatbot Development Services | Rankraze India",
         description: "Boost customer engagement with AI-powered chatbot services from Rankraze. We build intelligent bots for websites, apps & more. Available across India & globally.",
-        url: "https://rankraze.com/ai-powered-chatbot-services",
+        url: "https://rankraze.us/ai-powered-chatbot-services",
         siteName: "Rankraze",
         images: [
         {

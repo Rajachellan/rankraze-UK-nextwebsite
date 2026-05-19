@@ -113,7 +113,7 @@ function SEOSection() {
     <Section id="s-seo">
       <div id="h-seo" className="block lg:hidden mb-6 rr-fade-up [&.rr-in]:rr-in-active">
         <Label text="SEO Services"/>
-        <h2 className="font-['Sora'] text-2xl sm:text-[28px] font-bold text-[#0a2218] dark:text-[#F9FAFB] leading-[1.25] tracking-[-0.028em] mb-0">SEO Services That Help Chennai Businesses <em className="not-italic text-[#3cba99]">Rank on Google</em></h2>
+        <h2 className="font-['Sora'] text-2xl sm:text-[28px] font-bold text-[#0a2218] dark:text-[#F9FAFB] leading-[1.25] tracking-[-0.028em] mb-0">SEO Services That Help Texas Businesses <em className="not-italic text-[#3cba99]">Rank on Google</em></h2>
       </div>
       <div className="flex flex-col lg:grid lg:grid-cols-[1.08fr_0.92fr] gap-8 lg:gap-16 items-center">
         {/* Vis: slides in from LEFT */}
@@ -123,7 +123,7 @@ function SEOSection() {
             <rect x="0" y="0" width="560" height="48" rx="20" className="fill-[#f4fcf9] dark:fill-[#161B22] transition-colors"/><rect x="0" y="30" width="560" height="18" className="fill-[#f4fcf9] dark:fill-[#161B22] transition-colors"/>
             <circle cx="28" cy="24" r="5" fill="#f5c2b4"/><circle cx="44" cy="24" r="5" fill="#f5e0a0"/><circle cx="60" cy="24" r="5" fill="#a8e8d4"/>
             <rect x="82" y="15" width="316" height="18" rx="9" fill="#e4f5ef"/>
-            <text x="240" y="28" textAnchor="middle" fontFamily="DM Sans,sans-serif" fontSize="9" fill="#3cba99" fontWeight="500">google.com/search?q=seo+services+chennai</text>
+            <text x="240" y="28" textAnchor="middle" fontFamily="DM Sans,sans-serif" fontSize="9" fill="#3cba99" fontWeight="500">google.com/search?q=seo+services+texas</text>
             <g className="rr-fc">
               <rect x="16" y="58" width="200" height="150" rx="12" fill="#ffffff" stroke="#c8ede4" strokeWidth="1.5"/>
               <text x="28" y="79" fontFamily="Sora,sans-serif" fontSize="10" fontWeight="700" fill="#0a2218">Organic Traffic</text>
@@ -144,18 +144,18 @@ function SEOSection() {
             <g transform="translate(232,58)">
               <rect x="0" y="0" width="312" height="68" rx="10" fill="#edf9f6" stroke="#3cba99" strokeWidth="1.5"/>
               <g className="rr-badge" style={{transformOrigin:"24px 21px"}}><rect x="8" y="12" width="32" height="22" rx="11" fill="#3cba99"/><text x="24" y="27" textAnchor="middle" fontFamily="Sora,sans-serif" fontSize="10" fontWeight="700" fill="#ffffff">#1</text></g>
-              <text x="50" y="27" fontFamily="Sora,sans-serif" fontSize="10.5" fontWeight="700" fill="#0a2218">rankraze.com › seo-company-chennai</text>
+              <text x="50" y="27" fontFamily="Sora,sans-serif" fontSize="10.5" fontWeight="700" fill="#0a2218">rankraze.us › seo-services-in-texas</text>
               <text x="304" y="27" textAnchor="end" fontFamily="DM Sans,sans-serif" fontSize="10" fill="#f59a23">★★★★★</text>
-              <text x="50" y="43" fontFamily="DM Sans,sans-serif" fontSize="9.5" fill="#1c3d34">SEO Services Chennai – Data-Driven Ranking Strategies</text>
+              <text x="50" y="43" fontFamily="DM Sans,sans-serif" fontSize="9.5" fill="#1c3d34">SEO Services Texas – Data-Driven Ranking Strategies</text>
               <text x="50" y="58" fontFamily="DM Sans,sans-serif" fontSize="8.5" fill="#5fa898">Improve visibility · Attract traffic · Generate leads</text>
               <rect x="0" y="76" width="312" height="36" rx="8" fill="#fafafa" stroke="#eaeaea" strokeWidth="1"/>
               <rect x="8" y="84" width="26" height="16" rx="8" fill="#edf0fc"/><text x="21" y="96" textAnchor="middle" fontFamily="Sora,sans-serif" fontSize="9" fontWeight="600" fill="#534ab7">#2</text>
               <text x="42" y="95" fontFamily="DM Sans,sans-serif" fontSize="9.5" fill="#6e8a85">competitor1.com › digital-marketing</text>
-              <text x="42" y="108" fontFamily="DM Sans,sans-serif" fontSize="8.5" fill="#b8ccc8">SEO Agency in Chennai | Organic Growth</text>
+              <text x="42" y="108" fontFamily="DM Sans,sans-serif" fontSize="8.5" fill="#b8ccc8">SEO Agency in Texas | Organic Growth</text>
               <rect x="0" y="120" width="312" height="36" rx="8" fill="#fafafa" stroke="#eaeaea" strokeWidth="1"/>
               <rect x="8" y="128" width="26" height="16" rx="8" fill="#f1f4f0"/><text x="21" y="140" textAnchor="middle" fontFamily="Sora,sans-serif" fontSize="9" fontWeight="600" fill="#3b6d11">#3</text>
               <text x="42" y="139" fontFamily="DM Sans,sans-serif" fontSize="9.5" fill="#6e8a85">agency2.in › seo-services</text>
-              <text x="42" y="152" fontFamily="DM Sans,sans-serif" fontSize="8.5" fill="#b8ccc8">Top SEO Company Chennai – Affordable Plans</text>
+              <text x="42" y="152" fontFamily="DM Sans,sans-serif" fontSize="8.5" fill="#b8ccc8">Top SEO Company Texas – Affordable Plans</text>
             </g>
             <g transform="translate(16,224)">
               <rect x="0" y="0" width="528" height="54" rx="12" fill="#ffffff" stroke="#ddf0ea" strokeWidth="1"/>
@@ -168,7 +168,7 @@ function SEOSection() {
               <rect x="0" y="0" width="256" height="100" rx="12" fill="#ffffff" stroke="#c8ede4" strokeWidth="1.5"/>
               <text x="16" y="22" fontFamily="Sora,sans-serif" fontSize="10" fontWeight="700" fill="#0a2218">Keyword Rankings</text>
               <rect x="16" y="30" width="74" height="17" rx="8.5" fill="#edf9f6"/>
-              <text x="53" y="42.5" textAnchor="middle" fontFamily="DM Sans,sans-serif" fontSize="8.5" fill="#0f6e56" fontWeight="500">seo chennai</text>
+              <text x="53" y="42.5" textAnchor="middle" fontFamily="DM Sans,sans-serif" fontSize="8.5" fill="#0f6e56" fontWeight="500">seo dallas</text>
               <text x="100" y="42.5" fontFamily="DM Sans,sans-serif" fontSize="8.5" fill="#9ab8b4">position</text>
               <text x="208" y="43" fontFamily="Sora,sans-serif" fontSize="15" fontWeight="700" fill="#3cba99">#1</text>
               <line x1="16" y1="55" x2="240" y2="55" stroke="#edf9f6" strokeWidth="1"/>
@@ -190,15 +190,15 @@ function SEOSection() {
         </div>
         {/* Con: fades UP */}
         <div id="c-seo" className="order-2 lg:order-2 rr-fade-up [&.rr-in]:rr-in-active" style={{transitionDelay:"150ms"}}>
-          <div className="hidden lg:block"><Label text="SEO Services"/><h2 className="font-['Sora'] text-2xl sm:text-[28px] lg:text-[32px] font-bold text-[#0a2218] dark:text-[#F9FAFB] leading-[1.25] tracking-[-0.028em] mb-4">SEO Services That Help Chennai Businesses <em className="not-italic text-[#3cba99]">Rank on Google</em></h2></div>
-          <p className="text-[15px] text-[#3a5550] dark:text-[#94B4D4] leading-[1.82] mb-6">If your customers are searching online and your business isn't appearing on the first page, you're losing valuable opportunities. At Rankraze, we provide data-driven SEO services in Chennai designed to improve your website's visibility, attract qualified traffic, and generate consistent leads.</p>
+          <div className="hidden lg:block"><Label text="SEO Services"/><h2 className="font-['Sora'] text-2xl sm:text-[28px] lg:text-[32px] font-bold text-[#0a2218] dark:text-[#F9FAFB] leading-[1.25] tracking-[-0.028em] mb-4">SEO Services That Help Texas Businesses <em className="not-italic text-[#3cba99]">Rank on Google</em></h2></div>
+          <p className="text-[15px] text-[#3a5550] dark:text-[#94B4D4] leading-[1.82] mb-6">If your customers are searching online and your business isn't appearing on the first page, you're losing valuable opportunities. At Rankraze, we provide data-driven SEO services in Texas designed to improve your website's visibility, attract qualified traffic, and generate consistent leads.</p>
           <Checklist items={["Strategic keyword research and competitor analysis","On-page and technical SEO optimization","High-quality content and authority building","Sustainable organic traffic growth"]}/>
           <Pills items={["Keyword Research","Technical SEO","Ranking Growth","Authority Building"]}/>
          <div className="flex flex-row flex-wrap gap-2">
 
   {/* Primary — solid teal pill */}
   <Link
-    href="/seo-company-chennai"
+    href="/seo-services-in-texas"
     className="group inline-flex items-center gap-2 rounded-full bg-[#3cba99] px-3 md:px-6 py-4 text-sm font-semibold text-white shadow-[0_4px_18px_rgba(60,186,153,0.28)] transition-all duration-200 hover:bg-[#2fa888] hover:-translate-y-px hover:shadow-[0_6px_24px_rgba(60,186,153,0.38)] active:scale-[0.97] sm:px-5 sm:py-3 sm:text-md"
   >
     Explore SEO
@@ -245,7 +245,7 @@ function SMMSection() {
             <rect x="0" y="0" width="560" height="46" rx="20" className="fill-[#f4fcf9] dark:fill-[#161B22] transition-colors"/><rect x="0" y="28" width="560" height="18" className="fill-[#f4fcf9] dark:fill-[#161B22] transition-colors"/>
             <circle cx="26" cy="23" r="5" fill="#f5c2b4"/><circle cx="42" cy="23" r="5" fill="#f5e0a0"/><circle cx="58" cy="23" r="5" fill="#a8e8d4"/>
             <rect x="76" y="13" width="304" height="20" rx="10" fill="#e4f5ef"/>
-            <text x="228" y="27" textAnchor="middle" fontFamily="DM Sans,sans-serif" fontSize="8.5" fill="#3cba99" fontWeight="500">rankraze.com › social-media-marketing-dashboard</text>
+            <text x="228" y="27" textAnchor="middle" fontFamily="DM Sans,sans-serif" fontSize="8.5" fill="#3cba99" fontWeight="500">rankraze.us › social-media-marketing-dashboard</text>
             <g className="smm-f1"><rect x="14" y="56" width="124" height="54" rx="10" fill="#fff" stroke="#e0f0ea" strokeWidth="1.2"/><rect x="24" y="67" width="30" height="30" rx="8" fill="#1877F2"/><text x="39" y="87" textAnchor="middle" fontFamily="Sora,sans-serif" fontSize="14" fontWeight="700" fill="#fff">f</text><text x="62" y="79" fontFamily="Sora,sans-serif" fontSize="9" fontWeight="700" fill="#0a2218">Facebook</text><text x="62" y="93" fontFamily="DM Sans,sans-serif" fontSize="8" fill="#3cba99" fontWeight="600">↑ 2.4K reach</text></g>
             <g className="smm-f2"><rect x="150" y="56" width="124" height="54" rx="10" fill="#fff" stroke="#e0f0ea" strokeWidth="1.2"/><g transform="translate(160,67)"><rect width="30" height="30" rx="8" fill="url(#igG)"/></g><rect x="163" y="70" width="24" height="24" rx="6" stroke="#fff" strokeWidth="1.4"/><circle cx="175" cy="82" r="6" stroke="#fff" strokeWidth="1.4"/><circle cx="184" cy="73" r="2" fill="#fff"/><text x="198" y="79" fontFamily="Sora,sans-serif" fontSize="9" fontWeight="700" fill="#0a2218">Instagram</text><text x="198" y="93" fontFamily="DM Sans,sans-serif" fontSize="8" fill="#3cba99" fontWeight="600">↑ 5.8K reach</text></g>
             <g className="smm-f3"><rect x="286" y="56" width="124" height="54" rx="10" fill="#fff" stroke="#e0f0ea" strokeWidth="1.2"/><rect x="296" y="67" width="30" height="30" rx="8" fill="#0A66C2"/><text x="311" y="87" textAnchor="middle" fontFamily="Sora,sans-serif" fontSize="12" fontWeight="700" fill="#fff">in</text><text x="334" y="79" fontFamily="Sora,sans-serif" fontSize="9" fontWeight="700" fill="#0a2218">LinkedIn</text><text x="334" y="93" fontFamily="DM Sans,sans-serif" fontSize="8" fill="#3cba99" fontWeight="600">↑ 1.2K reach</text></g>
@@ -301,7 +301,7 @@ function SMMSection() {
         {/* Con: fades DOWN */}
         <div id="c-smm" className="order-2 lg:order-1 rr-fade-down [&.rr-in]:rr-in-active" style={{transitionDelay:"150ms"}}>
           <div className="hidden lg:block"><Label text="Social Media Marketing"/><h2 className="font-['Sora'] text-2xl sm:text-[28px] lg:text-[32px] font-bold text-[#0a2218] dark:text-[#F9FAFB] leading-[1.25] tracking-[-0.028em] mb-4">Social Media Marketing Services That <em className="not-italic text-[#3cba99]">Build Brand Visibility</em> and Generate Leads</h2></div>
-          <p className="text-[15px] text-[#3a5550] dark:text-[#94B4D4] leading-[1.82] mb-6">Social media platforms are powerful channels for connecting with your audience. At Rankraze, we provide strategic social media marketing services in Chennai that combine organic content strategies with high-performing paid advertising campaigns.</p>
+          <p className="text-[15px] text-[#3a5550] dark:text-[#94B4D4] leading-[1.82] mb-6">Social media platforms are powerful channels for connecting with your audience. At Rankraze, we provide strategic social media marketing services in Texas that combine organic content strategies with high-performing paid advertising campaigns.</p>
           <Checklist items={["Paid and organic social media growth strategies","Targeted ad campaigns for lead generation","Engaging content and brand storytelling","Performance tracking and campaign optimization"]}/>
 
   
@@ -312,7 +312,7 @@ function SMMSection() {
 
   {/* Primary — solid teal pill */}
   <Link
-    href="/social-media-marketing-company-chennai"
+    href="/social-media-marketing-services-in-texas"
     className="group inline-flex items-center gap-2 rounded-full bg-[#3cba99] px-3 md:px-6 py-4 text-sm font-semibold text-white shadow-[0_4px_18px_rgba(60,186,153,0.28)] transition-all duration-200 hover:bg-[#2fa888] hover:-translate-y-px hover:shadow-[0_6px_24px_rgba(60,186,153,0.38)] active:scale-[0.97] sm:px-5 sm:py-3 sm:text-md"
   >
     Explore SMM
@@ -355,18 +355,18 @@ function PPCSection() {
             <rect x="0" y="0" width="560" height="46" rx="20" className="fill-[#f4fcf9] dark:fill-[#161B22] transition-colors"/><rect x="0" y="28" width="560" height="18" className="fill-[#f4fcf9] dark:fill-[#161B22] transition-colors"/>
             <circle cx="26" cy="23" r="5" fill="#f5c2b4"/><circle cx="42" cy="23" r="5" fill="#f5e0a0"/><circle cx="58" cy="23" r="5" fill="#a8e8d4"/>
             <rect x="76" y="13" width="308" height="20" rx="10" fill="#e4f5ef"/>
-            <text x="230" y="27" textAnchor="middle" fontFamily="DM Sans,sans-serif" fontSize="8.5" fill="#3cba99" fontWeight="500">google.com/search?q=best+ppc+agency+chennai</text>
+            <text x="230" y="27" textAnchor="middle" fontFamily="DM Sans,sans-serif" fontSize="8.5" fill="#3cba99" fontWeight="500">google.com/search?q=best+ppc+agency+dallas</text>
             <rect x="14" y="56" width="532" height="42" rx="10" fill="#fffdf0" stroke="#f5e0a0" strokeWidth="1.2"/>
             <rect x="24" y="65" width="42" height="16" rx="4" fill="#f5a623"/>
             <text x="45" y="77" textAnchor="middle" fontFamily="Sora,sans-serif" fontSize="8" fontWeight="700" fill="#fff">Ad</text>
-            <text x="74" y="77" fontFamily="DM Sans,sans-serif" fontSize="9" fill="#5a5a5a">Showing paid results for: <tspan fontWeight="700" fill="#0a2218">PPC Agency Chennai</tspan></text>
+            <text x="74" y="77" fontFamily="DM Sans,sans-serif" fontSize="9" fill="#5a5a5a">Showing paid results for: <tspan fontWeight="700" fill="#0a2218">PPC Agency Dallas</tspan></text>
             <text x="532" y="77" textAnchor="end" fontFamily="DM Sans,sans-serif" fontSize="8" fill="#3cba99">↑ 3.2K searches/mo</text>
             <rect x="14" y="106" width="532" height="62" rx="10" fill="#edf9f6" stroke="#3cba99" strokeWidth="1.5"/>
             <rect x="24" y="116" width="42" height="16" rx="4" fill="#3cba99"/>
             <text x="45" y="128" textAnchor="middle" fontFamily="Sora,sans-serif" fontSize="8" fontWeight="700" fill="#fff">Sponsored</text>
-            <text x="76" y="127" fontFamily="Sora,sans-serif" fontSize="10.5" fontWeight="700" fill="#0a2218">rankraze.com › google-ads-services-chennai</text>
+            <text x="76" y="127" fontFamily="Sora,sans-serif" fontSize="10.5" fontWeight="700" fill="#0a2218">rankraze.us › ppc-management-services-in-dallas</text>
             <text x="476" y="123" textAnchor="end" fontFamily="DM Sans,sans-serif" fontSize="10" fill="#f59a23">★★★★★</text>
-            <text x="76" y="143" fontFamily="DM Sans,sans-serif" fontSize="9.5" fill="#1c3d34">PPC & Google Ads Agency Chennai – Certified Google Partners</text>
+            <text x="76" y="143" fontFamily="DM Sans,sans-serif" fontSize="9.5" fill="#1c3d34">PPC & Google Ads Dallas – Certified Google Partners</text>
             <text x="76" y="158" fontFamily="DM Sans,sans-serif" fontSize="8.5" fill="#5fa898">Drive qualified leads · Pay only for results · Free audit available</text>
             <rect x="14" y="176" width="532" height="44" rx="8" fill="#fafafa" stroke="#eaeaea" strokeWidth="1"/>
             <rect x="24" y="185" width="26" height="16" rx="8" fill="#edf0fc"/><text x="37" y="197" textAnchor="middle" fontFamily="Sora,sans-serif" fontSize="9" fontWeight="600" fill="#534ab7">#2</text>
@@ -375,7 +375,7 @@ function PPCSection() {
             <rect x="14" y="228" width="532" height="44" rx="8" fill="#fafafa" stroke="#eaeaea" strokeWidth="1"/>
             <rect x="24" y="237" width="26" height="16" rx="8" fill="#f1f4f0"/><text x="37" y="249" textAnchor="middle" fontFamily="Sora,sans-serif" fontSize="9" fontWeight="600" fill="#3b6d11">#3</text>
             <text x="58" y="248" fontFamily="DM Sans,sans-serif" fontSize="9.5" fill="#6e8a85">agency2.in › google-ads</text>
-            <text x="58" y="262" fontFamily="DM Sans,sans-serif" fontSize="8.5" fill="#b8ccc8">Google Ads Experts – Campaign Management Chennai</text>
+            <text x="58" y="262" fontFamily="DM Sans,sans-serif" fontSize="8.5" fill="#b8ccc8">Google Ads Experts – Campaign Management Dallas</text>
             {[{x:14,fill:"#fff",label:"Avg. CPC",val:"₹18",sub:"↓ 34% vs industry avg",tw:132,fw:87},{x:188,fill:"#edf9f6",label:"Click-Through Rate",val:"8.4%",sub:"↑ Industry avg 3.2%",tw:132,fw:111},{x:362,fill:"#fff",label:"Conversion Rate",val:"14.2%",sub:"↑ 2.1× industry avg",tw:154,fw:119,w:184}].map((c,i)=>(<g key={i}><rect x={c.x} y="282" width={c.w||162} height="98" rx="12" fill={c.fill} stroke="#c8ede4" strokeWidth="1.5"/><text x={c.x+14} y="302" fontFamily="Sora,sans-serif" fontSize="9.5" fontWeight="700" fill="#0a2218">{c.label}</text><text x={c.x+14} y="336" fontFamily="Sora,sans-serif" fontSize="26" fontWeight="700" fill="#3cba99">{c.val}</text><text x={c.x+14} y="352" fontFamily="DM Sans,sans-serif" fontSize="7.5" fill="#7ab8ac">{c.sub}</text><rect x={c.x+14} y="358" width={c.tw} height="7" rx="3.5" fill="#ddf0ea"/><rect x={c.x+14} y="358" width={c.fw} height="7" rx="3.5" fill="#3cba99"/></g>))}
             <g transform="translate(14,390)">
               <rect x="0" y="0" width="532" height="30" rx="10" fill="#fff" stroke="#ddf0ea" strokeWidth="1"/>
@@ -389,7 +389,7 @@ function PPCSection() {
         {/* Con: fades RIGHT */}
         <div id="c-ppc" className="order-2 lg:order-2 rr-fade-right [&.rr-in]:rr-in-active" style={{transitionDelay:"180ms"}}>
           <div className="hidden lg:block"><Label text="PPC & Google Ads"/><h2 className="font-['Sora'] text-2xl sm:text-[28px] lg:text-[32px] font-bold text-[#0a2218] dark:text-[#F9FAFB] leading-[1.25] tracking-[-0.028em] mb-4">PPC & Google Ads Services That Drive <em className="not-italic text-[#3cba99]">Targeted Traffic</em> and Instant Leads</h2></div>
-          <p className="text-[15px] text-[#3a5550] dark:text-[#94B4D4] leading-[1.82] mb-6">If you want faster results and immediate visibility on Google, PPC advertising is one of the most effective strategies. At Rankraze, we provide performance-focused PPC and Google Ads services in Chennai designed to attract high-intent customers.</p>
+          <p className="text-[15px] text-[#3a5550] dark:text-[#94B4D4] leading-[1.82] mb-6">If you want faster results and immediate visibility on Google, PPC advertising is one of the most effective strategies. At Rankraze, we provide performance-focused PPC and Google Ads services in Dallas designed to attract high-intent customers.</p>
           <Checklist items={["High-converting Google Search and Display campaigns","Advanced keyword targeting and competitor analysis","Smart bidding and budget optimization","Conversion tracking and performance reporting"]}/>
           <Pills items={["CPC Optimization","Precision Targeting","Campaign Tracking","Lead Generation"]}/>
 
@@ -397,7 +397,7 @@ function PPCSection() {
 
   {/* Primary — solid teal pill */}
   <Link
-    href="/sem-company-chennai"
+    href="/ppc-management-services-in-dallas"
     className="group inline-flex items-center gap-2 rounded-full bg-[#3cba99] px-3 md:px-6 py-4 text-sm font-semibold text-white shadow-[0_4px_18px_rgba(60,186,153,0.28)] transition-all duration-200 hover:bg-[#2fa888] hover:-translate-y-px hover:shadow-[0_6px_24px_rgba(60,186,153,0.38)] active:scale-[0.97] sm:px-5 sm:py-3 sm:text-md"
   >
     Explore PPC
@@ -442,7 +442,7 @@ function WebDevSection() {
               <rect x="14" y="14" width="532" height="36" rx="12" fill="#fff" stroke="#c8ede4" strokeWidth="1"/><rect x="14" y="36" width="532" height="14" fill="#fff"/>
               <circle cx="30" cy="32" r="4" fill="#f5c2b4"/><circle cx="44" cy="32" r="4" fill="#f5e0a0"/><circle cx="58" cy="32" r="4" fill="#a8e8d4"/>
               <rect x="72" y="24" width="240" height="16" rx="8" fill="#e4f5ef"/>
-              <text x="192" y="36" textAnchor="middle" fontFamily="DM Sans,sans-serif" fontSize="7.5" fill="#3cba99">rankraze.com</text>
+              <text x="192" y="36" textAnchor="middle" fontFamily="DM Sans,sans-serif" fontSize="7.5" fill="#3cba99">rankraze.us</text>
                 <text x="452" y="36" textAnchor="middle" fontFamily="Sora,sans-serif" fontSize="9.5" fontWeight="700" fill="#0a2218">Desktop View</text>
               <rect x="28" y="58" width="504" height="24" rx="6" fill="#fff" stroke="#e0f0ea" strokeWidth="1"/>
               <text x="44" y="74" fontFamily="Sora,sans-serif" fontSize="9" fontWeight="700" fill="#0a2218">Rankraze</text>
@@ -511,7 +511,7 @@ function WebDevSection() {
         {/* Con: fades LEFT */}
         <div id="c-wd" className="order-2 lg:order-1 rr-fade-left [&.rr-in]:rr-in-active" style={{transitionDelay:"180ms"}}>
           <div className="hidden lg:block"><Label text="Website Development"/><h2 className="font-['Sora'] text-2xl sm:text-[28px] lg:text-[32px] font-bold text-[#0a2218] dark:text-[#F9FAFB] leading-[1.25] tracking-[-0.028em] mb-4">Website Development Services That Build <em className="not-italic text-[#3cba99]">Fast, Scalable,</em> and Conversion-Focused Websites</h2></div>
-          <p className="text-[15px] text-[#3a5550] dark:text-[#94B4D4] leading-[1.82] mb-6">A high-performing website is the foundation of every successful digital marketing strategy. At Rankraze, we build modern websites in Chennai using React, Wordpress, Django, Node.js, and Tailwind — optimized for speed, SEO, and user experience.</p>
+          <p className="text-[15px] text-[#3a5550] dark:text-[#94B4D4] leading-[1.82] mb-6">A high-performing website is the foundation of every successful digital marketing strategy. At Rankraze, we build modern websites in Dallas using React, Wordpress, Django, Node.js, and Tailwind — optimized for speed, SEO, and user experience.</p>
           <Checklist items={["Custom-built websites optimized for speed and SEO","Modern frameworks like React, Next.js, and Django","Mobile-responsive and user-friendly design","Conversion-focused website architecture"]}/>
           <div className="flex flex-wrap gap-2 mb-4">
   {techStack.map(({ name, icon: Icon }) => (
@@ -532,7 +532,7 @@ function WebDevSection() {
 
   {/* Primary — solid teal pill */}
   <Link
-    href="/web-development"
+    href="/web-designing"
     className="group inline-flex items-center gap-1  rounded-full bg-[#3cba99] px-3 md:px-2 py-4 text-sm font-semibold text-white shadow-[0_4px_18px_rgba(60,186,153,0.28)] transition-all duration-200 hover:bg-[#2fa888] hover:-translate-y-px hover:shadow-[0_6px_24px_rgba(60,186,153,0.38)] active:scale-[0.97] sm:px-5 sm:py-3 sm:text-md"
   >
     Explore Websites
@@ -696,7 +696,7 @@ function BrandingSection() {
             <circle cx="222" cy="272" r="10" fill="#3cba99"/>
             <text x="222" y="276" textAnchor="middle" fontFamily="Sora,sans-serif" fontSize="10" fontWeight="700" fill="#fff">R</text>
             <text x="240" y="278" fontFamily="Sora,sans-serif" fontSize="8" fontWeight="700" fill="#0a2218">Rankraze</text>
-            <text x="240" y="290" fontFamily="DM Sans,sans-serif" fontSize="7.5" fill="#7ab8ac">@rankraze_chennai</text>
+            <text x="240" y="290" fontFamily="DM Sans,sans-serif" fontSize="7.5" fill="#7ab8ac">@rankraze_dallas</text>
             <text x="202" y="320" fontFamily="DM Sans,sans-serif" fontSize="7.5" fill="#3a5550">Followers</text><text x="202" y="333" fontFamily="Sora,sans-serif" fontSize="13" fontWeight="700" fill="#3cba99">24.6K</text>
             <text x="260" y="320" fontFamily="DM Sans,sans-serif" fontSize="7.5" fill="#3a5550">Engagement</text><text x="260" y="333" fontFamily="Sora,sans-serif" fontSize="13" fontWeight="700" fill="#3cba99">8.4%</text>
             <text x="202" y="350" fontFamily="DM Sans,sans-serif" fontSize="7.5" fill="#3a5550">Brand Consistency</text>
@@ -720,7 +720,7 @@ function BrandingSection() {
         {/* Con: fades UP + scale */}
         <div id="c-br" className="order-2 lg:order-2 rr-fade-up-scale [&.rr-in]:rr-in-active" style={{transitionDelay:"180ms"}}>
           <div className="hidden lg:block"><Label text="Branding Services"/><h2 className="font-['Sora'] text-2xl sm:text-[28px] lg:text-[32px] font-bold text-[#0a2218] dark:text-[#F9FAFB] leading-[1.25] tracking-[-0.028em] mb-4">Branding Services That Build a <em className="not-italic text-[#3cba99]">Strong and Memorable</em> Digital Identity</h2></div>
-          <p className="text-[15px] text-[#3a5550] dark:text-[#94B4D4] leading-[1.82] mb-6">A strong brand is more than just a logo — it's how customers recognize, trust, and remember your business. At Rankraze, we provide strategic branding services in Chennai that help businesses create a powerful identity across digital platforms.</p>
+          <p className="text-[15px] text-[#3a5550] dark:text-[#94B4D4] leading-[1.82] mb-6">A strong brand is more than just a logo — it's how customers recognize, trust, and remember your business. At Rankraze, we provide strategic branding services in Texas that help businesses create a powerful identity across digital platforms.</p>
           <Checklist items={["Unique brand identity and visual design","Consistent messaging across digital channels","Professional logo and brand guideline creation","Strong brand recognition and customer trust"]}/>
           <Pills items={["Brand Identity Design","Brand Strategy","Brand Messaging","Digital Brand Presence"]}/>
 
@@ -818,7 +818,7 @@ function ContentMarketingSection() {
         {/* Con: fades DOWN */}
         <div id="c-cm" className="order-2 lg:order-1 rr-fade-down [&.rr-in]:rr-in-active" style={{transitionDelay:"180ms"}}>
           <div className="hidden lg:block"><Label text="Content Marketing"/><h2 className="font-['Sora'] text-2xl sm:text-[28px] lg:text-[32px] font-bold text-[#0a2218] dark:text-[#F9FAFB] leading-[1.25] tracking-[-0.028em] mb-4">Content Marketing Services That <em className="not-italic text-[#3cba99]">Attract, Educate,</em> and Convert Your Audience</h2></div>
-          <p className="text-[15px] text-[#3a5550] dark:text-gray-200 leading-[1.82] mb-6">High-quality content is one of the most powerful ways to build authority and attract potential customers online. At Rankraze, we provide strategic content marketing services in Chennai that help businesses increase visibility and generate organic traffic.</p>
+          <p className="text-[15px] text-[#3a5550] dark:text-gray-200 leading-[1.82] mb-6">High-quality content is one of the most powerful ways to build authority and attract potential customers online. At Rankraze, we provide strategic content marketing services in Dallas that help businesses increase visibility and generate organic traffic.</p>
           <Checklist items={["SEO-optimized blog and website content","Content strategies that drive organic traffic","Engaging brand storytelling and audience education","Consistent content publishing for long-term growth"]}/>
           <Pills items={["Blog & Article Writing","SEO Content Strategy","Content Calendar","Traffic Growth"]}/>
 
@@ -826,7 +826,7 @@ function ContentMarketingSection() {
   <div className="flex flex-row flex-wrap gap-2">
   {/* Primary — solid teal pill */}
   <Link
-    href="/content-writing-agency-chennai"
+    href="/content-writing-services-dallas"
     className="group inline-flex items-center gap-1 rounded-full bg-[#3cba99] px-3 md:px-6 py-4 text-sm font-semibold text-white shadow-[0_4px_18px_rgba(60,186,153,0.28)] transition-all duration-200 hover:bg-[#2fa888] hover:-translate-y-px hover:shadow-[0_6px_24px_rgba(60,186,153,0.38)] active:scale-[0.97] sm:px-5 sm:py-3 sm:text-md"
   >
     Explore Content

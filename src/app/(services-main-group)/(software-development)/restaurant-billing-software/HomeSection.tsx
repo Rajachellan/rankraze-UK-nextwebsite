@@ -238,7 +238,7 @@ function MultiVisual() {
     <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-[0px_3px_6px_rgba(0,0,0,0.07),0px_-3px_6px_rgba(0,0,0,0.07)] dark:bg-[#161B22]/95 dark:border-gray-700/80 dark:shadow-[0_8px_32px_rgba(0,0,0,0.45)] flex flex-col gap-3 transition-colors duration-300">
       <div className="text-[0.82rem] font-bold text-gray-800 dark:text-gray-100">All Branches — Live Revenue</div>
       {[
-        { dot:"#3DBC9B", name:"Anna Nagar (HQ)", sub:"14 tables", rev:"₹12,840" },
+        { dot:"#3DBC9B", name:"Irving (Demo HQ)", sub:"14 tables", rev:"₹12,840" },
         { dot:"#3DBC9B", name:"T. Nagar",         sub:"10 tables", rev:"₹9,220"  },
         { dot:"#3DBC9B", name:"OMR Branch",        sub:"8 tables",  rev:"₹6,390"  },
       ].map((r)=>(
@@ -586,11 +586,11 @@ export default function RestroSuitePage() {
           <div className="text-center mb-16">
             <span className="inline-block bg-white dark:bg-[#161B22]/90 text-[#3DBC9B] dark:text-[#5EEAD4] text-[0.78rem] font-bold uppercase tracking-[0.06em] px-3.5 py-1.5 rounded-full mb-4 border border-[rgba(61,188,155,0.3)] dark:border-[#5EEAD4]/35 transition-colors duration-300">Real results</span>
             <h2 className={` text-[clamp(1.9rem,3vw,2.7rem)] leading-[1.2] text-gray-800 dark:text-gray-100 font-bold mb-4`}>Loved by restaurants <em className="not-italic italic" style={{WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent",backgroundImage:"linear-gradient(to right,#3DBC9B,#3DBC9B)"}}>across India.</em></h2>
-            <p className="text-[1.05rem] text-gray-500 dark:text-gray-400 max-w-[560px] mx-auto leading-[1.7]">From small cafes in Chennai to hotel chains in Bangalore — here&apos;s what our customers say.</p>
+            <p className="text-[1.05rem] text-gray-500 dark:text-gray-400 max-w-[560px] mx-auto leading-[1.7]">From small cafes in Texas to regional chains—here&apos;s what our customers say.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
-              { ini:"RS", bg:"#3DBC9B", quote:"We used to lose 30 minutes every day reconciling cash manually. RestroSuite's daily report takes 2 minutes. The KOT system alone saved us so much kitchen chaos.", name:"Ramesh Subramanian", role:"Owner, Spice Garden Restaurant — Chennai" },
+              { ini:"RS", bg:"#3DBC9B", quote:"We used to lose 30 minutes every day reconciling cash manually. RestroSuite's daily report takes 2 minutes. The KOT system alone saved us so much kitchen chaos.", name:"Ramesh Subramanian", role:"Owner, Spice Garden Restaurant — Texas" },
               { ini:"MK", bg:"#3DBC9B", quote:"Managing 3 branches was a nightmare before this. Now I check everything from my phone — revenue, orders, staff attendance — all live. Game changer for our hotel's F&B.", name:"Meera Krishnan", role:"F&B Manager, Hotel Majestic — Coimbatore" },
               { ini:"AP", bg:"#3DBC9B", quote:"Best decision for our cloud kitchen. The Swiggy/Zomato order sync is brilliant. Our packaging errors dropped to zero after the first week. Support team is super responsive.", name:"Arjun Pillai", role:"Founder, Cloud Bites Kitchen — Bangalore" },
             ].map((t)=>(

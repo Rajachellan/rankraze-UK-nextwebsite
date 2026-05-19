@@ -44,23 +44,23 @@ export const metadata:Metadata = {
     "react development services",
     "react js development",
     "react js development company",
-    "react js development company in chennai",
+    "react js development company in dallas",
     "react js development company in india",
     "react js development services",
     "reactjs development companies in india",
-    "reactjs development company in chennai",
+    "reactjs development company in dallas",
     "reactjs development company in india",
     "reactjs development company india"
     ],
 
     alternates: {
-        canonical: "https://rankraze.com/react-js-development",
+        canonical: "https://rankraze.us/react-js-development",
     },
 
     openGraph: {
         title: "React JS Development Company in India | Rankraze",
         description: "Rankraze is a top React JS Development Company in India offering fast, scalable apps. Hire expert React JS developers for custom solutions today.",
-        url: "https://rankraze.com/react-js-development",
+        url: "https://rankraze.us/react-js-development",
         siteName: "Rankraze",
         images: [
         {
@@ -140,7 +140,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/the_future_of_web_development_reactjs-1024x576.webp"}
-                    alt="ReactJs Development Company in Chennai, India"
+                    alt="ReactJs Development Company in Dallas, Texas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-25"                                 
@@ -173,7 +173,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/certificate-Why-Choose-r7tvexo4dxquj00wr6xhagdbqchvwufglylx0pmvg8.webp"}
-                    alt="ReactJs Development Company in Chennai, India"
+                    alt="ReactJs Development Company in Dallas, Texas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-25"                                 
@@ -373,7 +373,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-10 py-4 rounded-md">
                     <Image 
                     src={Bannerimage}
-                    alt="ReactJs Development Company in Chennai, India"
+                    alt="ReactJs Development Company in Dallas, Texas"
                     width={830} height={850} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-25"                                 

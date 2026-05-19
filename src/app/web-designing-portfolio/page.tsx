@@ -49,13 +49,13 @@ export const metadata: Metadata = {
     "responsive website design",
   ],
   alternates: {
-    canonical: "https://rankraze.com/website-portfolio",
+    canonical: "https://rankraze.us/web-designing-portfolio",
   },
   openGraph: {
     title: "Website Portfolio - Rankraze",
     description:
       "Explore a curated portfolio that highlights our passion, creativity, and dedication.",
-    url: "https://rankraze.com/website-portfolio",
+    url: "https://rankraze.us/web-designing-portfolio",
     siteName: "Rankraze",
     images: [{ url: "", width: 700, height: 501, alt: "", type: "image/webp" }],
     locale: "en_US",

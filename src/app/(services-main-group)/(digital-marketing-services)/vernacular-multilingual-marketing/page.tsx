@@ -4,7 +4,7 @@ import { Metadata } from "next";
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 
 export const metadata:Metadata = {
-    title: "Vernacular Marketing Service| Mutilingual Marketing Chennai, Bangalore, India - Rankraze",
+    title: "Vernacular & Multilingual Marketing | Rankraze Texas",
     description: "Advertise your brand in multiple languages. We assist your business in reaching out to larger customers. Promote your brand in its native language, and boost your sales to every single language visitor. Get in touch to know more!",
     
     keywords: [
@@ -14,15 +14,15 @@ export const metadata:Metadata = {
         "multilingual marketing",
         "multilingual marketing consultancy",
         "multilingual marketing services",
-        "multilingual marketing services company in Chennai",
+        "multilingual marketing services company USA",
         "multilingual search marketing",
         "best vernacular content writing agency",
-        "best vernacular content writing agency in India",
-        "multilingual marketing Chennai",
-        "native advertising agency in Chennai",
-        "vernacular ads company in Chennai",
-        "vernacular advertising services in Chennai",
-        "vernacular content writing company in Chennai",
+        "best vernacular content writing agency in USA",
+        "multilingual marketing Texas",
+        "native advertising agency in Dallas",
+        "vernacular ads company in Texas",
+        "vernacular advertising Services in Dallas",
+        "vernacular content writing company in USA",
         "vernacular marketing",
         "vernacular marketing company",
         "vernacular marketing service",
@@ -30,13 +30,13 @@ export const metadata:Metadata = {
     ],
                 
     alternates: {
-        canonical: "https://rankraze.com/vernacular-multilingual-marketing",
+        canonical: "https://rankraze.us/vernacular-multilingual-marketing",
     },
 
     openGraph: {
-        title: "Vernacular Marketing Service| Mutilingual Marketing Chennai, Bangalore, India - Rankraze",
+        title: "Vernacular & Multilingual Marketing | Rankraze Texas",
         description: "Advertise your brand in multiple languages. We assist your business in reaching out to larger customers. Promote your brand in its native language, and boost your sales to every single language visitor. Get in touch to know more!",
-        url: "https://rankraze.com/vernacular-multilingual-marketing",
+        url: "https://rankraze.us/vernacular-multilingual-marketing",
         siteName: "Rankraze",
         images: [
         {
@@ -94,7 +94,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/vernacular-startuptalky-2-removebg-preview-1.webp"}
-                    alt="vernacular multilingual Services in chennai"
+                    alt="vernacular multilingual Services in Dallas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl"                                 
@@ -109,13 +109,13 @@ export default function page () {
                         Best Multilingual Marketing Company
                     </h2>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        With years of experience in digital marketing, Rankraze is currently one of the leading providers of multilingual digital marketing services in Chennai. Trusted by some of the best brands and companies, we set industry standards in speed, accuracy, and reliability. Hindi, Kannada, or others, we can create marketing collaterals, in your required language.
+                        With years of experience in digital marketing, Rankraze is currently one of the leading providers of multilingual digital marketing Services in Dallas. Trusted by some of the best brands and companies, we set industry standards in speed, accuracy, and reliability. Hindi, Kannada, or others, we can create marketing collaterals, in your required language.
                     </p>
                 </div>
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/world-image.webp"}
-                    alt="vernacular multilingual Services in chennai"
+                    alt="vernacular multilingual Services in Dallas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl px-6 md:px-12 xl:px-24"                                 

@@ -4,34 +4,34 @@ import { Metadata } from "next";
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 
 export const metadata:Metadata = {
-    title: "Mobile Application Development Company in Chennai - Android | iPad",
-    description: "Rankraze is a top-notch Mobile App Development Company in Chennai. Get your business mobile application at Best price in Chennai.",
+    title: "Mobile Application Development in Dallas - Android | iPad",
+    description: "Rankraze is a top-notch Mobile App Development Company in Dallas. Get your business mobile application built with clear scope, timelines, and US-friendly support.",
     
     keywords: [
-    "android app development company in Chennai",
+    "android app development company in Dallas",
     "android app development company in India",
-    "android application developers in Chennai",
-    "android application development company in Chennai",
+    "android application developers in Dallas",
+    "android application development company in Dallas",
     "app development companies",
     "app development services",
     "mobile app developer",
     "mobile app developers",
     "mobile app development company",
     "mobile app development company India",
-    "mobile app development in Chennai",
+    "mobile app development in Texas",
     "mobile app development services",
     "mobile app development solutions",
-    "mobile application development company in Chennai"
+    "mobile application development company in Dallas"
     ],
                 
     alternates: {
-        canonical: "https://rankraze.com/mobile-app-development-company-chennai",
+        canonical: "https://rankraze.us/mobile-app-development",
     },
 
     openGraph: {
-        title: "Mobile App Development Company Chennai",
-        description: "Rankraze is a top-notch Mobile App Development Company in Chennai. Get your business mobile application at affordable price in Chennai.",
-        url: "https://rankraze.com/mobile-app-development-company-chennai",
+        title: "Mobile App Development in Dallas",
+        description: "Rankraze is a top-notch Mobile App Development Company in Dallas. Get your business mobile application at affordable pricing in Texas.",
+        url: "https://rankraze.us/mobile-app-development",
         siteName: "Rankraze",
         images: [
         {
@@ -84,7 +84,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/mobile3.webp"}
-                    alt="Mobile Application services in chennai"
+                    alt="Mobile application services in Dallas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-25"                                 

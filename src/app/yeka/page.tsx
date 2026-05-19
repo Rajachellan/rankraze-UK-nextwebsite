@@ -3,20 +3,20 @@ import { Metadata } from "next";
 
 export const metadata:Metadata = {
     title: "Yeka Cosmetics Case Study | Influencer Marketing Success - Rankraze ",
-    description: "Discover how Rankraze boosted Yeka Cosmetics, a herbal beauty leader, with targeted influencer marketing. See real results in website traffic and sales. Chennai's top digital agency for your brand growth. Contact us today!",
+    description: "Discover how Rankraze grew Yeka Cosmetics with influencer marketing and performance content—stronger traffic and ecommerce traction for herbal beauty.",
     
     keywords: [
   
     ],
                 
     alternates: {
-        canonical: "https://rankraze.com/yeka",
+        canonical: "https://rankraze.us/yeka",
     },
 
     openGraph: {
         title: "Yeka - Rankraze",
         description: "Yeka Case Study – Influencer marketing Know how we can plug your brand into the industry's top influencers and drive more sales with this case study Yeka Cosmetics manufacturer of cosmetics using traditional herbs partnered with Rankraze technologies for influencer marketing. Objective Its primary objectives were to increase brand awareness among consumers by getting influencers […]",
-               url: "https://rankraze.com/yeka",
+               url: "https://rankraze.us/yeka",
         siteName: "Rankraze",
         images: [
         {
@@ -50,7 +50,7 @@ export default function YekaPage(){
           <div className="text-center font-bold text-2xl text-black dark:text-white">
             <Image
               src="/upload/services/yeka-2.webp"
-              alt="video marketing services in chennai"
+              alt="video marketing services"
               width={1024}
               height={1024}
               className="rounded-xl dark:grayscale-25 w-full h-auto"
@@ -112,7 +112,7 @@ export default function YekaPage(){
           <div className="text-center font-bold text-2xl text-black dark:text-white">
             <Image
               src="/upload/services/yeka-3.webp"
-              alt="video marketing services in chennai"
+              alt="video marketing services"
               width={750}
               height={1024}
               className=" dark:grayscale-25 p-5"
@@ -121,7 +121,7 @@ export default function YekaPage(){
           <div className="text-center font-bold text-2xl text-black dark:text-white">
             <Image
               src="/upload/services/yeka-4.webp"
-              alt="video marketing services in chennai"
+              alt="video marketing services"
               width={750}
               height={1024}
               className="rounded-xl p-5 dark:grayscale-25 "
@@ -144,7 +144,7 @@ export default function YekaPage(){
           <div className="text-center font-bold text-2xl text-black dark:text-white">
             <Image
               src="/upload/services/result-1.webp"
-              alt="video marketing services in chennai"
+              alt="video marketing services"
               width={481}
               height={296}
               className=" dark:grayscale-25 "
@@ -154,7 +154,7 @@ export default function YekaPage(){
           <div className="text-center font-bold text-2xl text-black dark:text-white">
             <Image
               src="/upload/services/result-2.webp"
-              alt="video marketing services in chennai"
+              alt="video marketing services"
               width={481}
               height={296}
               className="rounded-xl  dark:grayscale-25 "
@@ -167,7 +167,7 @@ export default function YekaPage(){
           <div className="text-center font-bold text-2xl text-black dark:text-white">
             <Image
               src="/upload/services/result-3.webp"
-              alt="video marketing services in chennai"
+              alt="video marketing services"
               width={1024}
               height={482}
               className=" dark:grayscale-25 "
@@ -177,7 +177,7 @@ export default function YekaPage(){
           <div className="text-center font-bold text-2xl text-black dark:text-white">
             <Image
               src="/upload/services/result-4.webp"
-              alt="video marketing services in chennai"
+              alt="video marketing services"
               width={1024}
               height={482}
               className="rounded-xl  dark:grayscale-25 "

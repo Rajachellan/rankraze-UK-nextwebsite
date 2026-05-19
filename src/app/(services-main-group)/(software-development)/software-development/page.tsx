@@ -4,33 +4,32 @@ import { Metadata } from "next";
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 
 export const metadata:Metadata = {
-    title: "Best Software Development Company in Chennai | Rankraze India",
-    description: "Rankraze Technology is a leading software development company in Chennai, India. We offer the best custom software development services, tool based on client’s requirements and market demands.",
+    title: "Best Software Development Company in Texas | Rankraze",
+    description: "Rankraze builds custom software, CRM, and web apps for US businesses from our Texas team. Scalable development aligned to your requirements and market.",
     
     keywords: [
- "Software Development Company in Chennai",
-"Software Development Company in India",
+ "Software Development Company in Texas",
+"Software Development Company USA",
 "Software Consulting and Development",
 "Software Development Company",
 "custom software development company",
 "software development company",
 "custom software development",
 "software development",
-"Software Development Company India",
+"Dallas software development",
 "Top Custom Software Development Company",
 "Custom Software Development Services",
-"Top Custom Software Development Company in India",
 
     ],
 
     alternates: {
-        canonical: "https://rankraze.com/software-development",
+        canonical: "https://rankraze.us/software-development",
     },
 
     openGraph: {
-        title: "Best Software Development Company in Chennai | Rankraze India",
-        description: "Rankraze Technology is a leading software development company in Chennai, India. We offer the best custom software development services, tool based on client’s requirements and market demands.",
-        url: "https://rankraze.com/software-development",
+        title: "Best Software Development Company in Texas | Rankraze",
+        description: "Rankraze delivers custom software development for startups and enterprises—CRM, integrations, and product engineering from Texas.",
+        url: "https://rankraze.us/software-development",
         siteName: "Rankraze",
         images: [
         {
@@ -54,7 +53,7 @@ export default function page () {
                 <div className="w-full max-w-7xl flex flex-col md:flex-row items-stretch justify-between gap-3.5 md:gap-0">
                     <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-center gap-4 pl-2.5">
                         <h1 className="text-4xl xl:text-[42px] font-semibold text-center md:text-left capitalize dark:text-gray-200 pr-4">
-                            Software Development Company in Chennai, India
+                            Software Development Company in Texas
                         </h1>
                         <Link href={"https://crm.skalelit.com/lead-form/1f920a2abc3394d259281285252cbb52?styled=1&with_logo=1"} target="_blank" className="overflow-hidden capitalize text-sm text-white px-6 py-2.5 relative bg-linear-to-br from-[#3DBC9C] to-[#36aaf1] rounded-lg">request quote</Link>
                     </div>
@@ -73,16 +72,16 @@ export default function page () {
                         About Rankraze
                     </h2>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        <span className="font-black">Rankraze</span> is one of the leading software development companies in Chennai, India. We specialize in developing our own CRM software and project management tool. We enable businesses, including start-ups, SMEs, and Fortune 500 companies, to use our expertise and skills to meet their short and long-term software development requirements with a number of software solutions, such as website development, app development, and eCommerce development.
+                        <span className="font-black">Rankraze</span> is a software development partner for businesses across Texas and the United States. We specialize in custom CRM, internal tools, and web applications. We help startups, SMEs, and enterprise teams ship reliable software—from discovery and architecture through launch and ongoing support.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        If you are looking for a software solution in Chennai, India, then Rankraze is the perfect choice for you. Our team of experienced and skilled professionals will work closely with you to understand your requirements and help you evolve into the best and most user-friendly solution possible. So, what are you waiting for? Contact us today and get the best software solution for your business!
+                        If you need a product-minded engineering team in your time zone, we work closely with stakeholders to translate requirements into maintainable systems. Contact us to scope your next build or modernization effort.
                     </p>
                 </div>
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/software-develop1.webp"}
-                    alt="Software Development Company in Chennai, India"
+                    alt="Software development team in Texas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-25"                                 
