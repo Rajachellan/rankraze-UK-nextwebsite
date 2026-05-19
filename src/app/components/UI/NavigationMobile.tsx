@@ -158,7 +158,7 @@ export default function MobileNavigationBar () {
                                 <Link href="/" className={`px-6 ${pathName === "/" ? "" : ""}`}>home</Link>
                             </li>
                             <li className="w-full flex items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
-                                <Link href="/about-us" className={`px-6 ${pathName === "/about-us" ? "" : ""}`}>About Us</Link>
+                                <Link href="/about-rankraze-digital-marketing-agency" className={`px-6 ${pathName === "/about-rankraze-digital-marketing-agency" ? "" : ""}`}>About Us</Link>
                             </li>
                             <li className="w-full flex flex-col items-left justify-start">
                                 <div className={`w-full flex items-left justify-start py-2 ${subMenus.service ? 'bg-[var(--primary-green)] text-white rounded-xs dark:bg-white dark:text-[var(--primary-blue)]' : ''}`} onClick={() => handleSubMenusClick("service")}>  
@@ -173,28 +173,28 @@ export default function MobileNavigationBar () {
                                         </div>
                                         <ul className={`${servicesGeoMenu.digital ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex-col items-center justify-center text-sm text-left pl-3`}>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
-                                                <Link href="seo-company-chennai" className={`px-6 ${pathName === "seo-company-chennai" ? "" : ""}`}>SEO company in chennai</Link>
+                                                <Link href="/seo-services-in-texas" className={`px-6 ${pathName === "/seo-services-in-texas" ? "" : ""}`}>SEO Services in Texas</Link>
                                             </li>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
-                                                <Link href="social-media-marketing-company-chennai" className={`px-6 ${pathName === "social-media-marketing-company-chennai" ? "" : ""}`}>social media Marketing</Link>
+                                                <Link href="/social-media-marketing-services-in-texas" className={`px-6 ${pathName === "/social-media-marketing-services-in-texas" ? "" : ""}`}>Social Media Marketing</Link>
                                             </li>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
-                                                <Link href="content-writing-agency-chennai" className={`px-6 ${pathName === "content-writing-agency-chennai" ? "" : ""}`}>content writing</Link>
+                                                <Link href="/content-writing-services-dallas" className={`px-6 ${pathName === "/content-writing-services-dallas" ? "" : ""}`}>Content Writing</Link>
                                             </li>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
-                                                <Link href="sem-company-chennai" className={`px-6 ${pathName === "sem-company-chennai" ? "" : ""}`}>SEM company chennai</Link>
+                                                <Link href="/ppc-management-services-in-dallas" className={`px-6 ${pathName === "/ppc-management-services-in-dallas" ? "" : ""}`}>PPC Management Services</Link>
                                             </li>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
-                                                <Link href="online-reputation-management-services-chennai" className={`px-6 ${pathName === "online-reputation-management-services-chennai" ? "" : ""}`}>online reputation management</Link>
+                                                <Link href="/online-reputation-management-services-in-texas" className={`px-6 ${pathName === "/online-reputation-management-services-in-texas" ? "" : ""}`}>Online Reputation Management</Link>
                                             </li>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
-                                                <Link href="influencer-marketing" className={`px-6 ${pathName === "influencer-marketing" ? "" : ""}`}>influencer marketing</Link>
+                                                <Link href="/influencer-marketing" className={`px-6 ${pathName === "/influencer-marketing" ? "" : ""}`}>Influencer Marketing</Link>
                                             </li>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
-                                                <Link href="vernacular-multilingual-marketing" className={`px-6 ${pathName === "vernacular-multilingual-marketing" ? "" : ""}`}>Vernacular Multilingual marketing</Link>
+                                                <Link href="/vernacular-multilingual-marketing" className={`px-6 ${pathName === "/vernacular-multilingual-marketing" ? "" : ""}`}>Vernacular Multilingual Marketing</Link>
                                             </li>
                                              <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
-                                                <Link href="email-marketing" className={`px-6 ${pathName === "email-marketing" ? "" : ""}`}>Email Marketing</Link>
+                                                <Link href="/email-marketing" className={`px-6 ${pathName === "/email-marketing" ? "" : ""}`}>Email Marketing</Link>
                                             </li>
                                             {/* <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
                                                 <Link href="ai-search-optimization" className={`px-6 ${pathName === "ai-search-optimization" ? "" : ""}`}>AI search Optimization</Link>
@@ -211,22 +211,22 @@ export default function MobileNavigationBar () {
                                         </div>
                                         <ul className={`${servicesGeoMenu.web ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex-col items-center justify-center text-sm text-left pl-3`}>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()} >
-                                                <Link href="web-development" className="px-6">Web Development</Link>
+                                                <Link href="/web-designing" className="px-6">Web Designing</Link>
                                             </li>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()} >
-                                                <Link href="web-hosting-company-service-in-chennai" className="px-6">Web Hosting Service</Link>
+                                                <Link href="/web-hosting" className="px-6">Web Hosting</Link>
                                             </li>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()} >
-                                                <Link href="mobile-app-development-company-chennai" className="px-6">Mobile App Development</Link>
+                                                <Link href="/mobile-app-development" className="px-6">Mobile App Development</Link>
                                             </li>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()} >
-                                                <Link href="web-analytics-service-in-chennai" className="px-6">Web Analytics Service in Chennai</Link>
+                                                <Link href="/web-analytic" className="px-6">Web Analytics</Link>
                                             </li>
                                             {/* <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()} >
                                                 <Link href="e-commerce-website-development" className="px-6">E-Commerce Website Development</Link>
                                             </li> */}
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()} >
-                                                <Link href="react-js-development" className="px-6">React Js development Company</Link>
+                                                <Link href="/react-js-development" className="px-6">ReactJs Development</Link>
                                             </li>
                                         </ul>
                                     </li>
@@ -269,13 +269,13 @@ export default function MobileNavigationBar () {
                                         </div>
                                         <ul className={`${servicesGeoMenu.video ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex-col items-center justify-center text-sm text-left pl-3`}>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
-                                                <Link href="video-marketing" className="px-6">video marketing</Link>
+                                                <Link href="/video-marketing" className="px-6">Video Marketing</Link>
                                             </li>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
-                                                <Link href="video-production-services" className="px-6">video production services</Link>
+                                                <Link href="/video-production-services" className="px-6">Video Production Services</Link>
                                             </li>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
-                                                <Link href="2d-and-3d-animation-company-in-chennai-india" className="px-6">2D and 3D animation</Link>
+                                                <Link href="/2d-and-3d-animation-services-in-dallas" className="px-6">2D and 3D Animation</Link>
                                             </li>
                                             {/* <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton() }>
                                                 <Link href="add-flim-making" className="px-6">AD Flim Making</Link>
@@ -289,10 +289,10 @@ export default function MobileNavigationBar () {
                                         </div>
                                         <ul className={`${servicesGeoMenu.extend ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex-col items-center justify-center text-sm text-left pl-3`}>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
-                                                <Link href="virtual-reality-development" className="px-6">virtual reality development</Link>
+                                                <Link href="/virtual-reality-development-company-dallas" className="px-6">Virtual Reality Development</Link>
                                             </li>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
-                                                <Link href="augmented-reality-development" className="px-6">augmented reality development</Link>
+                                                <Link href="/augmented-reality-development-in-texas" className="px-6">Augmented Reality Development</Link>
                                             </li>
                                         </ul>
                                     </li>
@@ -321,7 +321,7 @@ export default function MobileNavigationBar () {
                                                 <Link href="/ai-powered-chatbot-services" className="px-6">AI-powered chatbot services</Link>
                                             </li>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
-                                                <Link href="/sentiment-analysis" className="px-6">Sentiment Analysis</Link>
+                                                <Link href="/sentiment-analysis-services" className="px-6">Sentiment Analysis</Link>
                                             </li>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
                                                 <Link href="/future-ready-ai-solutions" className="px-6">Future Ready AI Solutions</Link>
@@ -342,7 +342,7 @@ export default function MobileNavigationBar () {
                                                 <Link href="/raze-mail" className="px-6">Raze Mail</Link>
                                             </li>
                                             <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
-                                                <Link href="/crm-software-in-chennai" className="px-6">skalelit CRM</Link>
+                                                <Link href="/crm-software-in-texas" className="px-6">skalelit CRM</Link>
                                             </li>
                                             {/* <li className="w-full flex flex-col items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
                                                 <Link href="/hr-automation-process" className="px-6">Hr Automation Process</Link>
@@ -379,7 +379,7 @@ export default function MobileNavigationBar () {
                                 </div>
                                 <ul className={`${subMenus.portfolio ? 'flex opacity-100 scale-in-ver-top' : 'hidden opacity-0 scale-out-ver-top'} flex-col items-center justify-center text-sm text-left pl-3`}>
                                     <li className="w-full flex items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
-                                        <Link href="/website-portfolio" className="px-6">Website portfolio</Link>
+                                        <Link href="/web-designing-portfolio" className="px-6">Website Portfolio</Link>
                                     </li>
                                     <li className="w-full flex items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
                                         <Link href="/social-media-marketing" className="px-6">Social Media Marketing portfolio</Link>
@@ -387,7 +387,7 @@ export default function MobileNavigationBar () {
                                 </ul>
                             </li>
                             <li className="w-full flex items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
-                                <Link href="/case-studies" className="px-6" >case studies</Link>
+                                <Link href="/case-study" className="px-6" >case studies</Link>
                             </li>
                             <li className="w-full flex items-left justify-start py-2" onClick={() => handleSetMenuButton()}>
                                 <Link href="/blogs" className="px-6">blogs</Link>

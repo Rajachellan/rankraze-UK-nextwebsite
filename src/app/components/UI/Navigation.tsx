@@ -20,7 +20,7 @@ export default function NavigationBar() {
                                 <Link href="/" className="">Home</Link>
                             </li>
                             <li className="h-full hover:text-[var(--primary-green)] transform ease-in-out duration-700 py-7 flex gap-1 items-center whitespace-nowrap">
-                                <Link href="/about-us" className="">About Us</Link>
+                                <Link href="/about-rankraze-digital-marketing-agency" className="">About Us</Link>
                             </li>
                             <li className="h-full hover:text-[var(--primary-green)] transform ease-in-out duration-700 py-7 flex gap-1.5 items-center group/services relative">
                                 <Link href="" className="">Services</Link>
@@ -33,42 +33,42 @@ export default function NavigationBar() {
                                         <i className="ri-arrow-right-s-line text-xl group-hover/digital:rotate-90 transform duration-300 px-3"></i>
                                         <ul className="absolute hidden top-0 left-full group-hover/digital:flex flex-col items-center justify-center bg-white dark:bg-[var(--primary-green)] rounded-md text-left drop-shadow-md overflow-hidden z-20 transform translate-all delay-1000 scale-in-ver-top-delay">
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="seo-company-chennai" className="whitespace-nowrap px-5 py-3">
-                                                    SEO Company in Chennai
+                                                <Link href="/seo-services-in-texas" className="whitespace-nowrap px-5 py-3">
+                                                    SEO Services in Texas
                                                 </Link>
                                             </li>
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="social-media-marketing-company-chennai" className="whitespace-nowrap px-5 py-3">
+                                                <Link href="/social-media-marketing-services-in-texas" className="whitespace-nowrap px-5 py-3">
                                                     Social Media Marketing
                                                 </Link>
                                             </li>
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="content-writing-agency-chennai" className="whitespace-nowrap px-5 py-3">
+                                                <Link href="/content-writing-services-dallas" className="whitespace-nowrap px-5 py-3">
                                                     Content Writing
                                                 </Link>
                                             </li>
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="sem-company-chennai" className="whitespace-nowrap px-5 py-3">
-                                                    SEM Company Chennai
+                                                <Link href="/ppc-management-services-in-dallas" className="whitespace-nowrap px-5 py-3">
+                                                    PPC Management Services
                                                 </Link>
                                             </li>
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="online-reputation-management-services-chennai" className="whitespace-nowrap px-5 py-3">
+                                                <Link href="/online-reputation-management-services-in-texas" className="whitespace-nowrap px-5 py-3">
                                                     Online Reputation Management
                                                 </Link>
                                             </li>
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="influencer-marketing" className="whitespace-nowrap px-5 py-3">
+                                                <Link href="/influencer-marketing" className="whitespace-nowrap px-5 py-3">
                                                     Influencer Marketing
                                                 </Link>
                                             </li>
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="vernacular-multilingual-marketing" className="whitespace-nowrap px-5 py-3">
+                                                <Link href="/vernacular-multilingual-marketing" className="whitespace-nowrap px-5 py-3">
                                                     Vernacular Multilingual Marketing
                                                 </Link>
                                             </li>
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="email-marketing" className="whitespace-nowrap px-5 py-3">
+                                                <Link href="/email-marketing" className="whitespace-nowrap px-5 py-3">
                                                     Email Marketing
                                                 </Link>
                                             </li>
@@ -91,23 +91,23 @@ export default function NavigationBar() {
                                         <i className="ri-arrow-right-s-line text-xl group-hover/web:rotate-90 transform duration-300 px-3"></i>
                                         <ul className="absolute hidden top-0 left-full group-hover/web:flex flex-col items-center justify-center bg-white dark:bg-[var(--primary-green)] rounded-md text-left drop-shadow-md overflow-hidden z-20 transform translate-all delay-1000 scale-in-ver-top-delay">
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="web-development" className="whitespace-nowrap px-5 py-3">
-                                                    Web Development
+                                                <Link href="/web-designing" className="whitespace-nowrap px-5 py-3">
+                                                    Web Designing
                                                 </Link>
                                             </li>
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="web-hosting-company-service-in-chennai" className="whitespace-nowrap px-5 py-3">
-                                                    Web Hosting Service
+                                                <Link href="/web-hosting" className="whitespace-nowrap px-5 py-3">
+                                                    Web Hosting
                                                 </Link>
                                             </li>
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="mobile-app-development-company-chennai" className="whitespace-nowrap px-5 py-3">
+                                                <Link href="/mobile-app-development" className="whitespace-nowrap px-5 py-3">
                                                     Mobile App Development
                                                 </Link>
                                             </li>
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="web-analytics-service-in-chennai" className="whitespace-nowrap px-5 py-3">
-                                                    Web Analytics Service in Chennai
+                                                <Link href="/web-analytic" className="whitespace-nowrap px-5 py-3">
+                                                    Web Analytics
                                                 </Link>
                                             </li>
                                             {/* <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
@@ -116,8 +116,8 @@ export default function NavigationBar() {
                                                 </Link>
                                             </li> */}
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)] rounded-b-md">
-                                                <Link href="react-js-development" className="whitespace-nowrap px-5 py-3">
-                                                    ReactJs Development Company
+                                                <Link href="/react-js-development" className="whitespace-nowrap px-5 py-3">
+                                                    ReactJs Development
                                                 </Link>
                                             </li>
                                         </ul>
@@ -171,17 +171,17 @@ export default function NavigationBar() {
                                         <i className="ri-arrow-right-s-line text-xl group-hover/video:rotate-90 transform duration-300 px-3"></i>
                                         <ul className="absolute hidden top-0 left-full group-hover/video:flex flex-col items-center justify-center bg-white dark:bg-[var(--primary-green)] rounded-md text-left drop-shadow-md overflow-hidden z-20 transform translate-all delay-1000 scale-in-ver-top-delay">
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="video-marketing" className="whitespace-nowrap px-5 py-3">
+                                                <Link href="/video-marketing" className="whitespace-nowrap px-5 py-3">
                                                     Video Marketing
                                                 </Link>
                                             </li>
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="video-production-services" className="whitespace-nowrap px-5 py-3">
+                                                <Link href="/video-production-services" className="whitespace-nowrap px-5 py-3">
                                                     Video Production Services
                                                 </Link>
                                             </li>
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="2d-and-3d-animation-company-in-chennai-india" className="whitespace-nowrap px-5 py-3">
+                                                <Link href="/2d-and-3d-animation-services-in-dallas" className="whitespace-nowrap px-5 py-3">
                                                     2D and 3D Animation
                                                 </Link>
                                             </li>
@@ -199,12 +199,12 @@ export default function NavigationBar() {
                                         <i className="ri-arrow-right-s-line text-xl group-hover/extend:rotate-90 transform duration-300 px-3"></i>
                                         <ul className="absolute hidden top-0 left-full group-hover/extend:flex flex-col items-center justify-center bg-white dark:bg-[var(--primary-green)] rounded-md text-left drop-shadow-md overflow-hidden z-20 transform translate-all delay-1000 scale-in-ver-top-delay">
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="virtual-reality-development-chennai-india" className="whitespace-nowrap px-5 py-3">
+                                                <Link href="/virtual-reality-development-company-dallas" className="whitespace-nowrap px-5 py-3">
                                                     Virtual Reality Development
                                                 </Link>
                                             </li>
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="augmented-reality-development" className="whitespace-nowrap px-5 py-3">
+                                                <Link href="/augmented-reality-development-in-texas" className="whitespace-nowrap px-5 py-3">
                                                     Augmented Reality Development
                                                 </Link>
                                             </li>
@@ -247,7 +247,7 @@ export default function NavigationBar() {
                                                 </Link>
                                             </li>
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="sentiment-analysis" className="whitespace-nowrap px-5 py-2">
+                                                <Link href="/sentiment-analysis-services" className="whitespace-nowrap px-5 py-2">
                                                     Sentiment Analysis
                                                 </Link>
                                             </li>
@@ -276,7 +276,7 @@ export default function NavigationBar() {
                                                 </Link>
                                             </li>
                                             <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                                <Link href="/crm-software-in-chennai" className="whitespace-nowrap px-5 py-2">
+                                                <Link href="/crm-software-in-texas" className="whitespace-nowrap px-5 py-2">
                                                     skalelit CRM
                                                 </Link>
                                             </li>
@@ -330,7 +330,7 @@ export default function NavigationBar() {
                                 <i className="ri-arrow-down-s-line text-xl group-hover/portfolio:-rotate-180 transform duration-300"></i>
                                 <ul className="absolute hidden top-0 left-0 group-hover/portfolio:flex group-hover/portfolio:top-full flex-col items-center justify-center bg-white dark:bg-[var(--primary-green)] rounded-md text-left drop-shadow-md overflow-hidden z-10 transform translate-all delay-1000 scale-in-ver-top">
                                     <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                        <Link href="/website-portfolio" className="whitespace-nowrap px-5 py-3">
+                                        <Link href="/web-designing-portfolio" className="whitespace-nowrap px-5 py-3">
                                             Website Portfolio
                                         </Link>
                                     </li>
@@ -342,7 +342,7 @@ export default function NavigationBar() {
                                 </ul>
                             </li>
                             <li className="h-full hover:text-[var(--primary-green)] transform ease-in-out duration-700 py-7 flex gap-1 items-center whitespace-nowrap">
-                                <Link href="/case-studies" className="">Case Studies</Link>
+                                <Link href="/case-study" className="">Case Studies</Link>
                             </li>
                             <li className="h-full hover:text-[var(--primary-green)] transform ease-in-out duration-700 py-7 flex gap-1 items-center">
                                 <Link href="/blogs" className="">Blogs</Link>
@@ -432,7 +432,7 @@ export default function NavigationBar() {
                                 <Link href="/csr-activities" className="">CSR Activities</Link>
                             </li>
                             <li className="h-full hover:text-[var(--primary-green)] transform ease-in-out duration-700 py-7 flex gap-1 items-center whitespace-nowrap">
-                                <Link href="contact-us" className="hidden lg:block">Contact Us</Link>
+                                <Link href="/contact-us" className="hidden lg:block">Contact Us</Link>
                                 <i className="ri-phone-fill lg:hidden font-extrabold text-xl pl-1.5"></i>
                             </li>
                         </ul>

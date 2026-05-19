@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://rankraze.com"),
+  metadataBase: new URL("https://rankraze.us"),
 };
 import { DM_Sans, Sora, Bricolage_Grotesque, Syne } from "next/font/google";
 import "./globals.css";
@@ -51,27 +51,27 @@ const schemaData = {
     {
       "@type": "LocalBusiness",
       "name": "Rankraze",
-      "url": "https://rankraze.com",
-      "logo": "https://rankraze.com/rankraze-logo.webp",
+      "url": "https://rankraze.us",
+      "logo": "https://rankraze.us/rankraze-logo.webp",
       "image": 
-        [ "https://rankraze.com/rankraze-team.webp"
+        [ "https://rankraze.us/rankraze-team.webp"
         ],
-      "description": "AI-powered digital marketing agency in Chennai delivering SEO, PPC, social media and performance marketing. Trusted by 2000+ brands including IIT Madras and Apollo.",
+      "description": "AI-powered digital marketing agency in Texas delivering SEO, PPC, social media and performance marketing. Trusted by 2000+ brands.",
       "foundingDate": "2016",
-      "telephone": "+919962262210",
-      "email": "info@rankraze.com",
+      "telephone": "+19194551241",
+      "email": "info@rankraze.us",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "2nd Floor, Karuna Conclave, AD 42 & 45, 4th Ave, Shanthi Colony",
-        "addressLocality": "Anna Nagar",
-        "addressRegion": "Chennai",
-        "postalCode": "600040",
-        "addressCountry": "IN"
+        "streetAddress": "2801 W, Royal Lane, Apt # 1905",
+        "addressLocality": "Irving",
+        "addressRegion": "TX",
+        "postalCode": "75063",
+        "addressCountry": "US"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "13.0850",
-        "longitude": "80.2101"
+        "latitude": "32.8959",
+        "longitude": "-96.9482"
       },
       "aggregateRating": {
         "@type": "AggregateRating",
@@ -94,8 +94,8 @@ const schemaData = {
       },
       "priceRange": "$$",
       "areaServed": {
-        "@type": "City",
-        "name": "Chennai"
+        "@type": "State",
+        "name": "Texas"
       },
       "sameAs": [
         "https://www.facebook.com/Rankraze",
@@ -115,10 +115,10 @@ const schemaData = {
     {
       "@type": "Organization",
       "name": "Rankraze",
-      "url": "https://rankraze.com",
+      "url": "https://rankraze.us",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://rankraze.com/rankraze-logo.webp"
+        "url": "https://rankraze.us/rankraze-logo.webp"
       },
       "founder": {
         "@type": "Person",

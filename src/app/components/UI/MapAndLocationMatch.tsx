@@ -65,7 +65,7 @@ export default function  MapAndLocationMatch () {
         },
     ]
 
-    const [currentLocationIndex, setLocationIndex] = useState(0);
+    const [currentLocationIndex, setLocationIndex] = useState(5);
     return (
         <>
         <div className="w-full flex flex-col md:flex-row justify-center items-stretch gap-4 max-w-7xl mb-2.5 relative">

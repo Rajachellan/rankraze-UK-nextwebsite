@@ -18,7 +18,7 @@ export default function Footer () {
                             style={{ height: 'auto' }}
                         />
                         <span className="text-sm font-medium text-white mt-2 p-1.5 text-left">
-                            We’re a full-service creative digital agency in chennai and bangalore, India and we can help your business grow. Rankraze specializes in creating engaging digital experiences, including website design, branding, digital marketing and content marketing
+                            We’re a full-service creative digital agency in Dallas, Texas, USA and we can help your business grow. Rankraze specializes in creating engaging digital experiences, including website design, branding, digital marketing and content marketing
                         </span>
                         <div className="flex gap-2.5 mt-2">
                             <Link href="https://www.facebook.com/Rankraze" target="_blank" className="w-9 h-9 flex items-center justify-center rounded-full bg-white/10 text-white hover:bg-white hover:text-[var(--primary-blue)] transition-all duration-300">
@@ -41,22 +41,22 @@ export default function Footer () {
                         </h4>
                         <ul className="w-full flex flex-col items-start justify-start gap-0.5">
                             <li className=''>
-                                <Link href="/seo-company-chennai" className='text-sm text-white hover:text-[var(--primary-blue)]'>SEO Services</Link>
+                                <Link href="/seo-services-in-texas" className='text-sm text-white hover:text-[var(--primary-blue)]'>SEO Services</Link>
                             </li>
                             <li className=''>
-                                <Link href="/social-media-marketing-company-chennai" className='text-sm text-white hover:text-[var(--primary-blue)]'>Social Media Marketing</Link>
+                                <Link href="/social-media-marketing-services-in-texas" className='text-sm text-white hover:text-[var(--primary-blue)]'>Social Media Marketing</Link>
                             </li>
                             <li className=''>
-                                <Link href="/sem-company-chennai" className='text-sm text-white hover:text-[var(--primary-blue)]'>SEM Services</Link>
+                                <Link href="/ppc-management-services-in-dallas" className='text-sm text-white hover:text-[var(--primary-blue)]'>PPC Services</Link>
                             </li>
                             <li className=''>
-                                <Link href="/content-writing-agency-chennai" className='text-sm text-white hover:text-[var(--primary-blue)]'>Content Writing Agency</Link>
+                                <Link href="/content-writing-services-dallas" className='text-sm text-white hover:text-[var(--primary-blue)]'>Content Writing Agency</Link>
                             </li>
                             <li className=''>
-                                <Link href="/online-reputation-management-services-chennai" className='text-sm text-white hover:text-[var(--primary-blue)]'>Online Reputation Management</Link>
+                                <Link href="/online-reputation-management-services-in-texas" className='text-sm text-white hover:text-[var(--primary-blue)]'>Online Reputation Management</Link>
                             </li>
                             <li className=''>
-                                <Link href="/web-development" className='text-sm text-white hover:text-[var(--primary-blue)]'>Web Development</Link>
+                                <Link href="/web-designing" className='text-sm text-white hover:text-[var(--primary-blue)]'>Web Designing</Link>
                             </li>
                             <li className=''>
                                 <Link href="/vernacular-multilingual-marketing" className='text-sm text-white hover:text-[var(--primary-blue)]'>Vernacular Marketing</Link>
@@ -65,7 +65,7 @@ export default function Footer () {
                                 <Link href="/influencer-marketing" className='text-sm text-white hover:text-[var(--primary-blue)]'>Influencer Marketing</Link>
                             </li>
                             <li className=''>
-                                <Link href="/sentiment-analysis" className='text-sm text-white hover:text-[var(--primary-blue)]'>Sentiment Analysis</Link>
+                                <Link href="/sentiment-analysis-services" className='text-sm text-white hover:text-[var(--primary-blue)]'>Sentiment Analysis</Link>
                             </li>
                         </ul>
                     </div>
@@ -81,22 +81,22 @@ export default function Footer () {
                                 <Link href="/video-production-services" className='text-sm text-white hover:text-[var(--primary-blue)]'>Video Production Services</Link>
                             </li>
                             <li className=''>
-                                <Link href="/2d-and-3d-animation-company-in-chennai-india" className='text-sm text-white hover:text-[var(--primary-blue)]'>2D and 3D Animation</Link>
+                                <Link href="/2d-and-3d-animation-services-in-dallas" className='text-sm text-white hover:text-[var(--primary-blue)]'>2D and 3D Animation</Link>
                             </li>
                             <li className=''>
-                                <Link href="/mobile-app-development-company-chennai" className='text-sm text-white hover:text-[var(--primary-blue)]'>Mobile App Development</Link>
+                                <Link href="/mobile-app-development" className='text-sm text-white hover:text-[var(--primary-blue)]'>Mobile App Development</Link>
                             </li>
                             <li className=''>
-                                <Link href="/web-hosting-company-service-in-chennai" className='text-sm text-white hover:text-[var(--primary-blue)]'>Web Hosting Service</Link>
+                                <Link href="/web-hosting" className='text-sm text-white hover:text-[var(--primary-blue)]'>Web Hosting</Link>
                             </li>
                             <li className=''>
-                                <Link href="/web-analytics-service-in-chennai" className='text-sm text-white hover:text-[var(--primary-blue)]'>Web Analytics Service</Link>
+                                <Link href="/web-analytic" className='text-sm text-white hover:text-[var(--primary-blue)]'>Web Analytics</Link>
                             </li>
                             <li className=''>
-                                <Link href="/augmented-reality-development" className='text-sm text-white hover:text-[var(--primary-blue)]'>Augmented Reality Development</Link>
+                                <Link href="/augmented-reality-development-in-texas" className='text-sm text-white hover:text-[var(--primary-blue)]'>Augmented Reality Development</Link>
                             </li>
                             <li className=''>
-                                <Link href="/virtual-reality-development" className='text-sm text-white hover:text-[var(--primary-blue)]'>Virtual Reality Development</Link>
+                                <Link href="/virtual-reality-development-company-dallas" className='text-sm text-white hover:text-[var(--primary-blue)]'>Virtual Reality Development</Link>
                             </li>
                         </ul>
                     </div>
@@ -106,7 +106,7 @@ export default function Footer () {
                         </h4>
                         <ul className="w-full flex flex-col items-start justify-start gap-0.5">
                             <li className=''>
-                                <Link href="/about-us" className='text-sm text-white hover:text-[var(--primary-blue)]'>About Us</Link>
+                                <Link href="/about-rankraze-digital-marketing-agency" className='text-sm text-white hover:text-[var(--primary-blue)]'>About Us</Link>
                             </li>
                             <li className=''>
                                 <Link href="/careers" className='text-sm text-white hover:text-[var(--primary-blue)]'>Careers</Link>

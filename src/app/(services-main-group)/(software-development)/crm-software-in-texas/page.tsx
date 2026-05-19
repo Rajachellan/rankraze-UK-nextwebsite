@@ -7,16 +7,16 @@ import { Users, BarChart2, Zap, Layers, Check, ArrowRight, Building2, ShoppingCa
 const LEAD_FORM = "https://crm.skalelit.com/lead-form/1f920a2abc3394d259281285252cbb52?styled=1&with_logo=1";
 
 export const metadata: Metadata = {
-  title: "CRM Software in Chennai | AI-Powered Sales & Service CRM for Businesses",
-  description: "Looking for the best CRM software in Chennai? Manage leads, sales, service, automation, customer support, and team productivity with Rankraze CRM. Get a 1-month free trial with mobile app access.",
-  keywords: ["CRM software Chennai","CRM software India","sales CRM","service CRM","lead management software","CRM for small business","mobile CRM app","AI CRM software","automotive CRM","real estate CRM","cloud CRM Chennai"],
-  alternates: { canonical: "https://rankraze.com/crm-software-in-chennai" },
+  title: "CRM Software in Texas | AI-Powered Sales & Service CRM for Businesses",
+  description: "Looking for the best CRM software in Texas? Manage leads, sales, service, automation, customer support, and team productivity with Rankraze CRM. Get a 1-month free trial with mobile app access.",
+  keywords: ["CRM software Texas","CRM software USA","sales CRM","service CRM","lead management software","CRM for small business","mobile CRM app","AI CRM software","automotive CRM","real estate CRM","cloud CRM Texas"],
+  alternates: { canonical: "https://rankraze.us/crm-software-in-texas" },
   openGraph: {
-    title: "CRM Software in Chennai | AI-Powered Sales & Service CRM",
+    title: "CRM Software in Texas | AI-Powered Sales & Service CRM",
     description: "Manage leads, sales, service, automation, and customer relationships with Rankraze CRM. 1-month free trial with mobile app access.",
-    url: "https://rankraze.com/crm-software-in-chennai",
+    url: "https://rankraze.us/crm-software-in-texas",
     siteName: "Rankraze",
-    images: [{ url: "/upload/software-develop1.webp", width: 826, height: 590, alt: "CRM Software in Chennai", type: "image/webp" }],
+    images: [{ url: "/upload/software-develop1.webp", width: 826, height: 590, alt: "CRM Software in Texas", type: "image/webp" }],
     locale: "en_US",
     type: "article",
   },
@@ -98,7 +98,7 @@ const FAQ = [
   { q: "What are the 4 types of CRM?", a: "The four major types of CRM are: Operational CRM, Analytical CRM, Collaborative CRM, and Strategic CRM. Each type focuses on improving customer management, automation, analytics, or collaboration." },
   { q: "How much does CRM software cost in India?", a: "CRM software pricing in India depends on features, users, customization, and business requirements. Rankraze offers flexible and budget-friendly CRM solutions for businesses of all sizes." },
   { q: "Is your CRM suitable for small businesses?", a: "Yes. Our CRM software is designed for startups, small businesses, service providers, and growing enterprises." },
-  { q: "Do you provide custom CRM software development in Chennai?", a: "Yes. We provide customized CRM software development based on industry requirements and workflow needs." },
+  { q: "Do you provide custom CRM software development in Texas?", a: "Yes. We provide customized CRM software development based on industry requirements and workflow needs." },
   { q: "Does the CRM include mobile app access?", a: "Yes. Our CRM software includes mobile app functionality for field teams, sales teams, and service management." },
   { q: "Can your CRM software integrate with other tools?", a: "Yes. Our CRM can integrate with communication tools, websites, marketing platforms, and business systems depending on your requirements." },
   { q: "Is your CRM secure?", a: "Yes. We use secure cloud infrastructure, user access control, and protected data management practices to keep customer information safe." },
@@ -113,17 +113,17 @@ const SCHEMA = {
     "name": "Rankraze CRM",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web, Android",
-    "description": "AI-powered CRM software for sales, service, and business growth in Chennai.",
-    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR", "description": "1-month free trial" },
-    "provider": { "@type": "Organization", "name": "Rankraze", "url": "https://rankraze.com" },
+    "description": "AI-powered CRM software for sales, service, and business growth in Texas.",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "1-month free trial" },
+    "provider": { "@type": "Organization", "name": "Rankraze", "url": "https://rankraze.us" },
   },
   localBusiness: {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Rankraze",
-    "description": "CRM software provider in Chennai offering AI-powered sales and service CRM solutions.",
-    "url": "https://rankraze.com",
-    "address": { "@type": "PostalAddress", "addressLocality": "Chennai", "addressRegion": "Tamil Nadu", "addressCountry": "IN" },
+    "description": "CRM software provider in Texas offering AI-powered sales and service CRM solutions.",
+    "url": "https://rankraze.us",
+    "address": { "@type": "PostalAddress", "addressLocality": "Irving", "addressRegion": "TX", "addressCountry": "US" },
   },
   faqSchema: {
     "@context": "https://schema.org",
@@ -174,7 +174,7 @@ export default function CRMPage() {
           <div className="md:w-1/2 space-y-4">
             <h2 className="text-3xl xl:text-[38px] font-semibold dark:text-gray-200">Why Businesses Need CRM Software Today</h2>
             <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-sm md:text-base">
-              Customer expectations are changing rapidly. Businesses that still manage leads through spreadsheets, WhatsApp chats, or disconnected systems often struggle with missed follow-ups, poor tracking, and inconsistent customer experiences. With digital competition increasing across Chennai and India, businesses need a centralized CRM system to stay organized and competitive.
+              Customer expectations are changing rapidly. Businesses that still manage leads through spreadsheets, WhatsApp chats, or disconnected systems often struggle with missed follow-ups, poor tracking, and inconsistent customer experiences. With digital competition increasing across Texas and the US, businesses need a centralized CRM system to stay organized and competitive.
             </p>
           </div>
           <ul className="md:w-1/2 space-y-3 text-sm md:text-base text-gray-600 dark:text-gray-300">
@@ -213,7 +213,7 @@ export default function CRMPage() {
       {/* Custom CRM */}
       <section className="w-full grid place-items-center mt-20 px-4 md:px-6 lg:px-10 bg-gray-50 dark:bg-[#0B0E11] py-16">
         <div className="w-full max-w-7xl">
-          <h2 className="text-3xl xl:text-[38px] font-semibold text-center dark:text-gray-200 mb-3">Custom CRM Software Development in Chennai</h2>
+          <h2 className="text-3xl xl:text-[38px] font-semibold text-center dark:text-gray-200 mb-3">Custom CRM Software Development in Texas</h2>
           <p className="text-center text-gray-500 dark:text-gray-400 max-w-2xl mx-auto mb-10 text-sm md:text-base">Every business operates differently. We build scalable CRM systems tailored for startups, SMEs, and enterprises.</p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {CUSTOM_CRM.map((item) => (
@@ -270,7 +270,7 @@ export default function CRMPage() {
       <section className="w-full grid place-items-center mt-20 px-4 md:px-6 lg:px-10">
         <div className="w-full max-w-7xl flex flex-col md:flex-row gap-10 items-start">
           <div className="md:w-1/2 space-y-4">
-            <h2 className="text-3xl xl:text-[38px] font-semibold dark:text-gray-200">Why Businesses in Chennai Choose Rankraze CRM</h2>
+            <h2 className="text-3xl xl:text-[38px] font-semibold dark:text-gray-200">Why Businesses in Texas Choose Rankraze CRM</h2>
             <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-sm md:text-base">Unlike generic CRM tools, our CRM software is designed by a team that actively works in digital marketing, lead generation, customer acquisition, and software development. This gives us practical understanding of real business challenges.</p>
           </div>
           <ul className="md:w-1/2 space-y-3 text-sm md:text-base text-gray-600 dark:text-gray-300">

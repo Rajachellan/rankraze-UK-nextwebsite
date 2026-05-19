@@ -120,7 +120,7 @@ const PLATFORM_TABS = [
 ];
 
 /* ─── Card visuals ────────────────────────────────────────────────────────── */
-function CardVisual({ visual, accent }) {
+function CardVisual({ visual, accent }: { visual: string; accent: string }) {
   const vis = {
     bulkSend: (
       <svg viewBox="0 0 200 120" className="w-full h-full" style={{ color: accent }}>

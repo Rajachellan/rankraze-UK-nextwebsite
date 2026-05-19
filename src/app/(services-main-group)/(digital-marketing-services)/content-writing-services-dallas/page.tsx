@@ -4,39 +4,39 @@ import { Metadata } from "next";
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 
 export const metadata:Metadata = {
-    title: "Content Writing Agency in Chennai | SEO Copy Writing | Website Copy Writing Agency in Chennai",
-    description: "Rankraze, is a content marketing agency in Chennai that offers only good quality content writing services, social media marketing, SEO Content writing, Website content writing etc..",
+    title: "Content Writing Agency in Dallas | SEO Copywriting | Website Copywriting Agency in Dallas | Rankraze",
+    description: "Rankraze is a content marketing agency in Dallas, Texas. We offer high-quality content writing services, social media copywriting, SEO content writing, website content writing, etc.",
     keywords: [
-        "best content writing companies in Chennai",
+        "best content writing companies in Dallas",
         "best content writing company",
         "best content writing services",
         "content development service",
-        "content services India",
-        "content writers in Chennai",
+        "content services USA",
+        "content writers in Dallas",
         "content writing agency",
-        "content writing agency in Chennai",
-        "content writing agency India",
-        "content writing companies in Chennai",
+        "content writing agency in Dallas",
+        "content writing agency USA",
+        "content writing companies in Dallas",
         "content writing company",
-        "content writing company India",
-        "content writing service in Chennai",
+        "content writing company USA",
+        "content writing service in Dallas",
         "content writing service provider",
         "content writing service",
-        "content writing services India",
-        "freelance content writers in Chennai",
+        "content writing services USA",
+        "freelance content writers in Dallas",
         "professional content writing services",
-        "SEO copy writing",
+        "SEO copywriting",
         "website content writing services"
     ],
                 
     alternates: {
-        canonical: "https://rankraze.com/content-writing-agency-chennai",
+        canonical: "https://rankraze.us/content-writing-services-dallas",
     },
 
     openGraph: {
-        title: "Content Writing Agency in Chennai | SEO Copy Writing | Website Copy Writing Agency in Chennai",
-        description: "Rankraze, is a content marketing agency in Chennai that offers only good quality content writing services, social media marketing, SEO Content writing, Website content writing etc..",
-        url: "https://rankraze.com/content-writing-agency-chennai",
+        title: "Content Writing Agency in Dallas | SEO Copywriting | Website Copywriting Agency in Dallas",
+        description: "Rankraze is a content marketing agency in Dallas, Texas. We offer high-quality content writing services, social media copywriting, SEO content writing, website content writing, etc.",
+        url: "https://rankraze.us/content-writing-services-dallas",
         siteName: "Rankraze",
         images: [
         {
@@ -60,7 +60,7 @@ export default function page () {
                 <div className="w-full max-w-7xl flex flex-col md:flex-row items-stretch justify-between gap-3.5 md:gap-0">
                     <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-center gap-4 pl-2.5">
                         <h1 className="text-4xl xl:text-[42px] font-semibold text-center md:text-left capitalize dark:text-gray-200 pr-4">
-                            Content Marketing Company in Chennai
+                            Content Marketing Company in Dallas, Texas
                         </h1>
                         <p className="text-sm md:text-sm text-gray-700 dark:text-gray-300 text-center md:text-left pr-4">
                             Your next-generation marketing solution
@@ -85,7 +85,7 @@ export default function page () {
                         If you have any idea about digital marketing, this definitely won’t be your first time hearing the term Content Marketing. Don’t worry if you’re still a bit confused about it. We’re here to help you.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        Content Marketing is a marketing strategy focused on creating and distributing <span className="font-semibold">valuable, relevant,</span>  and <span className="font-semibold">consistent</span> content to attract and refine your target audience.
+                        Content Marketing is a marketing strategy focused on creating and distributing <span className="font-semibold">valuable, relevant,</span> and <span className="font-semibold">consistent</span> content to attract and refine your target audience.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
                         A decade back, marketing was so expensive and involved more physical work. Thanks to Digital Marketing. We can now market our products and services to our target audience just by the click of a fingertip.
@@ -94,7 +94,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/Content-Marketing-image1.webp"}
-                    alt="Content Marketing services in chennai"
+                    alt="Content Marketing services in Dallas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-25"                                 
@@ -138,7 +138,7 @@ export default function page () {
                             <li className="flex items-start gap-2">
                                 <i className="ri-arrow-right-double-line text-lg text-[var(--primary-green)]"></i>
                                 <span className="">
-                                    The often you post, the more present you are in front of your audience. Search Engines pay attention to all these factors to rank you higher too.
+                                    The more often you post, the more present you are in front of your audience. Search Engines pay attention to all these factors to rank you higher too.
                                 </span>
                             </li>
                         </ul>
@@ -154,7 +154,7 @@ export default function page () {
                     />
                 </div>
             </div>
-            <div className="w-full max-w-6xl flex flex-col items-stretch justify-center">
+            <div className="w-full max-w-7xl flex flex-col items-stretch justify-center">
                 <div className="w-full flex flex-col items-center justify-center gap-3 md:gap-3.5 p-2.5">
                     <h2 className="text-4xl xl:text-[42px] font-semibold text-center md:text-left capitalize dark:text-gray-200 pr-4">
                         Why is Content Marketing Necessary?
@@ -166,7 +166,7 @@ export default function page () {
                         Content Marketing is the core of all online marketing. You can have a perfectly designed website and a completely optimized social profile, but if your content is not useful to your audience, you’re out of the market.
                     </p>
                     <p className="max-w-4xl text-gray-500 dark:text-gray-300 leading-relaxed text-justify md:text-center text-sm md:text-base px-2.5">
-                        To ensure that your audiences receive valuable content, make sure all of your content falls into one of the following categories.
+                        To ensure that your audiences receive valuable content, make sure all of your content falls into one of the following categories:
                     </p>
                 </div>
                 <div className="w-full grid max-w-7xl grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-2.5 gap-5 mt-3.5 2xl:mt-8">
@@ -236,7 +236,7 @@ export default function page () {
         <section className="w-full grid place-items-center mt-20 text-[var(--text-black)] gap-6 md:gap-12 lg:gap-14 xl:gap-16 rounded-xl md:rounded-4xl bg-[url('/upload/PPC-banner-scaled.webp')] bg-no-repeat bg-cover bg-center relative before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#00000090] overflow-hidden">
             <div className="w-full max-w-7xl flex flex-col items-center justify-center gap-6 px-4 md:px-6 lg:px-10 my-20 z-10">
                 <h2 className="text-2xl md:text-4xl lg:text-4xl text-white font-semibold text-center lg:text-left">
-                    Types of Content Marketing social presence?
+                    Types of Content Marketing
                 </h2>
                 <p className="text-white text-sm md:text-sm text-center tracking-tight md:tracking-normal px-20 md:p-none">
                     If you have any idea about digital marketing, this definitely won’t be your first time hearing the term Content Marketing. Don’t worry if you’re still a bit confused about it. We’re here to help you. Content Marketing is a marketing strategy focused on creating and distributing valuable, relevant, and consistent content to attract and refine your target audience.
@@ -251,7 +251,7 @@ export default function page () {
                             <div className="w-full flex flex-col items-start center-start gap-2.5">
                                 <p className="capitalize font-bold text-xl text-gray-700">Social Media Posts</p>
                                 <p className="text-gray-500 text-left leading-relaxed tracking-wide text-sm">
-                                    Though most of the types of content we discussed above are online-based, giving out downloadable freebies is a huge perk of gaining more email subscribers on your list. Adding lead magnets on your website and giving out content like this via mail is one proven way to increase your costumers and website visits. Some of the popular document formats are:
+                                    Though most of the types of content we discussed above are online-based, giving out downloadable freebies is a huge perk of gaining more email subscribers on your list. Adding lead magnets on your website and giving out content like this via mail is one proven way to increase your customers and website visits. Some of the popular document formats are:
                                 </p>
                                 <ul className="text-sm md:text-sm pl-1 flex flex-col gap-1 list-disc marker:text-[var(--primary-green)] text-gray-700">
                                     <li className="flex items-start gap-2">
@@ -454,7 +454,7 @@ export default function page () {
                                     <li className="flex items-start gap-2">
                                         <i className="ri-sparkling-2-line text-lg text-[var(--primary-green)]"></i>
                                         <span className="">
-                                            These audio contentsare more welcomed now more than ever.
+                                            These audio contents are more welcomed now more than ever.
                                         </span>
                                     </li>
                                 </ul>
@@ -477,13 +477,13 @@ export default function page () {
                         You don’t have to struggle to do all this on your own, we are here to help you.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        Rankraze offers the most extraordinary content marketing services in Chennai. We are here to guide you, create content for you and promote that to your perfect target audience!
+                        Rankraze offers the most extraordinary content marketing services in Dallas, Texas. We are here to guide you, create content for you and promote that to your perfect target audience!
                     </p>
                 </div>
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/Why-is-Content-Marketing-necessary.webp"}
-                    alt="Why rankraze is the beat"
+                    alt="Why Rankraze is the best"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-25"                                 
@@ -496,10 +496,10 @@ export default function page () {
                         Our End-to-End Content Marketing Services for Online Growth
                     </h2>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        Being one of the top digital marketing agencies in Chennai, we’ve helped a lot of businesses and brands create content.
+                        Being one of the top digital marketing agencies in Dallas, Texas, we’ve helped a lot of businesses and brands create content.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        Some of our key services in content marketing include
+                        Some of our key services in content marketing include:
                     </p>
                     <div className="w-full px-2.5 md:px-4 lg:px-6 2xl:px-8">
                         <ul className="pl-1 flex flex-col gap-1 md:gap-1.5 list-disc marker:text-[var(--primary-green)] text-gray-700 dark:text-gray-300 leading-relaxed">
@@ -551,11 +551,10 @@ export default function page () {
                                 <i className="ri-lightbulb-line text-lg text-[var(--primary-green)]"></i>
                                 <span>Social Media Writing</span>
                             </li>
-
                         </ul>
                     </div>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        Our expertise content marketing team will work with you on your every step and fulfill all your content needs.
+                        Our expert content marketing team will work with you on every step and fulfill all your content needs.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
                         We have clients from different states and countries. This doesn’t stop us from providing the best support and assistance in their work.

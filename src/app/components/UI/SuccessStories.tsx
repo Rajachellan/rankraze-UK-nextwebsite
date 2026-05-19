@@ -71,7 +71,7 @@ const caseStudies = [
     results: [
       "₹4Cr+ revenue in 18 months",
       "21,000+ student & parent leads ",
-      "Scaled Chennai branch successfully",
+      "Scaled US branch successfully",
     ],
     caseStudyLink: "/europe-study-centre",
   },

@@ -218,7 +218,7 @@ const AboutSection: FC = () => {
                                     'opacity 0.65s cubic-bezier(.22,.61,.36,1) 0.48s, transform 0.65s cubic-bezier(.22,.61,.36,1) 0.48s',
                             }}
                         >
-                            Chennai
+                            Texas
                         </em>
                     </h2>
 
@@ -268,7 +268,7 @@ const AboutSection: FC = () => {
                         <p
                             className="text-[15px] leading-[1.82] mb-4 text-[#3a5550] dark:text-[#94B4D4]"
                         >
-                            Rankraze is a results-driven digital marketing agency in Chennai focused on helping
+                            Rankraze is a results-driven digital marketing agency in Texas focused on helping
                             businesses grow through data-driven marketing strategies. Our team specialises in SEO,
                             Google Ads, social media marketing, and performance-focused campaigns designed to attract
                             the right audience and generate qualified leads.
@@ -283,7 +283,7 @@ const AboutSection: FC = () => {
                         </p>
 
                         {/* Micro CTA */}
-                        <Link href="/about" className="ab-cta-link text-teal-800 dark:text-[#3CBA99] underline underline-offset-4 font-bold">
+                        <Link href="/about-rankraze-digital-marketing-agency" className="ab-cta-link text-teal-800 dark:text-[#3CBA99] underline underline-offset-4 font-bold">
                             Learn More About Rankraze{' '}
                             <span className="ab-cta-arrow">&#8594;</span>
                         </Link>

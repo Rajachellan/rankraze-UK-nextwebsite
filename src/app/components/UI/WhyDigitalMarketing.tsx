@@ -34,7 +34,7 @@ const features = [
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
       </svg>
     ),
-    title: "Stay Competitive in Chennai Market",
+    title: "Stay Competitive in the US Market",
     desc: "With more businesses investing in digital marketing, having the right strategy is essential to stay ahead.",
   },
   {
@@ -128,15 +128,15 @@ export default function WhyDigitalMarketing() {
             Why Digital Marketing
           </span>
           <h2 className="text-[1.75rem] sm:text-3xl md:text-4xl lg:text-[2.6rem] font-extrabold text-[#1a1a2e] dark:text-[#E2EEFF] leading-tight tracking-tight mb-6">
-            Why Businesses in Chennai Need <br className="hidden sm:block" />
+            Why Businesses in the US Need <br className="hidden sm:block" />
             Digital Marketing Today
           </h2>
           <p className="mx-auto max-w-3xl text-sm md:text-[15.5px] text-justify md:text-center leading-[1.85] text-[#4a4a68] dark:text-[#94B4D4]">
            
          
-           In today's competitive digital landscape, businesses can no longer rely on traditional marketing methods to grow. Rankraze, a trusted    <strong className="text-[#1a1a2e] dark:text-[#E2EEFF] font-semibold">
-              digital marketing agency in Chennai
-            </strong>{" "}, helps brands improve visibility, attract the right audience, and generate consistent leads through data-driven strategies. At Rankraze, we combine SEO, paid advertising, and content-driven marketing to help businesses scale efficiently and stay ahead in Chennai's fast-growing online market.
+            In today's competitive digital landscape, businesses can no longer rely on traditional marketing methods to grow. Rankraze, a trusted    <strong className="text-[#1a1a2e] dark:text-[#E2EEFF] font-semibold">
+              digital marketing agency in Dallas, Texas
+            </strong>{" "}, helps brands improve visibility, attract the right audience, and generate consistent leads through data-driven strategies. At Rankraze, we combine SEO, paid advertising, and content-driven marketing to help businesses scale efficiently and stay ahead in Texas's fast-growing online market.
  
           </p>
         </div>

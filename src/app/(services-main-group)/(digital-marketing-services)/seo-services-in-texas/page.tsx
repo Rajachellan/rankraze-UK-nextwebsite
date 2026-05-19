@@ -7,35 +7,34 @@ import SeoAndSentimentComponent from "@/app/components/UI/SeoAndSentimentCompone
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 
 export const metadata:Metadata = {
-    title: "Best SEO Company in Chennai | SEO Agency in Chennai | Rankraze",
-    description: "Rankraze is one of the best SEO company in Chennai providing services at an affordable cost for the specific needs of clients. Call us now 97100 79798",
+    title: "Best SEO Company in Texas | SEO Agency in Texas | Rankraze",
+    description: "Rankraze is one of the best SEO company in Texas providing services at an affordable cost for the specific needs of clients. Call us now +1 (919) 455-1241",
     keywords: [
-        "SEO agency in Chennai",
+        "SEO agency in Texas",
         "SEO agency near me",
-        "SEO company in Chennai",
-        "SEO in Chennai",
-        "SEO services in Chennai",
-        "best SEO agency in Chennai",
-        "best SEO company in Chennai",
-        "best SEO services in Chennai",
-        "No 1 SEO company in Chennai",
-        "search engine optimization Chennai",
-        "search engine optimization services in Chennai",
-        "SEO company in Chennai",
-        "SEO in Chennai",
-        "top 10 SEO companies in Chennai",
-        "top SEO company in Chennai"
-
+        "SEO company in Texas",
+        "SEO in Texas",
+        "SEO services in Texas",
+        "best SEO agency in Texas",
+        "best SEO company in Texas",
+        "best SEO services in Texas",
+        "No 1 SEO company in Texas",
+        "search engine optimization Texas",
+        "search engine optimization services in Texas",
+        "SEO company in Texas",
+        "SEO in Texas",
+        "top 10 SEO companies in Texas",
+        "top SEO company in Texas"
     ],
                 
     alternates: {
-        canonical: "https://rankraze.com/seo-company-chennai",
+        canonical: "https://rankraze.us/seo-services-in-texas",
     },
 
     openGraph: {
-        title: "SEO Company Chennai",
-        description: "Rankraze is one of the best SEO company in Chennai providing services at an affordable cost for the specific needs of clients. Call us now 97100 79798",
-        url: "https://rankraze.com/seo-company-chennai",
+        title: "SEO Company Texas",
+        description: "Rankraze is one of the best SEO company in Texas providing services at an affordable cost for the specific needs of clients. Call us now +1 (919) 455-1241",
+        url: "https://rankraze.us/seo-services-in-texas",
         siteName: "Rankraze",
         images: [
         {
@@ -59,7 +58,7 @@ export default function page () {
                 <div className="w-full max-w-7xl flex flex-col md:flex-row items-stretch justify-between gap-3.5 md:gap-0">
                     <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-center gap-4 pl-2.5">
                         <h1 className="text-4xl xl:text-[42px] font-semibold text-center md:text-left capitalize dark:text-gray-200 pr-4">
-                            Best SEO Agency In Chennai, India
+                             Best SEO Agency In Texas, USA
                         </h1>
                         <p className="text-sm md:text-sm text-gray-700 dark:text-gray-300 text-center md:text-left pr-4">
                             Search engines have become a one-stop solution for everything. Even when search engines like Google, Yahoo, and Bing offer millions of results for each search, no one has the time to look at all that
@@ -78,28 +77,28 @@ export default function page () {
             <div className="w-full max-w-7xl flex flex-col md:flex-row items-stretch justify-center">
                 <div className="w-full md:w-1/2 flex flex-col items-center justify-center gap-3 md:gap-3.5 p-2.5">
                     <h2 className="text-4xl xl:text-[42px] font-semibold text-center md:text-left capitalize dark:text-gray-200 pr-4">
-                        Are you looking for Best SEO Company In Chennai,India?
+                        Are you looking for Best SEO Company In Texas, USA?
                     </h2>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        In today’s fast-paced world, people seek instant solutions for their every need. Search engines have grown into the standard tool. From the simple queries like “how to make toast” to complex ones like “how to invest in the share market,” people turn to <span className="font-bold">search engines</span> for answers.
+                        In today’s fast-paced world, people seek instant solutions for their every need. Search engines have grown into the standard tool. From simple queries like “how to make toast” to complex ones like “how to invest in the share market,” people turn to <span className="font-bold">search engines</span> for answers.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
                         Search engines, such as Google, Yahoo, and Bing, offer millions of results for every search, but no one has the time to sift through them all. Approximately 95% of web traffic is directed to websites featured on the first page of search engine results, leaving the remaining 5% to vie for attention.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        Enter <span className="font-bold">Rankraze</span>, your trusted <span className="font-bold">SEO services company in Chennai</span>, India. We are more than just a digital <span className="font-bold">SEO agency in Chennai</span>; we are your strategic partner in the digital marketing landscape. Our expert team excels in optimizing your online presence to ensure your business secures and maintains a coveted position on search engine results pages.
+                        Enter <span className="font-bold">Rankraze</span>, your trusted <span className="font-bold">SEO services company in Texas</span>, USA. We are more than just a digital <span className="font-bold">SEO agency in Texas</span>; we are your strategic partner in the digital marketing landscape. Our expert team excels in optimizing your online presence to ensure your business secures and maintains a coveted position on search engine results pages.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        At Rankraze, we offer a comprehensive suite of digital marketing services in india, designed to elevate your online visibility and drive organic traffic. With a tailored approach and careful content curation, we specialize in propelling your business towards digital success.
+                        At Rankraze, we offer a comprehensive suite of digital marketing services, designed to elevate your online visibility and drive organic traffic. With a tailored approach and careful content curation, we specialize in propelling your business towards digital success.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        Choose Rankraze, your preferred <Link href={"/digital-marketing-services-in-chennai"} className="font-bold text-[var(--primary-blue)]"></Link> digital marketing company in Chennai, and let us steer your online presence towards the pinnacle of search engine rankings. Discover the difference that our SEO expertise can make for your business.
+                        Choose Rankraze, your preferred digital marketing company in Texas, and let us steer your online presence towards the pinnacle of search engine rankings. Discover the difference that our SEO expertise can make for your business.
                     </p>
                 </div>
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/SEO-Consultancy-Services-In-Chennai.webp"}
-                    alt="video marketing services in chennai"
+                    alt="SEO services in Texas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-25"                                 
@@ -114,19 +113,19 @@ export default function page () {
                         What we aim for?
                     </h2>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        Being one of the leading <span className="font-bold">SEO agencies in Chennai, India</span>, we aim at providing you the best search engine optimization. We know how important SEO is for every business and brand. We value every client and put in diligent efforts to make sure they stay on the top of the SERP.
+                        Being one of the leading <span className="font-bold">SEO agencies in Texas, USA</span>, we aim at providing you the best search engine optimization. We know how important SEO is for every business and brand. We value every client and put in diligent efforts to make sure they stay on the top of the SERP.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
                         Every niche has its specific high-ranking keywords, competitors, etc. We research and analyze your market to decide which strategies will be the best for you and your business.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        We know the value of the money you spend. We, being a B2B business, aim to offer you the best value for your money by providing the best economically beneficial solutions.
+                        We know the value of the money you spend. We, being a B2B business, aim to offer you the best value by providing the best economically beneficial solutions.
                     </p>
                 </div>
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/SEO-services.webp"}
-                    alt="video marketing services in chennai"
+                    alt="SEO services in Texas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-55"                                 
@@ -140,7 +139,7 @@ export default function page () {
                 <div className="w-full overflow-hidden flex items-center justify-center px-4 md:px-10 lg:px-14 xl:px-16 py-5 rounded-md">
                     <Image 
                     src={"/upload/check-seo-banner-art-1.webp"}
-                    alt="video marketing services in chennai"
+                    alt="SEO services in Texas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-55"                                 
@@ -155,7 +154,7 @@ export default function page () {
                         Guaranteed SEO Service
                     </h2>
                     <p className="text-gray-100 leading-relaxed text-justify text-sm md:text-base">
-                        Rankraze, being one of the top SEO agencies in Chennai, India,  provides you with complete guidance, assistance and guarantees our service satisfaction.
+                        Rankraze, being one of the top SEO agencies in Texas, USA, provides you with complete guidance, assistance and guarantees our service satisfaction.
                     </p>
                     <p className="text-gray-100 leading-relaxed text-justify text-sm md:text-base">
                         True to our mission statement, “If we can do it for us, we can do it for you”, our team works passionately to deliver the best results. Most of our clients rank in the first three positions of SERP and the rest of them rank on the first page of the search engine results.
@@ -167,7 +166,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 md:py-24 rounded-md">
                     <Image 
                     src={"/upload/Guaranteed-SEO-Service-1.webp"}
-                    alt="video marketing services in chennai"
+                    alt="SEO services in Texas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-25"                                 
@@ -181,7 +180,7 @@ export default function page () {
                     Our SEO services
                 </h2>
                 <p className="text-gray-700 dark:text-gray-100 leading-relaxed text-justify md:text-center text-sm md:text-base max-w-5xl">
-                    We provide custom-made search engine optimization for your industry and make you top in your particular niche & drive more traffic that converts. As a leading SEO agency, we know how important the different aspects of SEO are.
+                    We provide custom-made search engine optimization for your industry and make you top in your particular niche & drive more traffic that converts. As a leading SEO agency in Texas, we know how important the different aspects of SEO are.
                 </p>
                 <p className="text-gray-700 dark:text-gray-100 leading-relaxed text-justify md:text-center text-sm md:text-base max-w-5xl">
                     That is why, We take On-page SEO, Off-page SEO, and Technical SEO aspects into account and provide intensive care to your website to succeed in all the aspects of search engine optimization.
@@ -249,7 +248,7 @@ export default function page () {
             <div className="w-full max-w-7xl flex flex-col md:flex-row-reverse items-center justify-center gap-6 px-4 md:px-6 lg:px-10 mt-8 md:mt-10">
                 <div className="w-full md:w-1/2 flex flex-col items-start justify-center gap-5 pl-2.5">
                     <h2 className="text-2xl lg:text-4xl dark:text-gray-200 font-semibold text-center lg:text-left">
-                        Some of the key factors stating why we are the best SEO company in Chennai, India are,
+                        Some of the key factors stating why we are the best SEO company in Texas, USA are:
                     </h2>
                     <ul className="pl-8 flex flex-col gap-1.5 md:gap-2 list-disc marker:text-[var(--primary-green)] text-gray-700 dark:text-gray-300 leading-relaxed">
                         <li className="flex items-start gap-2">
@@ -313,21 +312,21 @@ export default function page () {
             <div className="w-full max-w-7xl flex flex-col md:flex-row items-center justify-center gap-6 px-4 md:px-6 lg:px-10 mt-8 md:mt-10">
                 <div className="w-full md:w-1/2 flex flex-col items-start justify-center gap-5 pl-2.5">
                     <h2 className="text-2xl lg:text-4xl dark:text-gray-200 font-semibold text-center lg:text-left">
-                        Our SEO Global Service Process Includes
+                        Our SEO Global Service Process Includes:
                     </h2>
                     <ul className="flex flex-col gap-1.5 md:gap-2 pl-8 list-disc marker:text-[var(--primary-green)] text-gray-700 dark:text-gray-300 leading-relaxed">
-                        <li>Rankraze one of the leading SEO company in Chennai, India. Our Marketing expert will analyze the Market research for your business to see how your customers are searching for your business.</li>
-                        <li>After the general search analysis will make keyword research and analysis for those keywords which are the most searched by the consumer and which can be ranked for easiest to your Business.</li>
-                        <li>Our SEO expert will analyze the business website and do all the SEO strategies which will help to do it easily.</li>
-                        <li>Keep on tracking the results, discuss the analytics and will regularly follow the SEO reporting to our clients.</li>
-                        <li>Keep updated the business content with SEO strategies and verify the ranking factors.</li>
-                        <li>Since we are the best SEO experts in Chennai, India, Eventually will always work hard to find the ways to get leads for your business.</li>
+                        <li>Rankraze is one of the leading SEO companies in Texas, USA. Our Marketing experts will analyze and research the market for your business to see how your customers are searching online.</li>
+                        <li>After the general search analysis, we perform keyword research and identify high-search-volume keywords that are easiest for your business to rank for.</li>
+                        <li>Our SEO experts will analyze your business website and implement target SEO strategies to improve visibility.</li>
+                        <li>We continuously track the results, discuss analytics, and regularly provide SEO reporting to our clients.</li>
+                        <li>We keep the business content updated with fresh SEO strategies and verify ranking factors.</li>
+                        <li>Since we are the best SEO experts in Texas, USA, we eventually always work hard to find ways to get leads for your business.</li>
                     </ul>
                 </div>
                 <div className="w-full md:w-1/2 px-2.5 md:px-4 lg:px-6 2xl:px-8">
                     <Image 
                     src={"/upload/Seo-Strategy-scaled-1.webp"}
-                    alt="video-markeing-image"
+                    alt="SEO Strategy"
                     width={1200}
                     height={800}
                     className="w-full rounded-md md:rounded-lg"
@@ -338,28 +337,28 @@ export default function page () {
 
         <section className="w-full grid place-items-center mt-10 md:mt-20 px-4 md:px-6 lg:px-10 text-[var(--text-black)] gap-6 md:gap-12 lg:gap-14 xl:gap-16 relative bg-gray-100 py-20 dark:bg-[var(--secondary)]">
               <div className="text-center py-3">
-             <h2 className="lg:text-4xl md:text-3xl tetx-xl font-semibold py-3 dark:text-[var(--card-foreground)]">Our SEO Strategies</h2>
-             </div>
+              <h2 className="lg:text-4xl md:text-3xl text-xl font-semibold py-3 dark:text-[var(--card-foreground)]">Our SEO Strategies</h2>
+              </div>
                <div className="w-full flex flex-col md:flex-row items-stretch justify-center gap-3.5 md:gap-5 lg:gap-8 max-w-7xl  ">
                <div className="w-full md:w-1/3 flex flex-col items-center justify-start gap-4 dark:border-gray-50 rounded-md cursor-pointer bg-white ">
   <p className="text-sm leading-relaxed text-gray-500 p-5 dark:text-gray-400 tracking-wide text-center">
-    Rankraze one of the leading SEO company in Chennai , India. Our Marketing expert will analyze the Market research for your business to see how your customers are searching for your business.
+    Rankraze is one of the leading SEO companies in Texas, USA. Our Marketing experts will analyze and research the market for your business to see how your customers are searching online.
   </p>
 </div>
 
                 <div className="w-full md:w-1/3 flex flex-col items-center bg-white justify-start p-5 md:p-6 lg:p-7 gap-4 rounded-md cursor-pointer">
-                    <p className="text-sm leading-relaxed text-gray-500 dark:text-gray-400 tracking-wide text-center">After the general search analysis will make keyword research and analysis for those keywords which are the most searched by the consumer and which can be ranked for easiest to your Business.</p>
+                    <p className="text-sm leading-relaxed text-gray-500 dark:text-gray-400 tracking-wide text-center">After the general search analysis, we perform keyword research and identify high-search-volume keywords that are easiest for your business to rank for.</p>
                 </div>
                 <div className="w-full md:w-1/3 flex flex-col items-center  bg-white justify-start p-5 md:p-6 lg:p-7 gap-4 rounded-md cursor-pointer">
-                    <p className="text-sm leading-relaxed text-gray-500 dark:text-gray-400 tracking-wide text-center">Our SEO expert will analyze the business website and do all the SEO strategies which will help to do it easily.</p>
+                    <p className="text-sm leading-relaxed text-gray-500 dark:text-gray-400 tracking-wide text-center">Our SEO experts will analyze your business website and implement target SEO strategies to improve visibility.</p>
                 </div>
                 <div className="w-full md:w-1/3 flex flex-col  bg-white items-center justify-start p-5 md:p-6 lg:p-7 gap-4  cursor-pointer">
                     
-                    <p className="text-sm leading-relaxed text-gray-500 dark:text-gray-400 tracking-wide text-center">Keep on tracking the results, discuss the analytics and will regularly follow the SEO reporting to our clients.</p>
+                    <p className="text-sm leading-relaxed text-gray-500 dark:text-gray-400 tracking-wide text-center">We continuously track the results, discuss analytics, and regularly provide SEO reporting to our clients.</p>
                 </div>
                 <div className="w-full md:w-1/3 flex  bg-white flex-col items-center justify-start p-5 md:p-6 lg:p-7 gap-4  cursor-pointer">
                     
-                    <p className="text-sm leading-relaxed text-gray-500 dark:text-gray-400 tracking-wide text-center">Keep on tracking the results, discuss the analytics and will regularly follow the SEO reporting to our clients.</p>
+                    <p className="text-sm leading-relaxed text-gray-500 dark:text-gray-400 tracking-wide text-center">We continuously track the results, discuss analytics, and regularly provide SEO reporting to our clients.</p>
                 </div>
             </div>
         </section>
@@ -374,10 +373,10 @@ export default function page () {
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerPolicy="strict-origin-when-cross-origin"
-                    title="SEO Company in Chennai | RANKRAZE | Search engine optimization"
+                    title="SEO Company in Texas | RANKRAZE | Search engine optimization"
                     width="640"
                     height="360"
-                    src="https://www.youtube.com/embed/jARDxCqzWXk?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.rankraze.com&widgetid=1&forigin=https%3A%2F%2Fwww.rankraze.com%2Fseo-company-chennai%2F&aoriginsup=1&gporigin=https%3A%2F%2Fwww.rankraze.com%2Fsocial-media-marketing-company-chennai%2F&vf=1"
+                    src="https://www.youtube.com/embed/jARDxCqzWXk?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Frankraze.us&widgetid=1&forigin=https%3A%2F%2Frankraze.us%2Fseo-services-in-texas%2F&aoriginsup=1&gporigin=https%3A%2F%2Frankraze.us%2Fsocial-media-marketing-services-in-texas%2F&vf=1"
                     id="widget2"
                     allowFullScreen
                     loading="lazy"
@@ -387,10 +386,10 @@ export default function page () {
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerPolicy="strict-origin-when-cross-origin"
-                    title="Search Engine Optimization (SEO) Services in Chennai | Digital Marketing Agency Chennai | Rankraze"
+                    title="Search Engine Optimization (SEO) Services in Texas | Digital Marketing Agency Texas | Rankraze"
                     width="640"
                     height="360"
-                    src="https://www.youtube.com/embed/QJPevnISm8g?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fwww.rankraze.com&widgetid=3&forigin=https%3A%2F%2Fwww.rankraze.com%2Fseo-company-chennai%2F&aoriginsup=1&gporigin=https%3A%2F%2Fwww.rankraze.com%2Fsocial-media-marketing-company-chennai%2F&vf=1"
+                    src="https://www.youtube.com/embed/QJPevnISm8g?controls=1&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Frankraze.us&widgetid=3&forigin=https%3A%2F%2Frankraze.us%2Fseo-services-in-texas%2F&aoriginsup=1&gporigin=https%3A%2F%2Frankraze.us%2Fsocial-media-marketing-services-in-texas%2F&vf=1"
                     id="widget4"
                     allowFullScreen
                     loading="lazy"
@@ -417,7 +416,7 @@ export default function page () {
                 className="flex justify-between p-5 cursor-pointer bg-white  transition-all duration-300 peer-checked:bg-gradient-to-br peer-checked:from-[#3DBC9C] peer-checked:to-[#36aaf1]"
             >
                 <span className="text-sm font-bold text-black peer-checked:text-white">
-                Where can you work for us as an animator?
+                How does SEO help my website?
                 </span>
             </label>
             <div className="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96 p-0 peer-checked:p-5 text-gray-600 text-sm">
@@ -475,7 +474,7 @@ export default function page () {
                     <div className="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96 p-0 peer-checked:p-5 text-gray-600 text-sm">
                     If you are a business with a physical address, local SEO is very important.
 
-            If you own a wedding catering services business in Chennai, it will be more useful for people in Chennai than for people in Delhi. Targeting people in your business location using local SEO is very effective.
+            If you own a business in Texas, it will be more useful for local customers than for those located in other states. Targeting people in your business location using local SEO is very effective.
 
             Another advantage is that people who search for local businesses are ready to take action. When you appear on the top of search results, there’s a high possibility of them choosing your services.
                     </div>

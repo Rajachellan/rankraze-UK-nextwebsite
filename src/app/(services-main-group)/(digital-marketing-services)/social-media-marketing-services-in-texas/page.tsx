@@ -4,34 +4,34 @@ import { Metadata } from "next";
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 
 export const metadata:Metadata = {
-    title: "Social Media Marketing Agency in Chennai | Social Media Services | SMO, SMM",
-    description: "Rankraze, leading Social Media Marketing Agency in Chennai, connect with a larger audience through varies of social media marketing channels like facebook, twitter, linkedin, Google plus, Instagram..etc. We are helping to crack the marketing objectives through social media to reach our clientele expectation.",
+    title: "Social Media Marketing Agency in Texas | Social Media Services | SMO, SMM",
+    description: "Rankraze, a leading Social Media Marketing Agency in Texas, helps you connect with a larger audience through social media marketing channels like Facebook, Twitter, LinkedIn, Instagram, etc. We are here to meet your digital marketing objectives.",
     keywords: [
         "social media ad agency",
         "social media advertising agencies",
         "social media agencies",
         "social media agency near me",
         "social media marketing agencies",
-        "social media marketing agency in Chennai",
-        "social media marketing agency in India",
-        "social media marketing agency London",
+        "social media marketing agency in Texas",
+        "social media marketing agency in USA",
+        "social media marketing agency Texas",
         "social media marketing agency near me",
         "social media marketing and digital marketing",
         "social media marketing companies",
-        "social media marketing companies Chennai",
+        "social media marketing companies Texas",
         "social media marketing companies near me",
         "social media marketing firm",
         "social media marketing in digital marketing"
     ],
                 
     alternates: {
-        canonical: "https://rankraze.com/social-media-marketing-company-chennai",
+        canonical: "https://rankraze.us/social-media-marketing-services-in-texas",
     },
 
     openGraph: {
-        title: "Social Media Marketing Agency in Chennai | Social Media Services | SMO, SMM",
-        description: "Rankraze, leading Social Media Marketing Agency in Chennai, connect with a larger audience through varies of social media marketing channels like facebook, twitter, linkedin, Google plus, Instagram..etc. We are helping to crack the marketing objectives through social media to reach our clientele expectation.",
-        url: "https://rankraze.com/social-media-marketing-company-chennai",
+        title: "Social Media Marketing Agency in Texas | Social Media Services | SMO, SMM",
+        description: "Rankraze, a leading Social Media Marketing Agency in Texas, helps you connect with a larger audience through social media marketing channels like Facebook, Twitter, LinkedIn, Instagram, etc. We are here to meet your digital marketing objectives.",
+        url: "https://rankraze.us/social-media-marketing-services-in-texas",
         siteName: "Rankraze",
         images: [
         {
@@ -84,19 +84,19 @@ export default function page () {
                     </div>
                     <div className="w-full flex flex-col items-center justify-start px-2 py-3.5 md:px-5 md:py-6 gap-3.5">
                         <i className="ri-group-fill text-2xl md:text-4xl"></i>
-                        <h3 className="text-sm md:text-sm font-medium  md:px-0 px-2.5 lg:px-2.5 dark:text-gray-300 text-gray-500 text-center leading-tight">
+                        <h3 className="text-sm md:text-sm font-medium md:px-0 px-2.5 lg:px-2.5 dark:text-gray-300 text-gray-500 text-center leading-tight">
                             3.5 billion people use social media daily
                         </h3>
                     </div>
                     <div className="w-full flex flex-col items-center justify-start px-2 py-3.5 md:px-5 md:py-6 gap-3.5">
                         <i className="ri-smartphone-line text-2xl md:text-4xl"></i>
-                        <h3 className="text-sm md:text-sm font-medium  md:px-0 px-2.5 lg:px-2.5 dark:text-gray-300 text-gray-500 text-center leading-tight">
+                        <h3 className="text-sm md:text-sm font-medium md:px-0 px-2.5 lg:px-2.5 dark:text-gray-300 text-gray-500 text-center leading-tight">
                             91% of social media users access via mobile phones
                         </h3>
                     </div>
                     <div className="w-full flex flex-col items-center justify-start px-2 py-3.5 md:px-5 md:py-6 gap-3.5">
                         <i className="ri-facebook-circle-fill text-2xl md:text-4xl"></i>
-                        <h3 className="text-sm md:text-sm font-medium  md:px-0 px-2.5 lg:px-2.5 dark:text-gray-300 text-gray-500 text-center leading-tight">
+                        <h3 className="text-sm md:text-sm font-medium md:px-0 px-2.5 lg:px-2.5 dark:text-gray-300 text-gray-500 text-center leading-tight">
                             An average person spends 3 hours on social media everyday
                         </h3>
                     </div>
@@ -107,7 +107,7 @@ export default function page () {
             <div className="w-full max-w-7xl flex flex-col md:flex-row items-stretch justify-center">
                 <div className="w-full md:w-1/2 flex flex-col items-center justify-center gap-3 md:gap-3.5 p-2.5">
                     <h3 className="text-4xl xl:text-[42px] font-semibold text-center md:text-left capitalize dark:text-gray-200 pr-4">
-                        Why Rankraze – SMM Company in Chennai,India
+                        Why Rankraze – SMM Company in Texas, USA
                     </h3>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
                         Social Media is the new-generation platform to connect with friends, share pictures, videos, documents, and build new relationships.
@@ -119,13 +119,13 @@ export default function page () {
                         Everyone has a distinctive purpose to be on social media. But they all have one thing in common. That is: They are your potential customers. Social media is the best way to reach your customers, to stay up-to-date with them and their needs.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        A quote by Bill Gates goes like this, “If your business is not the internet, then your business will be out of business.” And the best way to stay in business is to have a strong online presence, especially on social media platforms.
+                        A quote by Bill Gates goes like this, “If your business is not on the internet, then your business will be out of business.” And the best way to stay in business is to have a strong online presence, especially on social media platforms.
                     </p>
                 </div>
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/SMM-company-chennai.webp"}
-                    alt="video marketing services in chennai"
+                    alt="social media marketing services in Texas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-25"                                 
@@ -156,7 +156,7 @@ export default function page () {
                         About 73% of marketers believe that Social Media Marketing has been highly effective compared to other marketing platforms. Having a strong online presence is the main factor in getting real conversions via these social media platforms.
                     </p>
                     <p className="text-gray-700 dark:text-gray-100 leading-relaxed text-justify md:text-left text-sm md:text-base max-w-5xl">
-                        When an ad campaign is run across any media platform, the first thing that people do is to stop by your page. Your company/ brand’s social profile is what makes people take the next step. Having a strong social media presence helps your business in,
+                        When an ad campaign is run across any media platform, the first thing that people do is to stop by your page. Your company/ brand’s social profile is what makes people take the next step. Having a strong social media presence helps your business in:
                     </p>
                 </div>
                 <div className="w-full md:w-1/2 px-2.5 md:px-4 lg:px-6 2xl:px-8">
@@ -247,11 +247,11 @@ export default function page () {
                             className="w-1/5"
                             />
                             <div className="w-4/5 flex items-center justify-center">
-                                <p className="text-base md:text-lg xl:text-xl font-medium leading-tight w-fit pl-2">Social Media Marketing(SMM)</p>
+                                <p className="text-base md:text-lg xl:text-xl font-medium leading-tight w-fit pl-2">Social Media Marketing (SMM)</p>
                             </div>
                         </div>
                         <p className="text-sm md:text-base font-medium text-justify px-2.5 md:px-3.5 pb-3.5 text-gray-700">
-                            There are always thousands of content posted under each category, hashtag, topic, etc., every passing hour. To reach a wider audience and to drive traffic and conversions, sometimes the organic methods won’t be very effective. That is when a business takes the step of running effective ads via social media.
+                            There are always thousands of content posted under each category, hashtag, topic, etc., every passing hour. To reach a wider audience and to drive traffic and conversions, sometimes organic methods won’t be very effective. That is when a business takes the step of running effective ads via social media.
                         </p>
                         <p className="text-sm md:text-base font-medium text-justify px-2.5 md:px-3.5 pb-3.5 text-gray-700">
                             Running an ad on social media is cost-effective and it also gives an opportunity to learn more about your target audience personally.
@@ -260,7 +260,7 @@ export default function page () {
                             A person’s social profile reveals a lot about them. It helps you understand their personality, likes & dislikes, etc. Understanding your customers is very important for any business if you want to offer products and services that would be useful to them.
                         </p>
                         <p className="text-sm md:text-base font-medium text-justify px-2.5 md:px-3.5 pb-3.5 text-gray-700">
-                            Our Social Media Marketing team of experts is there to make this step completely simple for your business and your needs.We define a specific goal for each ad campaign that you want to run on any social media platform and we will give you the results that you’re looking for.
+                            Our Social Media Marketing team of experts is there to make this step completely simple for your business and your needs. We define a specific goal for each ad campaign that you want to run on any social media platform and we will give you the results that you’re looking for.
                         </p>
                         <p className="text-sm md:text-base font-medium text-justify px-2.5 md:px-3.5 pb-3.5 text-gray-700">
                             We have years of experience working with many different brands and businesses. We know where your target audience is and how to make your content visible to them.
@@ -276,13 +276,13 @@ export default function page () {
                         Social Media Platforms we focus on
                     </h2>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        Being one of the leading social media marketing companies in Chennai, India we focus on giving you the most possible reach across all the leading social media platforms of 2020. Do you know that over 2 million businesses today use Facebook advertising for promoting their products and services? That’s how powerful social media marketing is so businesses.
+                        Being one of the leading social media marketing companies in Texas, USA we focus on giving you the highest possible reach across all the leading social media platforms. Do you know that over 2 million businesses today use Facebook advertising for promoting their products and services? That’s how powerful social media marketing is for businesses.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        We offer Social Media Optimization and Social Media Marketing (Organic & Paid) across all the leading platforms. The top six most used social platforms are our primary focus. But, if you want your presence on other social media platforms as well, we are always there to help you and make your work easy.
+                        We offer Social Media Optimization and Social Media Marketing (Organic & Paid) across all the leading platforms. The top most used social platforms are our primary focus. But, if you want your presence on other social media platforms as well, we are always there to help you and make your work easy.
                     </p>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        To understand which social media platform does your potential customers spend their most time on and to know what they expect from you, you need to be where they are. That is why we take the top most used social media platforms into account and increase your presence in them. Running ads and creating engaging relatable content for your target audience in the most popular platforms is the key to be successful in social media marketing in 2020.
+                        To understand which social media platform your potential customers spend most of their time on and to know what they expect from you, you need to be where they are. That is why we take the top most used social media platforms into account and increase your presence in them. Running ads and creating engaging, relatable content for your target audience in the most popular platforms is the key to be successful in social media marketing.
                     </p>
                     <div className="w-full flex items-center justify-center gap-6 md:gap-10">
                         <div className="w-1/2 flex flex-col items-start justify-start gap-2">
@@ -332,7 +332,7 @@ export default function page () {
                         </div>
                         <div className="w-1/2 flex flex-col items-start justify-start gap-2">
                             <h3 className="text-base md:text-lg dark:text-gray-300 font-bold">
-                                We also offer social media marketing services across a few other platforms upon request, They are:
+                                We also offer marketing across a few other platforms:
                             </h3>
                             <div className="w-full md:w-1/2 px-2.5">
                                 <ul className="pl-8 flex flex-col gap-1.5 md:gap-2 list-disc marker:text-[var(--primary-green)] text-gray-700 dark:text-gray-300 leading-relaxed">
@@ -345,7 +345,7 @@ export default function page () {
                                     <li className="flex items-start gap-2">
                                         <i className="ri-arrow-right-double-line text-lg text-[var(--primary-green)]"></i>
                                         <span className="">
-                                            Tik Tok, etc.
+                                            TikTok, etc.
                                         </span>
                                     </li>
                                 </ul>
@@ -356,7 +356,7 @@ export default function page () {
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/Our-services-include-platforms-such-as-insta.webp"}
-                    alt="video marketing services in chennai"
+                    alt="social media marketing services in Texas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl dark:grayscale-25"                                 
@@ -366,7 +366,7 @@ export default function page () {
             <div className="w-full max-w-7xl flex flex-col md:flex-row-reverse items-center justify-center gap-6 px-4 md:px-6 lg:px-10 mt-8 md:mt-10">
                 <div className="w-full md:w-1/2 flex flex-col items-start justify-center gap-5 pl-2.5">
                     <p className="text-gray-700 dark:text-gray-100 leading-relaxed text-justify md:text-left text-sm md:text-base max-w-5xl">
-                        When an ad campaign is run across any media platform, the first thing that people do is to stop by your page. Your company/ brand’s social profile is what makes people take the next step. Having a strong social media presence helps your business in,
+                        When an ad campaign is run across any media platform, the first thing that people do is to stop by your page. Your company/ brand’s social profile is what makes people take the next step. Having a strong social media presence helps your business:
                     </p>
                     <ul className="pl-8 flex flex-col gap-1.5 md:gap-2 list-disc marker:text-[var(--primary-green)] text-gray-700 dark:text-gray-300 leading-relaxed">
                         <li className="flex items-start gap-2">
@@ -384,7 +384,7 @@ export default function page () {
                         <li className="flex items-start gap-2">
                             <i className="ri-share-forward-line text-lg text-[var(--primary-green)]"></i>
                             <span className="">
-                                We have clients from many countries, Also we’re always so close to you, and working with us will take away all your stress about marketing.
+                                We have clients from many countries, and working with us will take away all your stress about marketing.
                             </span>
                         </li>
                         <li className="flex items-start gap-2">
@@ -409,7 +409,7 @@ export default function page () {
         <section className="w-full grid place-items-center mt-20 text-[var(--text-black)] gap-6 md:gap-12 lg:gap-14 xl:gap-16 rounded-xl md:rounded-4xl overflow-hidden">
             <div className="w-full max-w-7xl flex flex-col items-center justify-center gap-6 md:gap-10 px-4 md:px-6 lg:px-10 my-20 z-10">
                 <h2 className="text-2xl md:text-4xl lg:text-4xl dark:text-gray-200 font-semibold text-center lg:text-left">
-                    Our services include platforms such as platforms such as
+                    Our services include platforms such as
                 </h2>
                 <div className="flex gap-2.5 md:gap-3.5 xl:gap-5">
                     <i className="ri-facebook-circle-fill text-2xl md:text-4xl lg:text-4xl text-[#1877F2] dark:text-white"></i>
@@ -427,7 +427,7 @@ export default function page () {
                             </div>
                         </div>
                         <p className="text-sm md:text-base font-medium text-justify md:text-left px-2.5 md:px-3.5 pb-3.5 text-gray-700 dark:text-gray-400">
-                            We, at Rankraze, offer you a one-stop solution for all your digital marketing needs. Being one of the leading digital marketing agencies in London, UK we always provide you with nothing but the best.
+                            We, at Rankraze, offer you a one-stop solution for all your digital marketing needs. Being one of the leading digital marketing agencies in Texas, USA, we always provide you with nothing but the best.
                         </p>
                         <ul className="pl-8 flex flex-col gap-1.5 md:gap-2 list-disc marker:text-[var(--primary-green)] text-gray-700 dark:text-gray-300 leading-relaxed">
                             <li className="flex items-start gap-2">
@@ -445,7 +445,7 @@ export default function page () {
                             <li className="flex items-start gap-2">
                                 <i className="ri-share-forward-line text-lg text-[var(--primary-green)]"></i>
                                 <span className="">
-                                    We have clients from many countries,Also we’re always so close to you, and working with us will take away all your stress about marketing.
+                                    We have clients from many countries, and working with us will take away all your stress about marketing.
                                 </span>
                             </li>
                         </ul>
@@ -464,7 +464,7 @@ export default function page () {
                             <li className="flex items-start gap-2">
                                 <i className="ri-share-forward-line text-lg text-[var(--primary-green)]"></i>
                                 <span className="">
-                                    <span className="font-bold">Social media strategy development:</span>  We’ll work with you to understand your business objectives and target audience, and then create a customized social media strategy that aligns with your overall marketing plan.
+                                    <span className="font-bold">Social media strategy development:</span> We’ll work with you to understand your business objectives and target audience, and then create a customized social media strategy that aligns with your overall marketing plan.
                                 </span>
                             </li>
                             <li className="flex items-start gap-2">

@@ -19,7 +19,7 @@ const ScrollVelocityImages = dynamic(
 );
 
 // --- Below-fold content sections ---
-const BusinessInchennai = dynamic(() => import("./components/UI/BusinessInChennai"), {
+const WhyDigitalMarketing = dynamic(() => import("./components/UI/WhyDigitalMarketing"), {
   loading: () => <div className="min-h-[300px]" />,
 });
 const AboutRankraze = dynamic(() => import("./components/UI/AboutRankraze"), {
@@ -67,28 +67,28 @@ const FAQ = dynamic(() => import("./components/UI/FAQ"), {
 export const revalidate = 3600; // revalidate at most every hour
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.rankraze.com"),
-  title: "Digital Marketing Agency Chennai | 2000+ Brands, 233K+ Leads — Rankraze",
-  description: "Trusted by IIT Madras, Apollo & 2000+ brands across Chennai. We deliver SEO, PPC & social media that generates qualified leads. 340% avg ROI. Free strategy call today.",
-  keywords: ["digital marketing agency in Chennai",
-    "digital marketing company in Chennai",
-    "Chennai digital marketing services",
-    "best digital marketing agency Chennai",
-    "top digital marketing company Chennai",
-    "online marketing services Chennai",
-    "SEO company in Chennai",
-    "social media marketing Chennai",
-    "Chennai digital marketing experts",
-    "internet marketing agency Chennai"],
+  metadataBase: new URL("https://rankraze.us"),
+  title: "Digital Marketing Agency in Texas | 2000+ Brands, 233K+ Leads — Rankraze",
+  description: "Trusted by top brands across the US. We deliver SEO, PPC & social media that generates qualified leads. 340% avg ROI. Free strategy call today.",
+  keywords: ["digital marketing agency in Texas",
+    "digital marketing company in Texas",
+    "Texas digital marketing services",
+    "best digital marketing agency Texas",
+    "top digital marketing company Texas",
+    "online marketing services Texas",
+    "SEO company in Texas",
+    "social media marketing Texas",
+    "Texas digital marketing experts",
+    "internet marketing agency Texas"],
 
   alternates: {
-    canonical: "https://rankraze.com/",
+    canonical: "https://rankraze.us/",
   },
 
   openGraph: {
-    title: "Digital Marketing Agency in Chennai | Digital Marketing Company",
-    description: "Rankraze Is a Digital Marketing Company in Chennai. Our Passionate Team Is Working Towards Finding the Best Digital Marketing Services for SME Business.",
-    url: "https://rankraze.com/",
+    title: "Digital Marketing Agency in Texas | Digital Marketing Company",
+    description: "Rankraze Is a Digital Marketing Company in Texas. Our Passionate Team Is Working Towards Finding the Best Digital Marketing Services for SME Business.",
+    url: "https://rankraze.us/",
     siteName: "Rankraze",
     images: [
       {
@@ -105,8 +105,8 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Digital Marketing Agency in Chennai | Digital Marketing Company",
-    description: "Rankraze Is a Digital Marketing Company in Chennai. Our Passionate Team Is Working Towards Finding the Best Digital Marketing Services for SME Business.",
+    title: "Digital Marketing Agency in Texas | Digital Marketing Company",
+    description: "Rankraze Is a Digital Marketing Company in Texas. Our Passionate Team Is Working Towards Finding the Best Digital Marketing Services for SME Business.",
     site: "@YourTwitterHandle",
     creator: "@YourTwitterHandle",
     images: ["/business-consultant-mobile.webp"],
@@ -158,7 +158,7 @@ export default function Home() {
                     a <TypingAnimationClient /> driven
                   </h2>
                   <h1 className="capitalize text-xl xl:text-4xl font-black dark:text-gray-100 inline">
-                    digital marketing agency  in chennai  That Drives  Real Business Growth 
+                    digital marketing agency in Texas That Drives Real Business Growth 
                   </h1>
                   <p className="text-sm text-gray-400 first-letter:uppercase  font-medium  ">
                   SEO, Paid Ads & CRO strategies designed to generate qualified  leads and measurable  business growth.
@@ -169,7 +169,7 @@ export default function Home() {
                       Dark={true}
                     />
                     <Link
-                      href="/case-studies"
+                      href="/case-study"
                       rel="preload"
                       className="capitalize cursor-pointer outline-1 outline-[var(--primary-green)] rounded-sm px-2 text-center py-2.5 text-sm  hover:bg-[var(--primary-green)] font-medium hover:text-white dark:text-white"
                     >
@@ -265,7 +265,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <BusinessInchennai/>
+        <WhyDigitalMarketing/>
         {/* <div className="w-full mt-12 md:mt-20 lg:mt-28 flex items-center justify-center">
           <div className="w-full max-w-7xl flex flex-col md:flex-row items-center justify-center gap-8 lg:gap-12 xl:gap-16">
             <div className="w-full md:w-1/2 flex flex-col items-center justify-center">
@@ -897,8 +897,7 @@ export default function Home() {
                 Address
               </p>
               <p className="text-sm text-gray-500 dark:text-gray-400 p-1.5 text-center">
-                2nd Floor, Karuna Conclave, AD 42 & 45, 4th Ave, Shanthi Colony,
-                Anna Nagar, Chennai, Tamil Nadu 600040
+                2801 W, Royal Lane, Apt # 1905, Irving, TX - 75063
               </p>
             </div>
             <div className="w-full md:w-1/3 max-w-sm md:max-w-none px-4 py-8 flex flex-col items-center justify-center shadow-[0px_3px_12px_rgba(0,0,0,0.07),0px_-3px_12px_rgba(0,0,0,0.07)] dark:shadow-[0px_3px_12px_rgba(225,225,225,0.06),0px_-3px_12px_rgba(225,225,225,0.06)] dark:border dark:border-gray-400 rounded-lg">
@@ -906,7 +905,7 @@ export default function Home() {
                 Email
               </p>
               <p className="text-sm text-gray-500 dark:text-gray-400 p-1.5 text-center">
-                info@rankraze.com
+                info@rankraze.us
               </p>
             </div>
             <div className="w-full md:w-1/3 max-w-sm md:max-w-none px-4 py-8 flex flex-col items-center justify-center shadow-[0px_3px_12px_rgba(0,0,0,0.07),0px_-3px_12px_rgba(0,0,0,0.07)] dark:shadow-[0px_3px_12px_rgba(225,225,225,0.06),0px_-3px_12px_rgba(225,225,225,0.06)] dark:border dark:border-gray-400 rounded-lg">
@@ -914,7 +913,7 @@ export default function Home() {
                 Call Us
               </p>
               <p className="text-sm text-gray-500 dark:text-gray-400 p-1.5 text-center">
-                +91 99622 62210
+                +1 (919) 455-1241
               </p>
             </div>
           </div>

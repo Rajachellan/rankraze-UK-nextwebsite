@@ -5,31 +5,30 @@ import { BriefcaseBusiness, UserStar } from 'lucide-react';
 import ContactForm from "@/app/components/UI/AllServicePageContactForm";
 
 export const metadata:Metadata = {
-    title: "Online Reputation Management Services | ORM Company in Chennai",
-    description: "Rankraze, enhance the value and trust of your brand with our ORM Services. We are the best Online Reputation Management Company in Chennai. Contact us now!",
-    
+    title: "Online Reputation Management Services | ORM Company in Texas | Rankraze",
+    description: "Rankraze, enhance the value and trust of your brand with our ORM Services. We are the best Online Reputation Management Company in Texas. Contact us now!",
     keywords: [
-    "online reputation management company",
-    "online reputation management company in Chennai",
-    "online reputation management services",
-    "ORM agency",
-    "ORM company in Chennai",
-    "ORM services",
-    "ORM services in Chennai"
+        "online reputation management company",
+        "online reputation management company in Texas",
+        "online reputation management services",
+        "ORM agency",
+        "ORM company in Texas",
+        "ORM services",
+        "ORM services in Texas"
     ],
                 
     alternates: {
-        canonical: "https://rankraze.com/online-reputation-management-services-chennai",
+        canonical: "https://rankraze.us/online-reputation-management-services-in-texas",
     },
 
     openGraph: {
-        title: "Online Reputation Management Services | ORM Company in Chennai",
-        description: "Rankraze, enhance the value and trust of your brand with our ORM Services. We are the best Online Reputation Management Company in Chennai. Contact us now!",
-        url: "https://rankraze.com/online-reputation-management-services-chennai",
+        title: "Online Reputation Management Services | ORM Company in Texas",
+        description: "Rankraze, enhance the value and trust of your brand with our ORM Services. We are the best Online Reputation Management Company in Texas. Contact us now!",
+        url: "https://rankraze.us/online-reputation-management-services-in-texas",
         siteName: "Rankraze",
         images: [
         {
-            url: "upload/Our-Online-Reputation-Management-Services.webp",
+            url: "/upload/Our-Online-Reputation-Management-Services.webp",
             width: 700,
             height: 501,
             alt: "Online-reputation-management.webp",
@@ -68,16 +67,16 @@ export default function page () {
             <div className="w-full max-w-7xl flex flex-col md:flex-row items-stretch justify-center">
                 <div className="w-full md:w-1/2 flex flex-col items-center justify-center gap-3 md:gap-3.5 p-2.5">
                     <h2 className="text-4xl xl:text-[42px] font-semibold text-center md:text-left capitalize dark:text-gray-200 pr-4">
-                        Our Online Reputation Management Services in Chennai
+                        Our Online Reputation Management Services in Texas
                     </h2>
                     <p className="text-gray-500 dark:text-gray-300 leading-relaxed text-justify text-sm md:text-base">
-                        Online Reputation Management service is an integral part of Digital Promotion. Online reputation management is managing how your customers view you and your business in the digital space. Most people form an impression of a company or products by the Google search results. They also use social media to check out what other customers are saying. With the help of ORM services India, the positive responses get promoted and negative or irrelevant ones can get suppressed, which improves one’s image in general.
+                        Online Reputation Management service is an integral part of Digital Promotion. Online reputation management is managing how your customers view you and your business in the digital space. Most people form an impression of a company or products by the Google search results. They also use social media to check out what other customers are saying. With the help of ORM services USA, the positive responses get promoted and negative or irrelevant ones can get suppressed, which improves one’s image in general.
                     </p>
                 </div>
                 <div className="w-full md:w-1/2 overflow-hidden flex items-center justify-center px-4 py-2.5 rounded-md">
                     <Image 
                     src={"/upload/Our-Online-Reputation-Management-Services.webp"}
-                    alt="Reputation Management Services in chennai"
+                    alt="Reputation Management Services in Texas"
                     width={800} height={600} layout="responsive"
                     objectFit="cover"          
                     className="rounded-xl"                                 
@@ -134,7 +133,7 @@ export default function page () {
                                 < UserStar className="w-6 h-6 md:h-9 md:w-9 lg:w-12 lg:h-12" />
                                 <p className="capitalize md:text-lg text-gray-700">Remove Bad Reviews</p>
                                 <p className="text-gray-500 text-left leading-relaxed tracking-wide text-sm md:text-sm">
-                                    We will help you to remove the impact which negatively affects your business reputation. Our highly professional teams will much concerned about the growing facts
+                                    We will help you to remove the impact which negatively affects your business reputation. Our highly professional teams are focused on your brand's growth.
                                 </p>
                             </div>
                         </div> 

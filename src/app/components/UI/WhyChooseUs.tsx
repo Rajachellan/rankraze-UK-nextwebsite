@@ -283,7 +283,7 @@ export default function WhyChooseUs() {
             </h2>
             <p className="text-[15.5px] text-[#3a5550] dark:text-[#94B4D4] leading-[1.82] max-w-[700px] mx-auto">
               At Rankraze, we combine strategy, technology, and performance-driven marketing to help businesses
-              build a strong and scalable online presence. As a leading digital marketing agency in Chennai, our
+              build a strong and scalable online presence. As a leading digital marketing agency in Texas, our
               team focuses on understanding your business model, target audience, and competitive landscape before
               developing a growth strategy.
             </p>
