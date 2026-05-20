@@ -7,7 +7,7 @@ export const getLatestBlogs = cache(async(): Promise<BlogsResponse['blogs']> => 
       const controller = new AbortController();
       const timeout = setTimeout(() => controller.abort(), 5000);
 
-      const apiBaseUrl = process.env.NEXT_PUBLIC_API_BASE_URL || "https://api.rankraze.com";
+      const apiBaseUrl = process.env.NEXT_PUBLIC_API_BASE_URL || "https://api.rankraze.uk";
       const res = await fetch(`${apiBaseUrl.replace(/\/$/, '')}/api/blogs?page=1&limit=3`, 
         {
           signal: controller.signal,

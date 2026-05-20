@@ -1,7 +1,7 @@
 import axios, { AxiosError } from "axios";
 
 // Remove trailing slash from base URL if present
-const baseURL = (process.env.NEXT_PUBLIC_API_BASE_URL || 'https://api.rankraze.com').replace(/\/$/, '');
+const baseURL = (process.env.NEXT_PUBLIC_API_BASE_URL || 'https://api.rankraze.uk').replace(/\/$/, '');
 
 const jobApiInstance = axios.create({
   baseURL: baseURL,

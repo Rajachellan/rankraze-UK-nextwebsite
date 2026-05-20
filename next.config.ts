@@ -1,16 +1,17 @@
 // next.config.ts
 const nextConfig = {
-  allowedDevOrigins: ["192.168.6.84", "https://api.rankraze.com"],  // ✅ ADD THIS LINE
+  allowedDevOrigins: ["192.168.6.84", "https://api.rankraze.uk"],  // ✅ ADD THIS LINE
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "assets.rankraze.com",
+        hostname: "assets.rankraze.uk",
         pathname: "/**",
       },
       {
         protocol: "https",
-        hostname: "www.rankraze.com",
+        hostname: "www.rankraze.uk",
         pathname: "/**",
       },
       {
@@ -99,7 +100,7 @@ const nextConfig = {
         // This matches any request starting with /wp-content/uploads/
         source: '/wp-content/uploads/:path*',
         // This sends it to the exact same path on your new subdomain
-        destination: 'https://assets.rankraze.com/wp-content/uploads/:path*',
+        destination: 'https://assets.rankraze.uk/wp-content/uploads/:path*',
         permanent: true,
       },
       {
