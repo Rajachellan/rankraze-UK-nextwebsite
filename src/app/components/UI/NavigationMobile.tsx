@@ -411,10 +411,10 @@ export default function MobileNavigationBar () {
                                         <Link href="https://rankraze.us" className="px-6">us</Link>
                                     </li>
                                     <li className="w-full flex items-left justify-start py-2">
-                                        <Link href="https://rankraze.uk" className="px-6">uk</Link>
+                                        <Link href="https://rankraze.us" className="px-6">uk</Link>
                                     </li>
                                     <li className="w-full flex items-left justify-start py-2">
-                                        <Link href="https://rankraze.uk.au" className="px-6">au</Link>
+                                        <Link href="https://rankraze.us.au" className="px-6">au</Link>
                                     </li>
                                     <li className="w-full flex items-left justify-start py-2">
                                         <Link href="https://rankraze.fr" className="px-6">fr</Link>

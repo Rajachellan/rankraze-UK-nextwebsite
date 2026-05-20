@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiInstance = axios.create({
-    baseURL: process.env.NEXT_PUBLIC_API_BASE_URL || "https://api.rankraze.uk",
+    baseURL: process.env.NEXT_PUBLIC_API_BASE_URL || "https://api.rankraze.us",
     headers: {    'Content-Type': 'application/json',
   },
 })

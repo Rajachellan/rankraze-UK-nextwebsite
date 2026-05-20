@@ -176,14 +176,14 @@ export default function SeoAndSentimentComponent() {
 
         {mode === "sentiment" && (
           <iframe
-            src="https://sentiment.rankraze.uk"
+            src="https://sentiment.rankraze.us"
             frameBorder="0"
             className="w-full h-[480px] md:h-[560px] lg:h-[640px]"
           ></iframe>
         )}
 {mode === "calendar" && (
   <a
-    href="https://ai-calender.rankraze.uk/"
+    href="https://ai-calender.rankraze.us/"
     target="_blank"
     className="text-blue-600 underline"
   >

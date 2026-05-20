@@ -24,7 +24,7 @@ export default function  MapAndLocationMatch () {
             country: "India",
             address: "2nd Floor, Karuna Conclave, AD 42 & 45, 4th Ave, Shanthi Colony, Anna Nagar, Chennai, Tamil Nadu 600040",
             phone: "+91 99622 62210 - 04448067255",
-            email: "info@rankraze.uk",
+            email: "info@rankraze.us",
             imgUrl: "/upload/india-skt.webp",
         },
         {
@@ -59,7 +59,7 @@ export default function  MapAndLocationMatch () {
             country: "Australia",
             address: "4 Greenhouse St, Austral NSW 2179, Australia.",
             phone: "+61 406 567 394",
-            email: "info@rankraze.uk.au",
+            email: "info@rankraze.us.au",
             imgUrl: "/upload/aus-skt.webp",
         },
     ]

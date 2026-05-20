@@ -92,7 +92,7 @@ export default function page () {
                                     Email Support
                                 </p>
                                 <span className="text-sm md:text-md text-gray-500 dark:text-gray-400 font-medium">
-                                    info@rankraze.uk
+                                    info@rankraze.us
                                 </span>
                             </div>
                         </div>

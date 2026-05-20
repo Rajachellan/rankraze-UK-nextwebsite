@@ -374,12 +374,12 @@ export default function NavigationBar() {
                                         </a>
                                     </li>
                                     <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white pl-5 pr-6 py-3 hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                        <Link href="https://rankraze.uk" className="whitespace-nowrap">
+                                        <Link href="https://rankraze.us" className="whitespace-nowrap">
                                             UK
                                         </Link>
                                     </li>
                                     <li className="w-full transform ease-in-out duration-700 flex items-center group relative text-[var(--text-gray)] dark:text-white pl-5 pr-6 py-3 hover:bg-[var(--primary-green)] hover:text-white dark:hover:bg-white dark:hover:text-[var(--text-gray)]">
-                                        <Link href="https://rankraze.uk.au" className="whitespace-nowrap">
+                                        <Link href="https://rankraze.us.au" className="whitespace-nowrap">
                                             AU
                                         </Link>
                                     </li>
